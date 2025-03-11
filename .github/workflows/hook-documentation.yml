@@ -18,11 +18,6 @@ jobs:
         with:
           php-version: '8.0'
           
-      - name: List Repository Contents
-        run: |
-          ls -la
-          pwd
-          
       - name: Initialize Composer
         run: |
           composer init --no-interaction --name=dennisdornon/doc-test
@@ -31,29 +26,12 @@ jobs:
         run: |
           composer require pronamic/wp-documentor --dev
           
-      - name: Show wp-documentor version
-        run: |
-          ./vendor/bin/wp-documentor --version
-          
-      - name: Count PHP Files
-        run: |
-          find . -name "*.php" -type f | grep -v vendor | wc -l
-          
-      - name: Generate Hook Documentation with Debug
+      - name: Generate Hook Documentation
         run: |
           mkdir -p docs
-          echo "Generating hooks documentation..."
-          ./vendor/bin/wp-documentor generate --source=. --output=./docs/hooks.md --type=hooks --verbose
-          if [ $? -eq 0 ]; then echo "Hooks documentation generated successfully"; else echo "Hooks documentation failed"; fi
-          ls -la docs/
-          
-          echo "Generating filters documentation..."
-          ./vendor/bin/wp-documentor generate --source=. --output=./docs/filters.md --type=filters --verbose
-          if [ $? -eq 0 ]; then echo "Filters documentation generated successfully"; else echo "Filters documentation failed"; fi
-          
-          echo "Generating actions documentation..."
-          ./vendor/bin/wp-documentor generate --source=. --output=./docs/actions.md --type=actions --verbose
-          if [ $? -eq 0 ]; then echo "Actions documentation generated successfully"; else echo "Actions documentation failed"; fi
+          ./vendor/bin/wp-documentor hooks --source=. --output=./docs/hooks.md || true
+          ./vendor/bin/wp-documentor filters --source=. --output=./docs/filters.md || true
+          ./vendor/bin/wp-documentor actions --source=. --output=./docs/actions.md || true
           
       - name: List generated files
         run: |
