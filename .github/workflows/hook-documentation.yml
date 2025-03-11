@@ -23,8 +23,9 @@ jobs:
       - name: Generate documentation
         run: |
           mkdir -p docs
-          # Change the command from 'hooks' to 'parse'
-        ./vendor/bin/wp-documentor parse . --exclude=vendor --format=markdown --output=./docs/hooks.md
+          # Changed from hooks to parse and removed --source=
+          # Added --exclude=vendor to avoid scanning wp-documentor's own test files
+          ./vendor/bin/wp-documentor parse . --exclude=vendor --format=markdown --output=./docs/hooks.md
           
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
