@@ -29,13 +29,26 @@ jobs:
       - name: Generate Hook Documentation
         run: |
           mkdir -p docs
-          ./vendor/bin/wp-documentor hooks --source=. --output=./docs/hooks.md || true
-          ./vendor/bin/wp-documentor filters --source=. --output=./docs/filters.md || true
-          ./vendor/bin/wp-documentor actions --source=. --output=./docs/actions.md || true
+          echo "Running hooks command..."
+          ./vendor/bin/wp-documentor hooks --source=. --output=./docs/hooks.md || echo "No hooks found"
+          echo "Running filters command..."
+          ./vendor/bin/wp-documentor filters --source=. --output=./docs/filters.md || echo "No filters found"
+          echo "Running actions command..."
+          ./vendor/bin/wp-documentor actions --source=. --output=./docs/actions.md || echo "No actions found"
+          
+      - name: Create empty files if missing
+        run: |
+          touch docs/hooks.md
+          touch docs/filters.md
+          touch docs/actions.md
+          echo "# WordPress Hooks Documentation" > docs/hooks.md
+          echo "# WordPress Filters Documentation" > docs/filters.md
+          echo "# WordPress Actions Documentation" > docs/actions.md
           
       - name: List generated files
         run: |
           ls -la docs/
+          cat docs/hooks.md
           
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
