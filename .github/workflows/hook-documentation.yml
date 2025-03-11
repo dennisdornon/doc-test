@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir -p docs
           # Change the command from 'hooks' to 'parse'
-          ./vendor/bin/wp-documentor parse --source=. --format=markdown --output=./docs/hooks.md
+          ./vendor/bin/wp-documentor parse . --format=markdown --output=./docs/hooks.md
           
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
