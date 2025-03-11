@@ -1,4 +1,4 @@
-name: Generate MainWP Hook Documentation
+name: Generate WordPress Hook Documentation
 
 on:
   push:
@@ -15,22 +15,22 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.0'
-          
+      
       - name: Initialize Composer
         run: composer init --no-interaction --name=dennisdornon/doc-test
-        
+          
       - name: Install wp-documentor
-        run: composer require pronamic/wp-documentor --dev
+        run: composer require pronamic/wp-documentor
           
       - name: Generate Hook Documentation
         run: |
           mkdir -p docs
-          vendor/bin/wp-documentor generate --source=. --output=./docs/hooks.md --type=hooks
-          vendor/bin/wp-documentor generate --source=. --output=./docs/filters.md --type=filters
-          vendor/bin/wp-documentor generate --source=. --output=./docs/actions.md --type=actions
+          ./vendor/bin/wp-documentor generate --source=. --output=./docs/hooks.md --type=hooks || true
+          ./vendor/bin/wp-documentor generate --source=. --output=./docs/filters.md --type=filters || true
+          ./vendor/bin/wp-documentor generate --source=. --output=./docs/actions.md --type=actions || true
           
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update MainWP hook documentation
+          commit_message: Update WordPress hook documentation
           file_pattern: docs/*.md
