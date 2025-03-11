@@ -1,0 +1,33 @@
+name: Generate MainWP Hook Documentation
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  document:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.0'
+          
+      - name: Install wp-documentor
+        run: |
+          composer require pronamic/wp-documentor --dev
+          
+      - name: Generate Hook Documentation
+        run: |
+          vendor/bin/wp-documentor generate --source=. --output=./docs/hooks.md --type=hooks
+          vendor/bin/wp-documentor generate --source=. --output=./docs/filters.md --type=filters
+          vendor/bin/wp-documentor generate --source=. --output=./docs/actions.md --type=actions
+          
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update MainWP hook documentation
+          file_pattern: docs/*.md
