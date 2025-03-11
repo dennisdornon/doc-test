@@ -16,12 +16,15 @@ jobs:
         with:
           php-version: '8.0'
           
+      - name: Initialize Composer
+        run: composer init --no-interaction --name=dennisdornon/doc-test
+        
       - name: Install wp-documentor
-        run: |
-          composer require pronamic/wp-documentor --dev
+        run: composer require pronamic/wp-documentor --dev
           
       - name: Generate Hook Documentation
         run: |
+          mkdir -p docs
           vendor/bin/wp-documentor generate --source=. --output=./docs/hooks.md --type=hooks
           vendor/bin/wp-documentor generate --source=. --output=./docs/filters.md --type=filters
           vendor/bin/wp-documentor generate --source=. --output=./docs/actions.md --type=actions
