@@ -1,8 +1,6 @@
 name: Generate WordPress Hook Documentation
-
 on:
   workflow_dispatch:
-
 jobs:
   document:
     runs-on: ubuntu-latest
@@ -25,8 +23,8 @@ jobs:
       - name: Generate documentation
         run: |
           mkdir -p docs
-          # Add exactly the command you use locally here
-          ./vendor/bin/wp-documentor hooks --source=. --output=./docs/hooks.md
+          # Change the command from 'hooks' to 'parse'
+          ./vendor/bin/wp-documentor parse --source=. --format=markdown --output=./docs/hooks.md
           
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
