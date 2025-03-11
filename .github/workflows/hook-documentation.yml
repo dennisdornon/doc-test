@@ -1,8 +1,6 @@
 name: Generate WordPress Hook Documentation
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -10,45 +8,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.0'
           
-      - name: Initialize Composer
-        run: |
-          composer init --no-interaction --name=dennisdornon/doc-test
-        
       - name: Install wp-documentor
         run: |
           composer require pronamic/wp-documentor --dev
           
-      - name: Generate Hook Documentation
+      - name: Show wp-documentor commands
+        run: |
+          ./vendor/bin/wp-documentor list
+          
+      - name: Generate documentation
         run: |
           mkdir -p docs
-          echo "Running hooks command..."
-          ./vendor/bin/wp-documentor hooks --source=. --output=./docs/hooks.md || echo "No hooks found"
-          echo "Running filters command..."
-          ./vendor/bin/wp-documentor filters --source=. --output=./docs/filters.md || echo "No filters found"
-          echo "Running actions command..."
-          ./vendor/bin/wp-documentor actions --source=. --output=./docs/actions.md || echo "No actions found"
-          
-      - name: Create empty files if missing
-        run: |
-          touch docs/hooks.md
-          touch docs/filters.md
-          touch docs/actions.md
-          echo "# WordPress Hooks Documentation" > docs/hooks.md
-          echo "# WordPress Filters Documentation" > docs/filters.md
-          echo "# WordPress Actions Documentation" > docs/actions.md
-          
-      - name: List generated files
-        run: |
-          ls -la docs/
-          cat docs/hooks.md
+          # Add exactly the command you use locally here
+          ./vendor/bin/wp-documentor hooks --source=. --output=./docs/hooks.md
           
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
