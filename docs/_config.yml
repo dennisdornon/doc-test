@@ -1,0 +1,14 @@
+remote_theme: just-the-docs/just-the-docs
+title: MainWP Documentation
+description: Developer documentation for MainWP WordPress plugin
+search_enabled: true
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - WordPress Hooks:
+    - All Hooks: hooks.md
+    - Actions: actions.md
+    - Filters: filters.md
+  - PHP Reference:
+    - Overview: reference/index.md
