@@ -10,24 +10,54 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.0'
-      
+          
+      - name: List Repository Contents
+        run: |
+          ls -la
+          pwd
+          
       - name: Initialize Composer
-        run: composer init --no-interaction --name=dennisdornon/doc-test
-          
+        run: |
+          composer init --no-interaction --name=dennisdornon/doc-test
+        
       - name: Install wp-documentor
-        run: composer require pronamic/wp-documentor
+        run: |
+          composer require pronamic/wp-documentor --dev
           
-      - name: Generate Hook Documentation
+      - name: Show wp-documentor version
+        run: |
+          ./vendor/bin/wp-documentor --version
+          
+      - name: Count PHP Files
+        run: |
+          find . -name "*.php" -type f | grep -v vendor | wc -l
+          
+      - name: Generate Hook Documentation with Debug
         run: |
           mkdir -p docs
-          ./vendor/bin/wp-documentor generate --source=. --output=./docs/hooks.md --type=hooks || true
-          ./vendor/bin/wp-documentor generate --source=. --output=./docs/filters.md --type=filters || true
-          ./vendor/bin/wp-documentor generate --source=. --output=./docs/actions.md --type=actions || true
+          echo "Generating hooks documentation..."
+          ./vendor/bin/wp-documentor generate --source=. --output=./docs/hooks.md --type=hooks --verbose
+          if [ $? -eq 0 ]; then echo "Hooks documentation generated successfully"; else echo "Hooks documentation failed"; fi
+          ls -la docs/
+          
+          echo "Generating filters documentation..."
+          ./vendor/bin/wp-documentor generate --source=. --output=./docs/filters.md --type=filters --verbose
+          if [ $? -eq 0 ]; then echo "Filters documentation generated successfully"; else echo "Filters documentation failed"; fi
+          
+          echo "Generating actions documentation..."
+          ./vendor/bin/wp-documentor generate --source=. --output=./docs/actions.md --type=actions --verbose
+          if [ $? -eq 0 ]; then echo "Actions documentation generated successfully"; else echo "Actions documentation failed"; fi
+          
+      - name: List generated files
+        run: |
+          ls -la docs/
           
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
