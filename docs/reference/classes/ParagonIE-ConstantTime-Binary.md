@@ -883,7 +883,7 @@ staticvar  |  boolean $exists
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on March 16th, 2025 at 00:27. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on March 23rd, 2025 at 00:27. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
