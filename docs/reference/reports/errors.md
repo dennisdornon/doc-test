@@ -382,7 +382,7 @@ ERROR | 17 | Tag "uses" with body "@uses page-mainwp-bulk-add::MainWP_Bulk_Add()
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on May 4th, 2025 at 00:36. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on May 11th, 2025 at 00:38. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
