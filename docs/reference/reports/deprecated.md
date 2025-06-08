@@ -64,7 +64,7 @@ Element | Line | Description
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 1st, 2025 at 00:40. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 8th, 2025 at 00:36. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
