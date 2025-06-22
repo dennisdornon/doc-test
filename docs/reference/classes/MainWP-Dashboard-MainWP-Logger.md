@@ -861,8 +861,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### EXECUTION_TIME_LOG_PRIORITY
 [code] 
@@ -878,8 +878,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### LOGS_AUTO_PURGE_LOG_PRIORITY
 [code] 
@@ -895,8 +895,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### LOGS_REGULAR_SCHEDULE
 [code] 
@@ -912,8 +912,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### COST_TRACKER_LOG_PRIORITY
 [code] 
@@ -929,8 +929,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### API_BACKUPS_LOG_PRIORITY
 [code] 
@@ -946,8 +946,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### CONNECT_LOG_PRIORITY
 [code] 
@@ -963,8 +963,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### UPTIME_CHECK_LOG_PRIORITY
 [code] 
@@ -980,8 +980,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### UPTIME_NOTICE_LOG_PRIORITY
 [code] 
@@ -997,8 +997,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### DISABLED
 [code] 
@@ -1014,8 +1014,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### LOG
 [code] 
@@ -1031,8 +1031,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### WARNING
 [code] 
@@ -1048,8 +1048,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### INFO
 [code] 
@@ -1065,8 +1065,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### DEBUG
 [code] 
@@ -1082,8 +1082,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### LOG_COLOR
 [code] 
@@ -1099,8 +1099,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### DEBUG_COLOR
 [code] 
@@ -1116,8 +1116,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### INFO_COLOR
 [code] 
@@ -1133,8 +1133,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### WARNING_COLOR
 [code] 
@@ -1150,8 +1150,8 @@ File
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -2325,7 +2325,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

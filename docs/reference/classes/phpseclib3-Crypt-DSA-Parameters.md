@@ -803,14 +803,7 @@ _No public properties found_ [ALGORITHM](classes/phpseclib3-Crypt-DSA.html#const
 [y](classes/phpseclib3-Crypt-DSA.html#property_y)  
 [sigFormat](classes/phpseclib3-Crypt-DSA.html#property_sigFormat)  
 [shortFormat](classes/phpseclib3-Crypt-DSA.html#property_shortFormat)  
-_No protected constants found_ [loadPlugins](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#method_loadPlugins)  
-[int2octets](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#method_int2octets)  
-[bits2octets](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#method_bits2octets)  
-[hmac](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#property_hmac)  
-[plugins](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#property_plugins)  
-[invisiblePlugins](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#property_invisiblePlugins)  
-[comment](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#property_comment)  
-_No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 final
 
@@ -857,8 +850,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -1089,94 +1082,6 @@ string —
 
 Inherited from
     [\phpseclib3\Crypt\DSA](classes/phpseclib3-Crypt-DSA.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $hmac
-[code] 
-    $hmac : \phpseclib3\Crypt\Hash
-[/code]
-
-_HMAC function_
-
-#### Type
-
-[Hash](classes/phpseclib3-Crypt-Hash.md) —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $plugins
-[code] 
-    $plugins : array
-[/code]
-
-_Supported plugins (lower case)_
-
-#### Type
-
-array<string|int, mixed> —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::initialize_static_variables\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $invisiblePlugins
-[code] 
-    $invisiblePlugins : array
-[/code]
-
-_Invisible plugins_
-
-#### Type
-
-array<string|int, mixed> —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::initialize_static_variables\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $comment
-[code] 
-    $comment : null|string
-[/code]
-
-_Key Comment_
-
-#### Type
-
-null|string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
 
 ## Tags
 
@@ -2063,92 +1968,6 @@ Inherited from
 _None found_  
 ---  
   
-### loadPlugins()
-
-__
-[code]
-    loadPlugins(string  $format) : mixed
-[/code]
-
-_Load Plugins_
-
-#### Parameters
-
-string | $format  |   
----|---|---  
-  
-#### Returns
-
-mixed —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
-### int2octets()
-
-__
-[code]
-    int2octets(\phpseclib3\Math\BigInteger  $v) : string
-[/code]
-
-_Integer to Octet String_
-
-#### Parameters
-
-\phpseclib3\Math\BigInteger | $v  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
-### bits2octets()
-
-__
-[code]
-    bits2octets(string  $in) : string
-[/code]
-
-_Bit String to Octet String_
-
-#### Parameters
-
-string | $in  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### Parameters.php
@@ -2172,7 +1991,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

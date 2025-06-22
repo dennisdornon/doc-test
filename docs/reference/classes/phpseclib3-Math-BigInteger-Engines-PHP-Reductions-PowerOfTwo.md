@@ -858,12 +858,7 @@ _No public properties found_ [PRIMES](classes/phpseclib3-Math-BigInteger-Engines
 [bitmask](classes/phpseclib3-Math-BigInteger-Engines-Engine.html#property_bitmask)  
 [reduce](classes/phpseclib3-Math-BigInteger-Engines-Engine.html#property_reduce)  
 [hex](classes/phpseclib3-Math-BigInteger-Engines-Engine.html#property_hex)  
-_No protected constants found_ [karatsuba](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_karatsuba)  
-[divide_digit](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_divide_digit)  
-[safe_divide](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_safe_divide)  
-[int2bytes](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_int2bytes)  
-[bitwise_small_split](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_bitwise_small_split)  
-_No private properties found_ _No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 abstract
 
@@ -912,8 +907,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### VALUE
 [code] 
@@ -929,8 +924,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### SIGN
 [code] 
@@ -946,8 +941,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### KARATSUBA_CUTOFF
 [code] 
@@ -965,8 +960,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### FAST_BITWISE
 [code] 
@@ -985,8 +980,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_DIR
 [code] 
@@ -1004,8 +999,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### VARIABLE
 [code] 
@@ -1023,8 +1018,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### DATA
 [code] 
@@ -1040,8 +1035,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -3567,163 +3562,6 @@ See also
 _None found_  
 ---  
   
-### karatsuba()
-
-__
-[code]
-    karatsuba(array  $x_value, array  $y_value) : array
-[/code]
-
-_Performs Karatsuba multiplication on two BigIntegers_
-
-See {@link http://en.wikipedia.org/wiki/Karatsuba_algorithm} and {@link http://math.libtomcrypt.com/files/tommath.pdf#page=120}.
-
-#### Parameters
-
-array | $x_value  |   
----|---|---  
-array | $y_value  |   
-  
-#### Returns
-
-array —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
-### divide_digit()
-
-__
-[code]
-    divide_digit(array  $dividend, int  $divisor) : array
-[/code]
-
-_Divides a BigInteger by a regular integer_
-
-abc / x = a00 / x + b0 / x + c / x
-
-#### Parameters
-
-array | $dividend  |   
----|---|---  
-int | $divisor  |   
-  
-#### Returns
-
-array —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
-### safe_divide()
-
-__
-[code]
-    safe_divide(int  $x, int  $y) : int
-[/code]
-
-_Single digit division_
-
-Even if int64 is being used the division operator will return a float64 value if the dividend is not evenly divisible by the divisor. Since a float64 doesn't have the precision of int64 this is a problem so, when int64 is being used, we'll guarantee that the dividend is divisible by first subtracting the remainder.
-
-#### Parameters
-
-int | $x  |   
----|---|---  
-int | $y  |   
-  
-#### Returns
-
-int —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
-### int2bytes()
-
-__
-[code]
-    int2bytes(int  $x) : string
-[/code]
-
-_Converts 32-bit integers to bytes._
-
-#### Parameters
-
-int | $x  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
-### bitwise_small_split()
-
-__
-[code]
-    bitwise_small_split(int  $split) : list<int>
-[/code]
-
-_Bitwise Split where $split < static::BASE_
-
-#### Parameters
-
-int | $split  |   
----|---|---  
-  
-#### Returns
-
-list —
-
-# __
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### PowerOfTwo.php
@@ -3747,7 +3585,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

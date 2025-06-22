@@ -859,8 +859,7 @@ _No public properties found_ [PRIMES](classes/phpseclib3-Math-BigInteger-Engines
 [bitmask](classes/phpseclib3-Math-BigInteger-Engines-Engine.html#property_bitmask)  
 [reduce](classes/phpseclib3-Math-BigInteger-Engines-Engine.html#property_reduce)  
 [hex](classes/phpseclib3-Math-BigInteger-Engines-Engine.html#property_hex)  
-_No protected constants found_ [regularBarrett](classes/phpseclib3-Math-BigInteger-Engines-BCMath-Reductions-Barrett.html#method_regularBarrett)  
-_No private properties found_ _No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 abstract
 
@@ -911,8 +910,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### FAST_BITWISE
 [code] 
@@ -931,8 +930,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_DIR
 [code] 
@@ -950,8 +949,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### VARIABLE
 [code] 
@@ -969,8 +968,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### DATA
 [code] 
@@ -986,8 +985,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -3618,39 +3617,6 @@ Inherited from
 _None found_  
 ---  
   
-### regularBarrett()
-
-__
-[code]
-    regularBarrett(string  $x, string  $n) : string
-[/code]
-
-_(Regular) Barrett Modular Reduction_
-
-For numbers with more than four digits BigInteger::_barrett() is faster. The difference between that and this is that this function does not fold the denominator into a smaller form.
-
-#### Parameters
-
-string | $x  |   
----|---|---  
-string | $n  |   
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\BCMath\Reductions\Barrett](classes/phpseclib3-Math-BigInteger-Engines-BCMath-Reductions-Barrett.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### DefaultEngine.php
@@ -3674,7 +3640,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

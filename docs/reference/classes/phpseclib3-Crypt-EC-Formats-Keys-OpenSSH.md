@@ -776,7 +776,6 @@ _No public properties found_ _No public constants found_ [wrapPrivateKey](classe
 [binary](classes/phpseclib3-Crypt-Common-Formats-Keys-OpenSSH.html#property_binary)  
 [childOIDsLoaded](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#property_childOIDsLoaded)  
 _No protected constants found_ [getAlias](classes/phpseclib3-Crypt-EC-Formats-Keys-OpenSSH.html#method_getAlias)  
-[checkType](classes/phpseclib3-Crypt-Common-Formats-Keys-OpenSSH.html#method_checkType)  
 [initialize_static_variables](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#method_initialize_static_variables)  
 [encodeParameters](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#method_encodeParameters)  
 [curveOIDs](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#property_curveOIDs)  
@@ -1314,36 +1313,6 @@ Inherited from
 _None found_  
 ---  
   
-### checkType()
-
-__
-[code]
-    checkType(string  $candidate) : mixed
-[/code]
-
-_Checks to see if the type is valid_
-
-#### Parameters
-
-string | $candidate  |   
----|---|---  
-  
-#### Returns
-
-mixed —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\OpenSSH](classes/phpseclib3-Crypt-Common-Formats-Keys-OpenSSH.md)
-
-## Tags
-
-_None found_  
----  
-  
 ### initialize_static_variables()
 
 __
@@ -1424,7 +1393,7 @@ todo  |  Maybe at some point this could be moved to __toString() for each of the
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

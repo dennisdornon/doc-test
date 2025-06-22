@@ -772,11 +772,7 @@ _No public properties found_ [MODE_ANY](classes/phpseclib3-Crypt-Common-Formats-
 [wrapPrivateKey](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.html#method_wrapPrivateKey)  
 [wrapPublicKey](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.html#method_wrapPublicKey)  
 [format](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS.html#property_format)  
-_No protected constants found_ [getEncryptionMode](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.html#method_getEncryptionMode)  
-[getEncryptionObject](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.html#method_getEncryptionObject)  
-[generateSymmetricKey](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.html#method_generateSymmetricKey)  
-[defaultEncryptionAlgorithm](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.html#property_defaultEncryptionAlgorithm)  
-_No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 abstract
 
@@ -823,8 +819,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_PEM
 [code] 
@@ -840,8 +836,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_DER
 [code] 
@@ -857,8 +853,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -877,27 +873,6 @@ int —
 
 Inherited from
     [\phpseclib3\Crypt\Common\Formats\Keys\PKCS](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $defaultEncryptionAlgorithm
-[code] 
-    $defaultEncryptionAlgorithm : string
-[/code]
-
-_Default encryption algorithm_
-
-#### Type
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PKCS1](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.md)
 
 ## Tags
 
@@ -1140,112 +1115,6 @@ Inherited from
 _None found_  
 ---  
   
-### getEncryptionMode()
-
-__
-[code]
-    getEncryptionMode(string  $mode) : int
-[/code]
-
-_Returns the mode constant corresponding to the mode string_
-
-#### Parameters
-
-string | $mode  |   
----|---|---  
-  
-#### Throws
-
-\UnexpectedValueException
-    
-
-if the block cipher mode is unsupported
-
-#### Returns
-
-int —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PKCS1](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.md)
-
-## Tags
-
-_None found_  
----  
-  
-### getEncryptionObject()
-
-__
-[code]
-    getEncryptionObject(string  $algo) : string
-[/code]
-
-_Returns a cipher object corresponding to a string_
-
-#### Parameters
-
-string | $algo  |   
----|---|---  
-  
-#### Throws
-
-\UnexpectedValueException
-    
-
-if the encryption algorithm is unsupported
-
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PKCS1](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.md)
-
-## Tags
-
-_None found_  
----  
-  
-### generateSymmetricKey()
-
-__
-[code]
-    generateSymmetricKey(string  $password, string  $iv, int  $length) : string
-[/code]
-
-_Generate a symmetric key for PKCS#1 keys_
-
-#### Parameters
-
-string | $password  |   
----|---|---  
-string | $iv  |   
-int | $length  |   
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PKCS1](classes/phpseclib3-Crypt-Common-Formats-Keys-PKCS1.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### PKCS1.php
@@ -1269,7 +1138,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

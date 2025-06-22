@@ -859,20 +859,7 @@ _No public properties found_ [PRIMES](classes/phpseclib3-Math-BigInteger-Engines
 [bitmask](classes/phpseclib3-Math-BigInteger-Engines-Engine.html#property_bitmask)  
 [reduce](classes/phpseclib3-Math-BigInteger-Engines-Engine.html#property_reduce)  
 [hex](classes/phpseclib3-Math-BigInteger-Engines-Engine.html#property_hex)  
-_No protected constants found_ [karatsuba](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_karatsuba)  
-[divide_digit](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_divide_digit)  
-[safe_divide](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_safe_divide)  
-[int2bytes](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_int2bytes)  
-[bitwise_small_split](classes/phpseclib3-Math-BigInteger-Engines-PHP.html#method_bitwise_small_split)  
-[generateInlineTrim](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.html#method_generateInlineTrim)  
-[generateInlineMultiply](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.html#method_generateInlineMultiply)  
-[generateInlineAdd](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.html#method_generateInlineAdd)  
-[generateInlineSubtract2](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.html#method_generateInlineSubtract2)  
-[generateInlineSubtract1](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.html#method_generateInlineSubtract1)  
-[generateInlineCompare](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.html#method_generateInlineCompare)  
-[float2string](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.html#method_float2string)  
-[custom_reduction](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.html#property_custom_reduction)  
-_No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 abstract
 
@@ -923,8 +910,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### VALUE
 [code] 
@@ -940,8 +927,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### SIGN
 [code] 
@@ -957,8 +944,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### KARATSUBA_CUTOFF
 [code] 
@@ -976,8 +963,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### FAST_BITWISE
 [code] 
@@ -996,8 +983,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_DIR
 [code] 
@@ -1015,8 +1002,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### VARIABLE
 [code] 
@@ -1034,8 +1021,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### DATA
 [code] 
@@ -1051,8 +1038,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -1268,25 +1255,6 @@ Inherited from
 See also
     [](\\phpseclib3\\Math\\BigInteger\\Engines\\self::__sleep\(\))
     [](\\phpseclib3\\Math\\BigInteger\\Engines\\self::__wakeup\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $custom_reduction
-[code] 
-    $custom_reduction
-[/code]
-
-_Custom Reduction Function_
-
-# __
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP\Reductions\EvalBarrett](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.md)
-See also
-    [](\\phpseclib3\\Math\\BigInteger\\Engines\\PHP\\Reductions\\self::generateCustomReduction)
 
 ## Tags
 
@@ -3630,397 +3598,6 @@ Inherited from
 _None found_  
 ---  
   
-### karatsuba()
-
-__
-[code]
-    karatsuba(array  $x_value, array  $y_value) : array
-[/code]
-
-_Performs Karatsuba multiplication on two BigIntegers_
-
-See {@link http://en.wikipedia.org/wiki/Karatsuba_algorithm} and {@link http://math.libtomcrypt.com/files/tommath.pdf#page=120}.
-
-#### Parameters
-
-array | $x_value  |   
----|---|---  
-array | $y_value  |   
-  
-#### Returns
-
-array —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
-### divide_digit()
-
-__
-[code]
-    divide_digit(array  $dividend, int  $divisor) : array
-[/code]
-
-_Divides a BigInteger by a regular integer_
-
-abc / x = a00 / x + b0 / x + c / x
-
-#### Parameters
-
-array | $dividend  |   
----|---|---  
-int | $divisor  |   
-  
-#### Returns
-
-array —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
-### safe_divide()
-
-__
-[code]
-    safe_divide(int  $x, int  $y) : int
-[/code]
-
-_Single digit division_
-
-Even if int64 is being used the division operator will return a float64 value if the dividend is not evenly divisible by the divisor. Since a float64 doesn't have the precision of int64 this is a problem so, when int64 is being used, we'll guarantee that the dividend is divisible by first subtracting the remainder.
-
-#### Parameters
-
-int | $x  |   
----|---|---  
-int | $y  |   
-  
-#### Returns
-
-int —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
-### int2bytes()
-
-__
-[code]
-    int2bytes(int  $x) : string
-[/code]
-
-_Converts 32-bit integers to bytes._
-
-#### Parameters
-
-int | $x  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
-### bitwise_small_split()
-
-__
-[code]
-    bitwise_small_split(int  $split) : list<int>
-[/code]
-
-_Bitwise Split where $split < static::BASE_
-
-#### Parameters
-
-int | $split  |   
----|---|---  
-  
-#### Returns
-
-list —
-
-# __
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP](classes/phpseclib3-Math-BigInteger-Engines-PHP.md)
-
-## Tags
-
-_None found_  
----  
-  
-### generateInlineTrim()
-
-__
-[code]
-    generateInlineTrim(string  $name) : string
-[/code]
-
-_Inline Trim_
-
-Removes leading zeros
-
-#### Parameters
-
-string | $name  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP\Reductions\EvalBarrett](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.md)
-
-## Tags
-
-_None found_  
----  
-  
-### generateInlineMultiply()
-
-__
-[code]
-    generateInlineMultiply(string  $input, array  $arr, string  $output, string  $class) : string
-[/code]
-
-_Inline Multiply (unknown, known)_
-
-#### Parameters
-
-string | $input  |   
----|---|---  
-array | $arr  |   
-string | $output  |   
-string | $class  |   
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP\Reductions\EvalBarrett](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.md)
-
-## Tags
-
-_None found_  
----  
-  
-### generateInlineAdd()
-
-__
-[code]
-    generateInlineAdd(string  $x, string  $y, string  $result, string  $class) : string
-[/code]
-
-_Inline Addition_
-
-#### Parameters
-
-string | $x  |   
----|---|---  
-string | $y  |   
-string | $result  |   
-string | $class  |   
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP\Reductions\EvalBarrett](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.md)
-
-## Tags
-
-_None found_  
----  
-  
-### generateInlineSubtract2()
-
-__
-[code]
-    generateInlineSubtract2(string  $known, string  $unknown, string  $result, string  $class) : string
-[/code]
-
-_Inline Subtraction 2_
-
-For when $known is more digits than $unknown. This is the harder use case to optimize for.
-
-#### Parameters
-
-string | $known  |   
----|---|---  
-string | $unknown  |   
-string | $result  |   
-string | $class  |   
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP\Reductions\EvalBarrett](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.md)
-
-## Tags
-
-_None found_  
----  
-  
-### generateInlineSubtract1()
-
-__
-[code]
-    generateInlineSubtract1(string  $unknown, array  $known, string  $result, string  $class) : string
-[/code]
-
-_Inline Subtraction 1_
-
-For when $unknown is more digits than $known. This is the easier use case to optimize for.
-
-#### Parameters
-
-string | $unknown  |   
----|---|---  
-array | $known  |   
-string | $result  |   
-string | $class  |   
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP\Reductions\EvalBarrett](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.md)
-
-## Tags
-
-_None found_  
----  
-  
-### generateInlineCompare()
-
-__
-[code]
-    generateInlineCompare(array  $known, string  $unknown, string  $subcode) : string
-[/code]
-
-_Inline Comparison_
-
-If $unknown >= $known then loop
-
-#### Parameters
-
-array | $known  |   
----|---|---  
-string | $unknown  |   
-string | $subcode  |   
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP\Reductions\EvalBarrett](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.md)
-
-## Tags
-
-_None found_  
----  
-  
-### float2string()
-
-__
-[code]
-    float2string(int|float  $num) : string
-[/code]
-
-_Convert a float to a string_
-
-If you do echo floatval(pow(2, 52)) you'll get 4.6116860184274E+18. It /can/ be displayed without a loss of precision but displayed in this way there will be precision loss, hence the need for this method.
-
-#### Parameters
-
-int|float | $num  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Math\BigInteger\Engines\PHP\Reductions\EvalBarrett](classes/phpseclib3-Math-BigInteger-Engines-PHP-Reductions-EvalBarrett.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### DefaultEngine.php
@@ -4044,7 +3621,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

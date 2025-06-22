@@ -904,8 +904,8 @@ $cache[self::VARIABLE] tells us whether or not the cached data is still valid.
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### DATA
 [code] 
@@ -918,8 +918,8 @@ _$cache[self::DATA] contains the cached data._
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### PRIMES
 [code] 
@@ -935,8 +935,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### FAST_BITWISE
 [code] 
@@ -955,8 +955,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_DIR
 [code] 
@@ -974,8 +974,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -3594,7 +3594,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

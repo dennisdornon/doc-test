@@ -848,15 +848,6 @@ _No protected constants found_ [rsadp](classes/phpseclib3-Crypt-RSA-PrivateKey.h
 [rsaes_pkcs1_v1_5_decrypt](classes/phpseclib3-Crypt-RSA-PrivateKey.html#method_rsaes_pkcs1_v1_5_decrypt)  
 [rsaes_oaep_decrypt](classes/phpseclib3-Crypt-RSA-PrivateKey.html#method_rsaes_oaep_decrypt)  
 [raw_encrypt](classes/phpseclib3-Crypt-RSA-PrivateKey.html#method_raw_encrypt)  
-[loadPlugins](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#method_loadPlugins)  
-[int2octets](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#method_int2octets)  
-[bits2octets](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#method_bits2octets)  
-[hmac](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#property_hmac)  
-[plugins](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#property_plugins)  
-[invisiblePlugins](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#property_invisiblePlugins)  
-[comment](classes/phpseclib3-Crypt-Common-AsymmetricKey.html#property_comment)  
-[defaultExponent](classes/phpseclib3-Crypt-RSA.html#property_defaultExponent)  
-[smallestPrime](classes/phpseclib3-Crypt-RSA.html#property_smallestPrime)  
 [password](classes/phpseclib3-Crypt-Common-Traits-PasswordProtected.html#property_password)  
 _No private constants found_
 
@@ -910,8 +901,8 @@ Inherited from
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENCRYPTION_OAEP
 [code] 
@@ -934,8 +925,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENCRYPTION_PKCS1
 [code] 
@@ -956,8 +947,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENCRYPTION_NONE
 [code] 
@@ -978,8 +969,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### SIGNATURE_PSS
 [code] 
@@ -1004,8 +995,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### SIGNATURE_RELAXED_PKCS1
 [code] 
@@ -1025,8 +1016,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### SIGNATURE_PKCS1
 [code] 
@@ -1046,8 +1037,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -1492,140 +1483,6 @@ _Public Exponent_
 #### Type
 
 [BigInteger](classes/phpseclib3-Math-BigInteger.md) —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\RSA](classes/phpseclib3-Crypt-RSA.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $hmac
-[code] 
-    $hmac : \phpseclib3\Crypt\Hash
-[/code]
-
-_HMAC function_
-
-#### Type
-
-[Hash](classes/phpseclib3-Crypt-Hash.md) —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $plugins
-[code] 
-    $plugins : array
-[/code]
-
-_Supported plugins (lower case)_
-
-#### Type
-
-array<string|int, mixed> —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::initialize_static_variables\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $invisiblePlugins
-[code] 
-    $invisiblePlugins : array
-[/code]
-
-_Invisible plugins_
-
-#### Type
-
-array<string|int, mixed> —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::initialize_static_variables\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $comment
-[code] 
-    $comment : null|string
-[/code]
-
-_Key Comment_
-
-#### Type
-
-null|string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $defaultExponent
-[code] 
-    $defaultExponent : int
-[/code]
-
-_Default public exponent_
-
-#### Type
-
-int —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\RSA](classes/phpseclib3-Crypt-RSA.md)
-See also
-    [](http://en.wikipedia.org/wiki/65537_%28number%29)
-
-## Tags
-
-_None found_  
----  
-  
-### $smallestPrime
-[code] 
-    $smallestPrime : int
-[/code]
-
-_Smallest Prime_
-
-Per <http://cseweb.ucsd.edu/~hovav/dist/survey.pdf#page=5>, this number ought not result in primes smaller than 256 bits. As a consequence if the key you're trying to create is 1024 bits and you've set smallestPrime to 384 bits then you're going to get a 384 bit prime and a 640 bit prime (384 + 1024 % 384). At least if engine is set to self::ENGINE_INTERNAL. If Engine is set to self::ENGINE_OPENSSL then smallest Prime is ignored (ie. multi-prime RSA support is more intended as a way to speed up RSA key generation when there's a chance neither gmp nor OpenSSL are installed)
-
-#### Type
-
-int —
 
 # __
 
@@ -3398,92 +3255,6 @@ Inherited from
 _None found_  
 ---  
   
-### loadPlugins()
-
-__
-[code]
-    loadPlugins(string  $format) : mixed
-[/code]
-
-_Load Plugins_
-
-#### Parameters
-
-string | $format  |   
----|---|---  
-  
-#### Returns
-
-mixed —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
-### int2octets()
-
-__
-[code]
-    int2octets(\phpseclib3\Math\BigInteger  $v) : string
-[/code]
-
-_Integer to Octet String_
-
-#### Parameters
-
-\phpseclib3\Math\BigInteger | $v  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
-### bits2octets()
-
-__
-[code]
-    bits2octets(string  $in) : string
-[/code]
-
-_Bit String to Octet String_
-
-#### Parameters
-
-string | $in  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\AsymmetricKey](classes/phpseclib3-Crypt-Common-AsymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### PrivateKey.php
@@ -3507,7 +3278,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

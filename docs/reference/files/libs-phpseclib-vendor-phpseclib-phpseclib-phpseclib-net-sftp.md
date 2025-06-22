@@ -805,7 +805,6 @@ File
 
 package  |  Application  
 ---|---  
-attributes  |   
   
 ### NET_SFTP_UPLOAD_QUEUE_SIZE
 [code] 
@@ -823,7 +822,6 @@ File
 
 package  |  Application  
 ---|---  
-attributes  |   
   
 ×
 
@@ -848,7 +846,7 @@ attributes  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:36. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:36. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

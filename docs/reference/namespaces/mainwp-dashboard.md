@@ -936,7 +936,6 @@ Inherited from
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 ### MAINWP_VIEW_PER_PLUGIN_THEME
 [code] 
@@ -954,7 +953,6 @@ Inherited from
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 ### MAINWP_VIEW_PER_SITE
 [code] 
@@ -972,7 +970,6 @@ Inherited from
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 #  __
 
@@ -992,7 +989,7 @@ attributes  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:30. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

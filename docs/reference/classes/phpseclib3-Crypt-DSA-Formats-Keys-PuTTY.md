@@ -769,11 +769,7 @@ _No public properties found_ [PUBLIC_HANDLER](classes/phpseclib3-Crypt-DSA-Forma
 [wrapPrivateKey](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#method_wrapPrivateKey)  
 [wrapPublicKey](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#method_wrapPublicKey)  
 [types](classes/phpseclib3-Crypt-DSA-Formats-Keys-PuTTY.html#property_types)  
-_No protected constants found_ [generateV2Key](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#method_generateV2Key)  
-[generateV3Key](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#method_generateV3Key)  
-[comment](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#property_comment)  
-[version](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#property_version)  
-_No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 abstract
 
@@ -815,8 +811,8 @@ _Public Handler_
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -832,48 +828,6 @@ _Algorithm Identifier_
 array<string|int, mixed> —
 
 # __
-
-## Tags
-
-_None found_  
----  
-  
-### $comment
-[code] 
-    $comment : string
-[/code]
-
-_Default comment_
-
-#### Type
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PuTTY](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $version
-[code] 
-    $version : int
-[/code]
-
-_Default version_
-
-#### Type
-
-int —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PuTTY](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.md)
 
 ## Tags
 
@@ -1109,71 +1063,6 @@ Inherited from
 _None found_  
 ---  
   
-### generateV2Key()
-
-__
-[code]
-    generateV2Key(string  $password, int  $length) : string
-[/code]
-
-_Generate a symmetric key for PuTTY v2 keys_
-
-#### Parameters
-
-string | $password  |   
----|---|---  
-int | $length  |   
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PuTTY](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.md)
-
-## Tags
-
-_None found_  
----  
-  
-### generateV3Key()
-
-__
-[code]
-    generateV3Key(string  $password, string  $flavour, int  $memory, int  $passes, string  $salt) : array
-[/code]
-
-_Generate a symmetric key for PuTTY v3 keys_
-
-#### Parameters
-
-string | $password  |   
----|---|---  
-string | $flavour  |   
-int | $memory  |   
-int | $passes  |   
-string | $salt  |   
-  
-#### Returns
-
-array —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PuTTY](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### PuTTY.php
@@ -1197,7 +1086,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

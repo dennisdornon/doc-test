@@ -787,8 +787,7 @@ _No public properties found_ _No public constants found_ _No protected methods f
 [one](classes/phpseclib3-Crypt-EC-BaseCurves-Montgomery.html#property_one)  
 [p](classes/phpseclib3-Crypt-EC-BaseCurves-Montgomery.html#property_p)  
 [modulo](classes/phpseclib3-Crypt-EC-BaseCurves-Montgomery.html#property_modulo)  
-_No protected constants found_ [doubleAndAddPoint](classes/phpseclib3-Crypt-EC-BaseCurves-Montgomery.html#method_doubleAndAddPoint)  
-_No private properties found_ _No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 File
      [ libs/phpseclib/vendor/phpseclib/phpseclib/phpseclib/Crypt/EC/Curves/Curve448.php ](files/libs-phpseclib-vendor-phpseclib-phpseclib-phpseclib-crypt-ec-curves-curve448.md)
@@ -1498,38 +1497,6 @@ Inherited from
 _None found_  
 ---  
   
-### doubleAndAddPoint()
-
-__
-[code]
-    doubleAndAddPoint(array  $p, array  $q, \phpseclib3\Math\PrimeField\Integer  $x1) : \phpseclib3\Crypt\EC\BaseCurves\FiniteField[][]
-[/code]
-
-_Doubles and adds a point on a curve_
-
-See https://tools.ietf.org/html/draft-ietf-tls-curve25519-01#appendix-A.1.3
-
-#### Parameters
-
-array | $p  |   
----|---|---  
-array | $q  |   
-\phpseclib3\Math\PrimeField\Integer | $x1  |   
-  
-#### Returns
-
-\phpseclib3\Crypt\EC\BaseCurves\FiniteField[][] —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\EC\BaseCurves\Montgomery](classes/phpseclib3-Crypt-EC-BaseCurves-Montgomery.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### Curve448.php
@@ -1553,7 +1520,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

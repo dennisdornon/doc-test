@@ -803,9 +803,7 @@ _No public properties found_ _No public constants found_ [jacobianAddPointMixedX
 [four](classes/phpseclib3-Crypt-EC-BaseCurves-Prime.html#property_four)  
 [eight](classes/phpseclib3-Crypt-EC-BaseCurves-Prime.html#property_eight)  
 [modulo](classes/phpseclib3-Crypt-EC-BaseCurves-Prime.html#property_modulo)  
-_No protected constants found_ [getNAFPoints](classes/phpseclib3-Crypt-EC-BaseCurves-Prime.html#method_getNAFPoints)  
-[getJSFPoints](classes/phpseclib3-Crypt-EC-BaseCurves-Prime.html#method_getJSFPoints)  
-_No private properties found_ _No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 final
 
@@ -1936,70 +1934,6 @@ Inherited from
 _None found_  
 ---  
   
-### getNAFPoints()
-
-__
-[code]
-    getNAFPoints(array  $point, mixed  $wnd) : int[]
-[/code]
-
-_Precomputes NAF points_
-
-Adapted from: https://github.com/indutny/elliptic/blob/725bd91/lib/elliptic/curve/base.js#L351
-
-#### Parameters
-
-array | $point  |   
----|---|---  
-mixed | $wnd  |   
-  
-#### Returns
-
-int[] —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\EC\BaseCurves\Prime](classes/phpseclib3-Crypt-EC-BaseCurves-Prime.md)
-
-## Tags
-
-_None found_  
----  
-  
-### getJSFPoints()
-
-__
-[code]
-    getJSFPoints(\phpseclib3\Math\Common\FiniteField\Integer  $k1, \phpseclib3\Math\Common\FiniteField\Integer  $k2) : int[]
-[/code]
-
-_Precomputes points in Joint Sparse Form_
-
-Adapted from: https://github.com/indutny/elliptic/blob/725bd91/lib/elliptic/utils.js#L96
-
-#### Parameters
-
-\phpseclib3\Math\Common\FiniteField\Integer | $k1  |   
----|---|---  
-\phpseclib3\Math\Common\FiniteField\Integer | $k2  |   
-  
-#### Returns
-
-int[] —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\EC\BaseCurves\Prime](classes/phpseclib3-Crypt-EC-BaseCurves-Prime.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### nistp256.php
@@ -2023,7 +1957,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

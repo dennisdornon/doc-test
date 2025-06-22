@@ -775,12 +775,8 @@ _No public properties found_ [PUBLIC_HANDLER](classes/phpseclib3-Crypt-EC-Format
 [loadCurveByParam](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#method_loadCurveByParam)  
 [types](classes/phpseclib3-Crypt-EC-Formats-Keys-PuTTY.html#property_types)  
 [childOIDsLoaded](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#property_childOIDsLoaded)  
-_No protected constants found_ [generateV2Key](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#method_generateV2Key)  
-[generateV3Key](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#method_generateV3Key)  
-[initialize_static_variables](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#method_initialize_static_variables)  
+_No protected constants found_ [initialize_static_variables](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#method_initialize_static_variables)  
 [encodeParameters](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#method_encodeParameters)  
-[comment](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#property_comment)  
-[version](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.html#property_version)  
 [curveOIDs](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#property_curveOIDs)  
 [useNamedCurves](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.html#property_useNamedCurves)  
 _No private constants found_
@@ -828,8 +824,8 @@ _Public Handler_
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -866,48 +862,6 @@ bool —
 
 Inherited from
     [\phpseclib3\Crypt\EC\Formats\Keys\Common](classes/phpseclib3-Crypt-EC-Formats-Keys-Common.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $comment
-[code] 
-    $comment : string
-[/code]
-
-_Default comment_
-
-#### Type
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PuTTY](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $version
-[code] 
-    $version : int
-[/code]
-
-_Default version_
-
-#### Type
-
-int —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PuTTY](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.md)
 
 ## Tags
 
@@ -1331,71 +1285,6 @@ Inherited from
 _None found_  
 ---  
   
-### generateV2Key()
-
-__
-[code]
-    generateV2Key(string  $password, int  $length) : string
-[/code]
-
-_Generate a symmetric key for PuTTY v2 keys_
-
-#### Parameters
-
-string | $password  |   
----|---|---  
-int | $length  |   
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PuTTY](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.md)
-
-## Tags
-
-_None found_  
----  
-  
-### generateV3Key()
-
-__
-[code]
-    generateV3Key(string  $password, string  $flavour, int  $memory, int  $passes, string  $salt) : array
-[/code]
-
-_Generate a symmetric key for PuTTY v3 keys_
-
-#### Parameters
-
-string | $password  |   
----|---|---  
-string | $flavour  |   
-int | $memory  |   
-int | $passes  |   
-string | $salt  |   
-  
-#### Returns
-
-array —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\PuTTY](classes/phpseclib3-Crypt-Common-Formats-Keys-PuTTY.md)
-
-## Tags
-
-_None found_  
----  
-  
 ### initialize_static_variables()
 
 __
@@ -1476,7 +1365,7 @@ todo  |  Maybe at some point this could be moved to __toString() for each of the
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

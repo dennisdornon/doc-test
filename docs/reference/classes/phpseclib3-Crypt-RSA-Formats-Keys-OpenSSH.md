@@ -769,8 +769,7 @@ _No public properties found_ _No public constants found_ [wrapPrivateKey](classe
 [types](classes/phpseclib3-Crypt-RSA-Formats-Keys-OpenSSH.html#property_types)  
 [comment](classes/phpseclib3-Crypt-Common-Formats-Keys-OpenSSH.html#property_comment)  
 [binary](classes/phpseclib3-Crypt-Common-Formats-Keys-OpenSSH.html#property_binary)  
-_No protected constants found_ [checkType](classes/phpseclib3-Crypt-Common-Formats-Keys-OpenSSH.html#method_checkType)  
-_No private properties found_ _No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 abstract
 
@@ -1060,36 +1059,6 @@ Inherited from
 _None found_  
 ---  
   
-### checkType()
-
-__
-[code]
-    checkType(string  $candidate) : mixed
-[/code]
-
-_Checks to see if the type is valid_
-
-#### Parameters
-
-string | $candidate  |   
----|---|---  
-  
-#### Returns
-
-mixed —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\Formats\Keys\OpenSSH](classes/phpseclib3-Crypt-Common-Formats-Keys-OpenSSH.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### OpenSSH.php
@@ -1113,7 +1082,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

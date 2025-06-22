@@ -798,8 +798,6 @@ _No public properties found_ _No public constants found_ [check_batch_limit](cla
 [rest_base](classes/MainWP-REST-Controller.html#property_rest_base)  
 [controller_names](classes/MainWP-Rest-Global-Batch-Controller.html#property_controller_names)  
 _No protected constants found_ _No private methods found_ [instance](classes/MainWP-Rest-Global-Batch-Controller.html#property_instance)  
-[_fields](classes/MainWP-REST-Controller.html#property__fields)  
-[_request](classes/MainWP-REST-Controller.html#property__request)  
 _No private constants found_
 
 File
@@ -902,48 +900,6 @@ _Protected static variable to hold the single instance of the class._
 mixed — Default null 
 
 # __
-
-## Tags
-
-_None found_  
----  
-  
-### $_fields
-[code] 
-    $_fields : null|array
-[/code]
-
-_Used to cache computed return fields._
-
-#### Type
-
-null|array<string|int, mixed> —
-
-# __
-
-Inherited from
-    [\MainWP_REST_Controller](classes/MainWP-REST-Controller.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $_request
-[code] 
-    $_request : null|\WP_REST_Request
-[/code]
-
-_Used to verify if cached fields are for correct request object._
-
-#### Type
-
-null|WP_REST_Request —
-
-# __
-
-Inherited from
-    [\MainWP_REST_Controller](classes/MainWP-REST-Controller.md)
 
 ## Tags
 
@@ -1941,7 +1897,7 @@ since  |  5.2
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
@@ -2474,4 +2430,3 @@ Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and author
   *[TestClass]: \TestClass
   *[]: \
   *[WP_REST_Controller]: \WP_REST_Controller
-  *[WP_REST_Request]: \WP_REST_Request

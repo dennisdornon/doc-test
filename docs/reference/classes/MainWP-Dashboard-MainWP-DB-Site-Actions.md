@@ -856,10 +856,7 @@ _No public properties found_ _No public constants found_ [test_connection](class
 [table_name](classes/MainWP-Dashboard-MainWP-DB-Base.html#method_table_name)  
 [table_prefix](classes/MainWP-Dashboard-MainWP-DB-Base.html#property_table_prefix)  
 [wpdb](classes/MainWP-Dashboard-MainWP-DB-Base.html#property_wpdb)  
-_No protected constants found_ [get_general_website_option](classes/MainWP-Dashboard-MainWP-DB.html#method_get_general_website_option)  
-[instance](classes/MainWP-Dashboard-MainWP-DB.html#property_instance)  
-[general_options](classes/MainWP-Dashboard-MainWP-DB.html#property_general_options)  
-[possible_options](classes/MainWP-Dashboard-MainWP-DB.html#property_possible_options)  
+_No protected constants found_ _No private methods found_ [instance](classes/MainWP-Dashboard-MainWP-DB-Site-Actions.html#property_instance)  
 _No private constants found_
 
 File
@@ -945,55 +942,10 @@ mixed — Default null
 
 # __
 
-Inherited from
-    [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
-
 ## Tags
 
 static  |   
 ---|---  
-  
-### $general_options
-[code] 
-    $general_options : mixed
-[/code]
-
-_Private static variable to hold the single instance._
-
-#### Type
-
-mixed — Default null 
-
-# __
-
-Inherited from
-    [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
-
-## Tags
-
-static  |   
----|---  
-  
-### $possible_options
-[code] 
-    $possible_options : array
-[/code]
-
-_Possible options._
-
-#### Type
-
-array<string|int, mixed> —
-
-# __
-
-Inherited from
-    [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
-
-## Tags
-
-_None found_  
----  
   
 ## Methods
 
@@ -3946,36 +3898,6 @@ Inherited from
 _None found_  
 ---  
   
-### get_general_website_option()
-
-__
-[code]
-    get_general_website_option(mixed  $option) : string|null
-[/code]
-
-_Get general Child site option._
-
-#### Parameters
-
-mixed | $option  | Child Site option name.  
----|---|---  
-  
-#### Returns
-
-string|null —
-
-Database query result (as string), or null on failure.
-
-# __
-
-Inherited from
-    [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### class-mainwp-db-site-actions.php
@@ -3999,7 +3921,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:30. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

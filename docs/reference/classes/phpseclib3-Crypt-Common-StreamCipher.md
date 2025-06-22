@@ -846,28 +846,7 @@ _No public properties found_ [MODE_CTR](classes/phpseclib3-Crypt-Common-Symmetri
 [poly1305Key](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_poly1305Key)  
 [usePoly1305](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_usePoly1305)  
 [nonce](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_nonce)  
-_No protected constants found_ [pkcs12helper](classes/phpseclib3-Crypt-Common-SymmetricKey.html#method_pkcs12helper)  
-[openssl_ctr_process](classes/phpseclib3-Crypt-Common-SymmetricKey.html#method_openssl_ctr_process)  
-[openssl_ofb_process](classes/phpseclib3-Crypt-Common-SymmetricKey.html#method_openssl_ofb_process)  
-[setupGCM](classes/phpseclib3-Crypt-Common-SymmetricKey.html#method_setupGCM)  
-[ghash](classes/phpseclib3-Crypt-Common-SymmetricKey.html#method_ghash)  
-[len64](classes/phpseclib3-Crypt-Common-SymmetricKey.html#method_len64)  
-[enmcrypt](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_enmcrypt)  
-[demcrypt](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_demcrypt)  
-[enchanged](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_enchanged)  
-[dechanged](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_dechanged)  
-[ecb](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_ecb)  
-[padding](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_padding)  
-[paddable](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_paddable)  
-[preferredEngine](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_preferredEngine)  
-[password_default_salt](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_password_default_salt)  
-[openssl_emulate_ctr](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_openssl_emulate_ctr)  
-[skip_key_adjustment](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_skip_key_adjustment)  
-[h](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_h)  
-[gcmField](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_gcmField)  
-[poly1305Field](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_poly1305Field)  
-[origIV](classes/phpseclib3-Crypt-Common-SymmetricKey.html#property_origIV)  
-_No private constants found_
+_No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 abstract
 
@@ -918,8 +897,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_ECB
 [code] 
@@ -939,8 +918,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_CBC
 [code] 
@@ -960,8 +939,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_CFB
 [code] 
@@ -981,8 +960,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_CFB8
 [code] 
@@ -1001,8 +980,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_OFB8
 [code] 
@@ -1021,8 +1000,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_OFB
 [code] 
@@ -1042,8 +1021,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_GCM
 [code] 
@@ -1063,8 +1042,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_STREAM
 [code] 
@@ -1083,8 +1062,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### MODE_MAP
 [code] 
@@ -1102,8 +1081,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_INTERNAL
 [code] 
@@ -1121,8 +1100,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_EVAL
 [code] 
@@ -1140,8 +1119,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_MCRYPT
 [code] 
@@ -1159,8 +1138,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_OPENSSL
 [code] 
@@ -1178,8 +1157,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_LIBSODIUM
 [code] 
@@ -1197,8 +1176,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_OPENSSL_GCM
 [code] 
@@ -1216,8 +1195,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ### ENGINE_MAP
 [code] 
@@ -1235,8 +1214,8 @@ See also
 
 ## Tags
 
-attributes  |   
----|---  
+_None found_  
+---  
   
 ## Properties
 
@@ -1863,370 +1842,6 @@ Inherited from
     [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
 See also
     [](\\phpseclib3\\Crypt\\Common\\self::setNonce\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $enmcrypt
-[code] 
-    $enmcrypt : resource
-[/code]
-
-_mcrypt resource for encryption_
-
-The mcrypt resource can be recreated every time something needs to be created or it can be created just once. Since mcrypt operates in continuous mode, by default, it'll need to be recreated when in non-continuous mode.
-
-#### Type
-
-resource —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::encrypt\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $demcrypt
-[code] 
-    $demcrypt : resource
-[/code]
-
-_mcrypt resource for decryption_
-
-The mcrypt resource can be recreated every time something needs to be created or it can be created just once. Since mcrypt operates in continuous mode, by default, it'll need to be recreated when in non-continuous mode.
-
-#### Type
-
-resource —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::decrypt\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $enchanged
-[code] 
-    $enchanged : bool
-[/code]
-
-_Does the enmcrypt resource need to be (re)initialized?_
-
-#### Type
-
-bool —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](classes/phpseclib3-Crypt-Twofish.html#method_setKey)
-    [](\\phpseclib3\\Crypt\\Twofish::setIV\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $dechanged
-[code] 
-    $dechanged : bool
-[/code]
-
-_Does the demcrypt resource need to be (re)initialized?_
-
-#### Type
-
-bool —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](classes/phpseclib3-Crypt-Twofish.html#method_setKey)
-    [](\\phpseclib3\\Crypt\\Twofish::setIV\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $ecb
-[code] 
-    $ecb : resource
-[/code]
-
-_mcrypt resource for CFB mode_
-
-mcrypt's CFB mode, in (and only in) buffered context, is broken, so phpseclib implements the CFB mode by it self, even when the mcrypt php extension is available.
-
-In order to do the CFB-mode work (fast) phpseclib use a separate ECB-mode mcrypt resource.
-
-#### Type
-
-resource —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::encrypt\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::decrypt\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::setupMcrypt\(\))
-    [](http://phpseclib.sourceforge.net/cfb-demo.phps)
-
-## Tags
-
-_None found_  
----  
-  
-### $padding
-[code] 
-    $padding : bool
-[/code]
-
-_Padding status_
-
-#### Type
-
-bool —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::enablePadding\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $paddable
-[code] 
-    $paddable : bool
-[/code]
-
-_Is the mode one that is paddable?_
-
-#### Type
-
-bool —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::__construct\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $preferredEngine
-[code] 
-    $preferredEngine : int
-[/code]
-
-_Holds the preferred crypt engine_
-
-#### Type
-
-int —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::setEngine\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::setPreferredEngine\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $password_default_salt
-[code] 
-    $password_default_salt : string
-[/code]
-
-_The default salt used by setPassword()_
-
-#### Type
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::setPassword\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $openssl_emulate_ctr
-[code] 
-    $openssl_emulate_ctr : bool
-[/code]
-
-_If OpenSSL can be used in ECB but not in CTR we can emulate CTR_
-
-#### Type
-
-bool —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::openssl_ctr_process\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $skip_key_adjustment
-[code] 
-    $skip_key_adjustment : bool
-[/code]
-
-_Don 't truncate / null pad key_
-
-#### Type
-
-bool —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::clearBuffers\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $h
-[code] 
-    $h : \phpseclib3\Math\BinaryField\Integer
-[/code]
-
-_Hash subkey for GHASH_
-
-#### Type
-
-[Integer](classes/phpseclib3-Math-BinaryField-Integer.md) —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::setupGCM\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::ghash\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $gcmField
-[code] 
-    $gcmField : \phpseclib3\Math\BinaryField
-[/code]
-
-_GCM Binary Field_
-
-#### Type
-
-[BinaryField](classes/phpseclib3-Math-BinaryField.md) —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::__construct\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::ghash\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $poly1305Field
-[code] 
-    $poly1305Field : \phpseclib3\Math\PrimeField
-[/code]
-
-_Poly1305 Prime Field_
-
-#### Type
-
-[PrimeField](classes/phpseclib3-Math-PrimeField.md) —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::enablePoly1305\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::poly1305\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### $origIV
-[code] 
-    $origIV : string
-[/code]
-
-_The Original Initialization Vector_
-
-GCM uses the nonce to build the IV but we want to be able to distinguish between nonce-derived IV's and user-set IV's
-
-#### Type
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::setIV\(\))
 
 ## Tags
 
@@ -3679,210 +3294,6 @@ See also
 _None found_  
 ---  
   
-### pkcs12helper()
-
-__
-[code]
-    pkcs12helper(int  $n, \phpseclib3\Crypt\Hash  $hashObj, string  $i, string  $d, int  $count) : string
-[/code]
-
-_PKCS#12 KDF Helper Function_
-
-As discussed here:
-
-{@link https://tools.ietf.org/html/rfc7292#appendix-B}
-
-#### Parameters
-
-int | $n  |   
----|---|---  
-\phpseclib3\Crypt\Hash | $hashObj  |   
-string | $i  |   
-string | $d  |   
-int | $count  |   
-  
-#### Returns
-
-string —
-
-$a
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::setPassword\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### openssl_ctr_process()
-
-__
-[code]
-    openssl_ctr_process(string  $plaintext, string  $encryptIV, array  $buffer) : string
-[/code]
-
-_OpenSSL CTR Processor_
-
-PHP's OpenSSL bindings do not operate in continuous mode so we'll wrap around it. Since the keystream for CTR is the same for both encrypting and decrypting this function is re-used by both SymmetricKey::encrypt() and SymmetricKey::decrypt(). Also, OpenSSL doesn't implement CTR for all of it's symmetric ciphers so this function will emulate CTR with ECB when necessary.
-
-#### Parameters
-
-string | $plaintext  |   
----|---|---  
-string | $encryptIV  |   
-array | $buffer  |   
-  
-#### Returns
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::encrypt\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::decrypt\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### openssl_ofb_process()
-
-__
-[code]
-    openssl_ofb_process(string  $plaintext, string  $encryptIV, array  $buffer) : string
-[/code]
-
-_OpenSSL OFB Processor_
-
-PHP's OpenSSL bindings do not operate in continuous mode so we'll wrap around it. Since the keystream for OFB is the same for both encrypting and decrypting this function is re-used by both SymmetricKey::encrypt() and SymmetricKey::decrypt().
-
-#### Parameters
-
-string | $plaintext  |   
----|---|---  
-string | $encryptIV  |   
-array | $buffer  |   
-  
-#### Returns
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::encrypt\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::decrypt\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### setupGCM()
-
-__
-[code]
-    setupGCM() : mixed
-[/code]
-
-_Sets up GCM parameters_
-
-See steps 1-2 of https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf#page=23 for more info
-
-#### Returns
-
-mixed —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-
-## Tags
-
-_None found_  
----  
-  
-### ghash()
-
-__
-[code]
-    ghash(string  $x) : string
-[/code]
-
-_Performs GHASH operation_
-
-See https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf#page=20 for more info
-
-#### Parameters
-
-string | $x  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::decrypt\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::encrypt\(\))
-
-## Tags
-
-_None found_  
----  
-  
-### len64()
-
-__
-[code]
-    len64(string  $str) : string
-[/code]
-
-_Returns the bit length of a string in a packed format_
-
-#### Parameters
-
-string | $str  |   
----|---|---  
-  
-#### Returns
-
-string —
-
-# __
-
-static
-
-Inherited from
-    [\phpseclib3\Crypt\Common\SymmetricKey](classes/phpseclib3-Crypt-Common-SymmetricKey.md)
-See also
-    [](\\phpseclib3\\Crypt\\Common\\self::decrypt\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::encrypt\(\))
-    [](\\phpseclib3\\Crypt\\Common\\self::setupGCM\(\))
-
-## Tags
-
-_None found_  
----  
-  
 ×
 
 ### StreamCipher.php
@@ -3906,7 +3317,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
@@ -4415,7 +3826,7 @@ Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and author
   *[PHP]: \phpseclib3\Math\BigInteger\Engines\PHP
   *[PHP32]: \phpseclib3\Math\BigInteger\Engines\PHP32
   *[PHP64]: \phpseclib3\Math\BigInteger\Engines\PHP64
-  *[Integer]: \phpseclib3\Math\BinaryField\Integer
+  *[Integer]: \phpseclib3\Math\PrimeField\Integer
   *[FiniteField]: \phpseclib3\Math\Common\FiniteField
   *[BigInteger]: \phpseclib3\Math\BigInteger
   *[BinaryField]: \phpseclib3\Math\BinaryField

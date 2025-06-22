@@ -805,7 +805,7 @@ _No public properties found_ _No public constants found_ [test_connection](class
 [mainwp_db_version](classes/MainWP-Dashboard-MainWP-Install.html#property_mainwp_db_version)  
 [option_db_key](classes/MainWP-Dashboard-MainWP-Install.html#property_option_db_key)  
 _No protected constants found_ _No private methods found_ [cost_tracker_db_version](classes/MainWP-Dashboard-Module-CostTracker-Cost-Tracker-DB.html#property_cost_tracker_db_version)  
-[instance](classes/MainWP-Dashboard-MainWP-Install.html#property_instance)  
+[instance](classes/MainWP-Dashboard-Module-CostTracker-Cost-Tracker-DB.html#property_instance)  
 _No private constants found_
 
 File
@@ -943,16 +943,13 @@ _None found_
     $instance : mixed
 [/code]
 
-_Private static variable to hold the single instance of the class._
+_Static variable to hold the single instance of the class._
 
 #### Type
 
 mixed — Default null 
 
 # __
-
-Inherited from
-    [\MainWP\Dashboard\MainWP_Install](classes/MainWP-Dashboard-MainWP-Install.md)
 
 ## Tags
 
@@ -2190,7 +2187,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

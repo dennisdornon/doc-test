@@ -805,8 +805,7 @@ _No public properties found_ _No public constants found_ [test_connection](class
 [wpdb](classes/MainWP-Dashboard-MainWP-DB-Base.html#property_wpdb)  
 [mainwp_db_version](classes/MainWP-Dashboard-MainWP-Install.html#property_mainwp_db_version)  
 [option_db_key](classes/MainWP-Dashboard-MainWP-Install.html#property_option_db_key)  
-_No protected constants found_ _No private methods found_ [instance](classes/MainWP-Dashboard-Module-CostTracker-Cost-Tracker-DB.html#property_instance)  
-[cost_tracker_db_version](classes/MainWP-Dashboard-Module-CostTracker-Cost-Tracker-DB.html#property_cost_tracker_db_version)  
+_No protected constants found_ _No private methods found_ [instance](classes/MainWP-Dashboard-Module-CostTracker-Cost-Tracker-DB-Query.html#property_instance)  
 _No private constants found_
 
 File
@@ -928,7 +927,7 @@ _None found_
     $instance : mixed
 [/code]
 
-_Static variable to hold the single instance of the class._
+_Private static variable to hold the single instance of the class._
 
 #### Type
 
@@ -936,34 +935,10 @@ mixed — Default null
 
 # __
 
-Inherited from
-    [\MainWP\Dashboard\Module\CostTracker\Cost_Tracker_DB](classes/MainWP-Dashboard-Module-CostTracker-Cost-Tracker-DB.md)
-
 ## Tags
 
 static  |   
 ---|---  
-  
-### $cost_tracker_db_version
-[code] 
-    $cost_tracker_db_version : string
-[/code]
-
-_Variable to hold the db version._
-
-#### Type
-
-string — Version. 
-
-# __
-
-Inherited from
-    [\MainWP\Dashboard\Module\CostTracker\Cost_Tracker_DB](classes/MainWP-Dashboard-Module-CostTracker-Cost-Tracker-DB.md)
-
-## Tags
-
-_None found_  
----  
   
 ## Methods
 
@@ -2222,7 +2197,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -808,7 +808,6 @@ const  |  ( bool ) Default: true
 ---|---  
 source  |   
 package  |  MainWP/Bootstrap  
-attributes  |   
   
 ### FILTER_SANITIZE_STRING_COMPATIBLE
 [code] 
@@ -826,7 +825,6 @@ File
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 ### FS_METHOD
 [code] 
@@ -846,7 +844,6 @@ const  |  ( bool ) Default: true
 ---|---  
 source  |   
 package  |  MainWP/Dashboard  
-attributes  |   
   
 ### MAINWP_DEMO_MODE
 [code] 
@@ -864,7 +861,6 @@ File
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 ### MAINWP_MODULE_API_BACKUPS_ENABLED
 [code] 
@@ -882,7 +878,6 @@ File
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 ### MAINWP_MODULE_COST_TRACKER_ENABLED
 [code] 
@@ -900,7 +895,6 @@ File
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 ### MAINWP_MODULE_LOG_ENABLED
 [code] 
@@ -918,7 +912,6 @@ File
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 ### MAINWP_MODULES_DIR
 [code] 
@@ -936,7 +929,6 @@ File
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 ### MAINWP_MODULES_URL
 [code] 
@@ -954,7 +946,6 @@ File
 
 package  |  MainWP/Dashboard  
 ---|---  
-attributes  |   
   
 ### MAINWP_PLUGIN_DIR
 [code] 
@@ -974,7 +965,6 @@ const  |  ( string ) Defined MainWP Dashboard Plugin Directory.
 ---|---  
 source  |   
 package  |  MainWP/Dashboard  
-attributes  |   
   
 ### MAINWP_PLUGIN_FILE
 [code] 
@@ -994,7 +984,6 @@ const  |  ( string ) Defined MainWP dashboard file path.
 ---|---  
 source  |   
 package  |  MainWP/Dashboard  
-attributes  |   
   
 ### MAINWP_PLUGIN_URL
 [code] 
@@ -1014,7 +1003,6 @@ const  |  ( string ) Defined MainWP Dashboard Plugin URL.
 ---|---  
 source  |   
 package  |  MainWP/Dashboard  
-attributes  |   
   
 ### MAINWP_REST_API_DOING
 [code] 
@@ -1032,7 +1020,6 @@ File
 
 package  |  MainWP\Dashboard  
 ---|---  
-attributes  |   
   
 ### MAINWP_VERSION
 [code] 
@@ -1052,7 +1039,6 @@ const  |  ( string )
 ---|---  
 source  |   
 package  |  MainWP/Dashboard  
-attributes  |   
   
 ### NET_SFTP_QUEUE_SIZE
 [code] 
@@ -1070,7 +1056,6 @@ File
 
 package  |  Application  
 ---|---  
-attributes  |   
   
 ### NET_SFTP_UPLOAD_QUEUE_SIZE
 [code] 
@@ -1088,7 +1073,6 @@ File
 
 package  |  Application  
 ---|---  
-attributes  |   
   
 ### PHP_INT_MIN
 [code] 
@@ -1106,7 +1090,6 @@ File
 
 package  |  Application  
 ---|---  
-attributes  |   
   
 ## Functions
 
@@ -1662,7 +1645,7 @@ package  |  MainWP/Dashboard
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:30. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

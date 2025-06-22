@@ -775,8 +775,7 @@ Methods Properties Constants [get_label](classes/MainWP-Dashboard-Module-Log-Con
 [name](classes/MainWP-Dashboard-Module-Log-Log-Connector.html#property_name)  
 [actions](classes/MainWP-Dashboard-Module-Log-Log-Connector.html#property_actions)  
 _No public constants found_ [sanitize_data](classes/MainWP-Dashboard-Module-Log-Log-Connector.html#method_sanitize_data)  
-_No protected properties found_ _No protected constants found_ _No private methods found_ [is_registered](classes/MainWP-Dashboard-Module-Log-Log-Connector.html#property_is_registered)  
-_No private constants found_
+_No protected properties found_ _No protected constants found_ _No private methods found_ _No private properties found_ _No private constants found_
 
 File
      [ modules/logs/connectors/class-connector-posts.php ](files/modules-logs-connectors-class-connector-posts.md)
@@ -835,27 +834,6 @@ _Actions registered for this connector_
 #### Type
 
 array<string|int, mixed> —
-
-# __
-
-Inherited from
-    [\MainWP\Dashboard\Module\Log\Log_Connector](classes/MainWP-Dashboard-Module-Log-Log-Connector.md)
-
-## Tags
-
-_None found_  
----  
-  
-### $is_registered
-[code] 
-    $is_registered : bool
-[/code]
-
-_Holds connector registration status flag._
-
-#### Type
-
-bool —
 
 # __
 
@@ -1247,7 +1225,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 15th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 22nd, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
