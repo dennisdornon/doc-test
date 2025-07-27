@@ -877,10 +877,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-System.html#property_version)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_System::$version](classes/MainWP-Dashboard-MainWP-System.html#property_version)
+     [\MainWP\Dashboard\MainWP_Utility::value_to_string()](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
+     [\MainWP\Dashboard\MainWP_Utility::get_http_codes()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
 
 ## Tags
 
@@ -983,7 +983,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_is_domain_valid)
+     [\MainWP\Dashboard\MainWP_Utility::is_domain_valid()](classes/MainWP-Dashboard-MainWP-Utility.html#method_is_domain_valid)
 
 ## Tags
 
@@ -1174,8 +1174,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#property_version)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
+     [\MainWP\Dashboard\MainWP_System::$version](classes/MainWP-Dashboard-MainWP-System.html#property_version)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
 
 ## Tags
 
@@ -1351,9 +1351,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_handle_check_website)
-    [](classes/MainWP-Dashboard-MainWP-Premium-Update.html#method_maybe_request_premium_updates)
-    [](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_information_array)
+     [\MainWP\Dashboard\MainWP_Monitoring_Handler::handle_check_website()](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_handle_check_website)
+     [\MainWP\Dashboard\MainWP_Premium_Update::maybe_request_premium_updates()](classes/MainWP-Dashboard-MainWP-Premium-Update.html#method_maybe_request_premium_updates)
+     [\MainWP\Dashboard\MainWP_Sync::sync_information_array()](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_information_array)
 
 ## Tags
 
@@ -1500,14 +1500,14 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_insert_or_update_request_log)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug_for_website)
-    [](classes/MainWP-Dashboard-MainWP-System.html#property_version)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_child_response)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
+     [\MainWP\Dashboard\MainWP_DB_Common::insert_or_update_request_log()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_insert_or_update_request_log)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Logger::debug_for_website()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug_for_website)
+     [\MainWP\Dashboard\MainWP_System::$version](classes/MainWP-Dashboard-MainWP-System.html#property_version)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_child_response()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_child_response)
+     [\MainWP\Dashboard\MainWP_Utility::value_to_string()](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
+     [\MainWP\Dashboard\MainWP_Utility::end_session()](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
 
 ## Tags
 
@@ -1552,9 +1552,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-System.html#property_version)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_System::$version](classes/MainWP-Dashboard-MainWP-System.html#property_version)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
 
 ## Tags
 
@@ -1588,7 +1588,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
 
 ## Tags
 
@@ -1624,7 +1624,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#property_version)
+     [\MainWP\Dashboard\MainWP_System::$version](classes/MainWP-Dashboard-MainWP-System.html#property_version)
 
 ## Tags
 
@@ -1660,9 +1660,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_icons_dir)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_prefix)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_icons_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_icons_dir)
+     [\MainWP\Dashboard\MainWP_Utility::remove_http_prefix()](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_prefix)
 
 ## Tags
 
@@ -1766,9 +1766,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_close_open_requests)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_wp_ip)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
+     [\MainWP\Dashboard\MainWP_DB_Common::close_open_requests()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_close_open_requests)
+     [\MainWP\Dashboard\MainWP_DB::get_wp_ip()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_wp_ip)
+     [\MainWP\Dashboard\MainWP_Utility::end_session()](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
 
 ## Tags
 
@@ -1804,7 +1804,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_last_request_timestamp)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_last_request_timestamp()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_last_request_timestamp)
 
 ## Tags
 
@@ -1840,7 +1840,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connect](classes/MainWP-Dashboard-MainWP-Connect.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_nrof_open_requests)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_nrof_open_requests()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_nrof_open_requests)
 
 ## Tags
 
@@ -1870,7 +1870,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -900,9 +900,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_with_values)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_task_with_values()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_with_values)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_group_by_id()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
 
 ## Tags
 
@@ -936,7 +936,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
+     [\MainWP\Dashboard\MainWP_System::is_single_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
 
 ## Tags
 
@@ -963,9 +963,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_add_backup_task)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task)
+     [\MainWP\Dashboard\MainWP_DB_Backup::add_backup_task()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_add_backup_task)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_by_id()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_task()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task)
 
 ## Tags
 
@@ -1026,21 +1026,21 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_site)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_run)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_with_values)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_completed_sites)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_errors)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_completed)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_notification_email)
-    [](classes/MainWP-Dashboard-MainWP-Format.html#method_format_email)
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
-    [](\\MainWP\\Dashboard\\MainWP_DB::get_website_by_group_id\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::backup_site()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_site)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_run()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_run)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_by_id()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_task_with_values()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_with_values)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_completed_sites()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_completed_sites)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_errors()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_errors)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_completed()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_completed)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_notification_email()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_notification_email)
+     [\MainWP\Dashboard\MainWP_Format::format_email()](classes/MainWP-Dashboard-MainWP-Format.html#method_format_email)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_group_id()](\\MainWP\\Dashboard\\MainWP_DB::get_website_by_group_id\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_nice_url()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
+     [\MainWP\Dashboard\MainWP_Utility::sanitize()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
 
 ## Tags
 
@@ -1083,9 +1083,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_by_id()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::backup()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup)
+     [\MainWP\Dashboard\MainWP_Utility::sanitize()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
 
 ## Tags
 
@@ -1119,10 +1119,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_run_manually)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::get_website_by_group_id\(\))
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_by_id()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_run_manually()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_run_manually)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_group_id()](\\MainWP\\Dashboard\\MainWP_DB::get_website_by_group_id\(\))
 
 ## Tags
 
@@ -1149,8 +1149,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_remove_backup_task)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_by_id()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Backup::remove_backup_task()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_remove_backup_task)
 
 ## Tags
 
@@ -1177,8 +1177,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_with_values)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_by_id()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_task_with_values()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_with_values)
 
 ## Tags
 
@@ -1205,8 +1205,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_with_values)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_by_id()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_task_with_values()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_with_values)
 
 ## Tags
 
@@ -1236,7 +1236,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

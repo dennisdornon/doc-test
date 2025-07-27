@@ -987,7 +987,7 @@ Plugin information.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager_Plugin_Update](classes/MainWP-Dashboard-MainWP-Api-Manager-Plugin-Update.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_maybe_unserialyze)
+     [\MainWP\Dashboard\MainWP_System_Utility::maybe_unserialyze()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_maybe_unserialyze)
 
 ## Tags
 
@@ -1019,7 +1019,7 @@ Build URL.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager_Plugin_Update](classes/MainWP-Dashboard-MainWP-Api-Manager-Plugin-Update.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
+     [\MainWP\Dashboard\MainWP_Api_Manager::get_upgrade_url()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
 
 ## Tags
 
@@ -1049,7 +1049,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

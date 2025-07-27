@@ -847,10 +847,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Bulk_Add](classes/MainWP-Dashboard-MainWP-Bulk-Add.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning_for_website)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_child_response)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Logger::warning_for_website()](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning_for_website)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_child_response()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_child_response)
 
 ## Tags
 
@@ -880,7 +880,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -962,10 +962,10 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Bulk_Post](classes/MainWP-Dashboard-MainWP-Bulk-Post.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Meta-Boxes.html#method_select_sites_handle)
-    [](classes/MainWP-Dashboard-MainWP-Meta-Boxes.html#method_add_categories_handle)
-    [](classes/MainWP-Dashboard-MainWP-Meta-Boxes.html#method_add_slug_handle)
-    [](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.html#method_add_sticky_handle)
+     [\MainWP\Dashboard\MainWP_Meta_Boxes::select_sites_handle()](classes/MainWP-Dashboard-MainWP-Meta-Boxes.html#method_select_sites_handle)
+     [\MainWP\Dashboard\MainWP_Meta_Boxes::add_categories_handle()](classes/MainWP-Dashboard-MainWP-Meta-Boxes.html#method_add_categories_handle)
+     [\MainWP\Dashboard\MainWP_Meta_Boxes::add_slug_handle()](classes/MainWP-Dashboard-MainWP-Meta-Boxes.html#method_add_slug_handle)
+     [\MainWP\Dashboard\MainWP_Post_Page_Handler::add_sticky_handle()](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.html#method_add_sticky_handle)
 
 ## Tags
 
@@ -997,8 +997,8 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Bulk_Post](classes/MainWP-Dashboard-MainWP-Bulk-Post.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#property_metaboxes)
-    [](\\MainWP\\Dashboard\\MainWP_Page::add_status_handle\(\))
+     [\MainWP\Dashboard\MainWP_System::$metaboxes](classes/MainWP-Dashboard-MainWP-System.html#property_metaboxes)
+     [\MainWP\Dashboard\MainWP_Page::add_status_handle()](\\MainWP\\Dashboard\\MainWP_Page::add_status_handle\(\))
 
 ## Tags
 
@@ -1085,7 +1085,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

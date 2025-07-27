@@ -843,8 +843,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Site_Open](classes/MainWP-Dashboard-MainWP-Site-Open.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -871,8 +871,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Site_Open](classes/MainWP-Dashboard-MainWP-Site-Open.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -906,7 +906,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Site_Open](classes/MainWP-Dashboard-MainWP-Site-Open.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
+     [\MainWP\Dashboard\MainWP_Connect::get_get_data_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
 
 ## Tags
 
@@ -964,7 +964,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Site_Open](classes/MainWP-Dashboard-MainWP-Site-Open.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
+     [\MainWP\Dashboard\MainWP_Connect::get_get_data_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
 
 ## Tags
 
@@ -1034,7 +1034,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Site_Open](classes/MainWP-Dashboard-MainWP-Site-Open.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
+     [\MainWP\Dashboard\MainWP_Connect::get_get_data_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
 
 ## Tags
 
@@ -1064,7 +1064,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -861,8 +861,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1041,7 +1041,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

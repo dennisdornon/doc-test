@@ -900,7 +900,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_indexed_extensions_infor)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_indexed_extensions_infor()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_indexed_extensions_infor)
 
 ## Tags
 
@@ -927,7 +927,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -954,7 +954,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -981,7 +981,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1008,7 +1008,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1035,9 +1035,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_mainwp_pages)
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_check_auto_update_plugin)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_openssl_config_warning)
+     [\MainWP\Dashboard\MainWP_System::is_mainwp_pages()](classes/MainWP-Dashboard-MainWP-System.html#method_is_mainwp_pages)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::check_auto_update_plugin()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_check_auto_update_plugin)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::is_openssl_config_warning()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_openssl_config_warning)
 
 ## Tags
 
@@ -1118,7 +1118,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1145,7 +1145,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1197,7 +1197,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1224,7 +1224,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1251,7 +1251,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1278,7 +1278,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1335,7 +1335,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
 
 ## Tags
 
@@ -1489,7 +1489,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_mainwp_pages)
+     [\MainWP\Dashboard\MainWP_System::is_mainwp_pages()](classes/MainWP-Dashboard-MainWP-System.html#method_is_mainwp_pages)
 
 ## Tags
 
@@ -1518,7 +1518,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_count)
+     [\MainWP\Dashboard\MainWP_DB::get_websites_count()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_count)
 
 ## Tags
 
@@ -1602,7 +1602,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_mainwp_pages)
+     [\MainWP\Dashboard\MainWP_System::is_mainwp_pages()](classes/MainWP-Dashboard-MainWP-System.html#method_is_mainwp_pages)
 
 ## Tags
 
@@ -1637,9 +1637,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_View](classes/MainWP-Dashboard-MainWP-System-View.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_Utility::get_nice_url()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
 
 ## Tags
 
@@ -1750,7 +1750,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

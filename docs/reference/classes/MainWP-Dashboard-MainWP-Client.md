@@ -807,7 +807,7 @@ Class hierarchy
 \MainWP\Dashboard\MainWP_Client
 
 Uses
-     [ page-mainwp-bulk-add::MainWP_Bulk_Add() ]()
+     []() page-mainwp-bulk-add::MainWP_Bulk_Add() 
 
 ## Tags
 
@@ -949,7 +949,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Client](classes/MainWP-Dashboard-MainWP-Client.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
 
 ## Tags
 
@@ -1037,7 +1037,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Client](classes/MainWP-Dashboard-MainWP-Client.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
 
 ## Tags
 
@@ -1069,9 +1069,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Client](classes/MainWP-Dashboard-MainWP-Client.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Menu::add_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::init_subpages_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
 
 ## Tags
 
@@ -1155,9 +1155,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Client](classes/MainWP-Dashboard-MainWP-Client.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_UI::render_top_header()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
+     [\MainWP\Dashboard\MainWP_UI::render_page_navigation()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
 
 ## Tags
 
@@ -1425,8 +1425,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Client](classes/MainWP-Dashboard-MainWP-Client.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [MainWP_DB::instance()->get_websites_by_url()]()
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     []() MainWP_DB::instance()->get_websites_by_url() 
 
 ## Tags
 
@@ -1721,7 +1721,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -845,7 +845,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_UI_Select_Sites](classes/MainWP-Dashboard-MainWP-UI-Select-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_maybe_unserialyze)
+     [\MainWP\Dashboard\MainWP_System_Utility::maybe_unserialyze()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_maybe_unserialyze)
 
 ## Tags
 
@@ -970,7 +970,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

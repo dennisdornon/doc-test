@@ -892,11 +892,11 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_WP_CLI_Command](classes/MainWP-Dashboard-MainWP-WP-CLI-Command.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
 
 ## Tags
 
@@ -1045,12 +1045,12 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_WP_CLI_Command](classes/MainWP-Dashboard-MainWP-WP-CLI-Command.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_console_error_message)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_site)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_console_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_console_error_message)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Sync::sync_site()](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_site)
 
 ## Tags
 
@@ -1093,12 +1093,12 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_WP_CLI_Command](classes/MainWP-Dashboard-MainWP-WP-CLI-Command.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_console_error_message)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_m_reconnect_site)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_console_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_console_error_message)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::m_reconnect_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_m_reconnect_site)
 
 ## Tags
 
@@ -1153,13 +1153,13 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_WP_CLI_Command](classes/MainWP-Dashboard-MainWP-WP-CLI-Command.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_console_error_message)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_upgrade_plugin_theme_translation)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_console_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_console_error_message)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_Updates_Handler::upgrade_plugin_theme_translation()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_upgrade_plugin_theme_translation)
+     [\MainWP\Dashboard\MainWP_Utility::value_to_string()](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
 
 ## Tags
 
@@ -1213,13 +1213,13 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_WP_CLI_Command](classes/MainWP-Dashboard-MainWP-WP-CLI-Command.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_console_error_message)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_upgrade_plugin_theme_translation)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_console_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_console_error_message)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_Updates_Handler::upgrade_plugin_theme_translation()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_upgrade_plugin_theme_translation)
+     [\MainWP\Dashboard\MainWP_Utility::value_to_string()](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
 
 ## Tags
 
@@ -1249,7 +1249,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

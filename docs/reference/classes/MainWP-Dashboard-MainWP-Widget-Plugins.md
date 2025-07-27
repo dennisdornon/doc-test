@@ -898,11 +898,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Widget_Plugins](classes/MainWP-Dashboard-MainWP-Widget-Plugins.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_website_by_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
 
 ## Tags
 
@@ -937,8 +937,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Widget_Plugins](classes/MainWP-Dashboard-MainWP-Widget-Plugins.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
+     [\MainWP\Dashboard\MainWP_Utility::get_sub_array_having()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
+     [\MainWP\Dashboard\MainWP_Utility::sortmulti()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
 
 ## Tags
 
@@ -1060,11 +1060,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Widget_Plugins](classes/MainWP-Dashboard-MainWP-Widget-Plugins.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -1094,7 +1094,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

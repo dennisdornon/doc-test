@@ -1186,7 +1186,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Setup_Wizard](classes/MainWP-Dashboard-MainWP-Setup-Wizard.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Server-Information.html#method_render_quick_setup_system_check)
+     [\MainWP\Dashboard\MainWP_Server_Information::render_quick_setup_system_check()](classes/MainWP-Dashboard-MainWP-Server-Information.html#method_render_quick_setup_system_check)
 
 ## Tags
 
@@ -1213,7 +1213,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Setup_Wizard](classes/MainWP-Dashboard-MainWP-Setup-Wizard.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1265,7 +1265,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Setup_Wizard](classes/MainWP-Dashboard-MainWP-Setup-Wizard.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1317,11 +1317,11 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Setup_Wizard](classes/MainWP-Dashboard-MainWP-Setup-Wizard.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_import_sites)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_mainwp_managesites_form_import_sites)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_mainwp_managesites_information_import_sites)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_render_import_sites_modal)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_import_sites()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_import_sites)
+     [\MainWP\Dashboard\MainWP_Manage_Sites::mainwp_managesites_form_import_sites()](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_mainwp_managesites_form_import_sites)
+     [\MainWP\Dashboard\MainWP_Manage_Sites::mainwp_managesites_information_import_sites()](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_mainwp_managesites_information_import_sites)
+     [\MainWP\Dashboard\MainWP_Manage_Sites::render_import_sites_modal()](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_render_import_sites_modal)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1404,7 +1404,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Setup_Wizard](classes/MainWP-Dashboard-MainWP-Setup-Wizard.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Client-Handler.html#method_get_mini_default_contact_fields)
+     [\MainWP\Dashboard\MainWP_Client_Handler::get_mini_default_contact_fields()](classes/MainWP-Dashboard-MainWP-Client-Handler.html#method_get_mini_default_contact_fields)
 
 ## Tags
 
@@ -1486,7 +1486,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Setup_Wizard](classes/MainWP-Dashboard-MainWP-Setup-Wizard.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1566,7 +1566,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

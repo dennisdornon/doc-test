@@ -799,7 +799,7 @@ Class hierarchy
 
 \MainWP\Dashboard\MainWP_Post_Extension_Handler
 
-     [ ](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
+     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 
 ## Tags
 
@@ -924,7 +924,7 @@ success|error.
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_apply_plugin_settings)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler::apply_plugin_settings()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_apply_plugin_settings)
 
 ## Tags
 
@@ -949,7 +949,7 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_add_extension_menu)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::add_extension_menu()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_add_extension_menu)
 
 ## Tags
 
@@ -974,8 +974,8 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_license_key_activation)
-    [](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
+     [\MainWP\Dashboard\MainWP_Api_Manager::license_key_activation()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_license_key_activation)
+     [\MainWP\Dashboard\MainWP_Deprecated_Hooks::maybe_handle_deprecated_hook()](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
 
 ## Tags
 
@@ -1053,8 +1053,8 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_license_key_deactivation)
-    [](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
+     [\MainWP\Dashboard\MainWP_Api_Manager::license_key_deactivation()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_license_key_deactivation)
+     [\MainWP\Dashboard\MainWP_Deprecated_Hooks::maybe_handle_deprecated_hook()](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
 
 ## Tags
 
@@ -1079,7 +1079,7 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_grab_license_key)
+     [\MainWP\Dashboard\MainWP_Api_Manager::grab_license_key()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_grab_license_key)
 
 ## Tags
 
@@ -1104,9 +1104,9 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_verify_mainwp_api)
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Password-Management.html#method_encrypt_string)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Api_Manager::verify_mainwp_api()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_verify_mainwp_api)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Password_Management::encrypt_string()](classes/MainWP-Dashboard-MainWP-Api-Manager-Password-Management.html#method_encrypt_string)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1131,7 +1131,7 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1156,8 +1156,8 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_verify_mainwp_api)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Api_Manager::verify_mainwp_api()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_verify_mainwp_api)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1182,7 +1182,7 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_install_plugin)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::install_plugin()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_install_plugin)
 
 ## Tags
 
@@ -1230,7 +1230,7 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Extension_Handler](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1263,8 +1263,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1443,7 +1443,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

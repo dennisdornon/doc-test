@@ -794,7 +794,7 @@ Class hierarchy
 \MainWP\Dashboard\MainWP_Post_Page_Handler
 
 Uses
-     [ ](classes/MainWP-Dashboard-MainWP-Bulk-Add.md)
+     [\MainWP\Dashboard\MainWP_Bulk_Add](classes/MainWP-Dashboard-MainWP-Bulk-Add.md)
 
 ## Tags
 
@@ -891,8 +891,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Page_Handler](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_Post_Handler::secure_request\(\))
-    [](classes/MainWP-Dashboard-MainWP-Post.html#method_list_meta_row)
+     [\MainWP\Dashboard\MainWP_Post_Handler::secure_request()](\\MainWP\\Dashboard\\MainWP_Post_Handler::secure_request\(\))
+     [\MainWP\Dashboard\MainWP_Post::list_meta_row()](classes/MainWP-Dashboard-MainWP-Post.html#method_list_meta_row)
 
 ## Tags
 
@@ -921,9 +921,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Page_Handler](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_by_ids)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_by_group_ids)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_DB::get_websites_by_ids()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_by_ids)
+     [\MainWP\Dashboard\MainWP_DB::get_websites_by_group_ids()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_by_group_ids)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -1048,15 +1048,15 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Page_Handler](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_by_group_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_maybe_unserialyze)
-    [](classes/MainWP-Dashboard-MainWP-Bulk-Add.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_by_group_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_by_group_id)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::maybe_unserialyze()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_maybe_unserialyze)
+     [\MainWP\Dashboard\MainWP_Bulk_Add::get_class_name()](classes/MainWP-Dashboard-MainWP-Bulk-Add.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::map_site()](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
 
 ## Tags
 
@@ -1204,11 +1204,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Page_Handler](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
-    [](\\MainWP\\Dashboard\\MainWP_DB::get_websites_by_id\(\))
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
+     [\MainWP\Dashboard\MainWP_DB::get_websites_by_id()](\\MainWP\\Dashboard\\MainWP_DB::get_websites_by_id\(\))
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -1367,7 +1367,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Page_Handler](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
 
 ## Tags
 
@@ -1465,7 +1465,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

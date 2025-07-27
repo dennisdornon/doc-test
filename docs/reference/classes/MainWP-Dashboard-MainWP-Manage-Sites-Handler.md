@@ -849,8 +849,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Utility::esc_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
 
 ## Tags
 
@@ -918,9 +918,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_Manage_DB::get_website_by_id\(\))
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_m_reconnect_site)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Manage_DB::get_website_by_id()](\\MainWP\\Dashboard\\MainWP_Manage_DB::get_website_by_id\(\))
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::m_reconnect_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_m_reconnect_site)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -949,7 +949,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_add_site)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::add_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_add_site)
 
 ## Tags
 
@@ -1040,8 +1040,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Utility::esc_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
 
 ## Tags
 
@@ -1152,9 +1152,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_icons_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_icons_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_icons_dir)
 
 ## Tags
 
@@ -1183,7 +1183,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -1213,7 +1213,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

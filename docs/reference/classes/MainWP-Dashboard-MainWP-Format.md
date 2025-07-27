@@ -844,7 +844,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Format](classes/MainWP-Dashboard-MainWP-Format.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_array_merge)
+     [\MainWP\Dashboard\MainWP_Utility::array_merge()](classes/MainWP-Dashboard-MainWP-Utility.html#method_array_merge)
 
 ## Tags
 
@@ -906,7 +906,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Format](classes/MainWP-Dashboard-MainWP-Format.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_array_merge)
+     [\MainWP\Dashboard\MainWP_Utility::array_merge()](classes/MainWP-Dashboard-MainWP-Utility.html#method_array_merge)
 
 ## Tags
 
@@ -937,7 +937,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Format](classes/MainWP-Dashboard-MainWP-Format.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_array_merge)
+     [\MainWP\Dashboard\MainWP_Utility::array_merge()](classes/MainWP-Dashboard-MainWP-Utility.html#method_array_merge)
 
 ## Tags
 
@@ -1039,7 +1039,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

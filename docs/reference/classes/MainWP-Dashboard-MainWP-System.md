@@ -998,34 +998,34 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Bulk-Post.md)
-    [](classes/MainWP-Dashboard-MainWP-Hooks.md)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Menu.md)
-    [](classes/MainWP-Dashboard-MainWP-Meta-Boxes.md)
-    [](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_init_cron_jobs)
-    [](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
-    [](classes/MainWP-Dashboard-MainWP-System-Handler.md)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-System-View.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-WP-CLI-Command.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Extensions.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Overview.html#method_get)
-    [](classes/MainWP-Dashboard-MainWP-Page.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Plugins.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Post.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Settings.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Themes.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Bulk_Post](classes/MainWP-Dashboard-MainWP-Bulk-Post.md)
+     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
+     [\MainWP\Dashboard\MainWP_Menu::get_class_name()](classes/MainWP-Dashboard-MainWP-Menu.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Menu](classes/MainWP-Dashboard-MainWP-Menu.md)
+     [\MainWP\Dashboard\MainWP_Meta_Boxes](classes/MainWP-Dashboard-MainWP-Meta-Boxes.md)
+     [\MainWP\Dashboard\MainWP_System_Cron_Jobs::init_cron_jobs()](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_init_cron_jobs)
+     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
+     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_class_name()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_System_View::get_class_name()](classes/MainWP-Dashboard-MainWP-System-View.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_UI::get_class_name()](classes/MainWP-Dashboard-MainWP-UI.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_WP_CLI_Command::init()](classes/MainWP-Dashboard-MainWP-WP-CLI-Command.html#method_init)
+     [\MainWP\Dashboard\MainWP_Updates_Overview::init()](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_init)
+     [\MainWP\Dashboard\MainWP_Extensions::init()](classes/MainWP-Dashboard-MainWP-Extensions.html#method_init)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_class_name()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Install_Bulk::init()](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_init)
+     [\MainWP\Dashboard\MainWP_Manage_Backups::init()](classes/MainWP-Dashboard-MainWP-Manage-Backups.html#method_init)
+     [\MainWP\Dashboard\MainWP_Manage_Sites::init()](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_init)
+     [\MainWP\Dashboard\MainWP_Overview::get()](classes/MainWP-Dashboard-MainWP-Overview.html#method_get)
+     [\MainWP\Dashboard\MainWP_Page::init()](classes/MainWP-Dashboard-MainWP-Page.html#method_init)
+     [\MainWP\Dashboard\MainWP_Plugins::init()](classes/MainWP-Dashboard-MainWP-Plugins.html#method_init)
+     [\MainWP\Dashboard\MainWP_Post::init()](classes/MainWP-Dashboard-MainWP-Post.html#method_init)
+     [\MainWP\Dashboard\MainWP_Settings::init()](classes/MainWP-Dashboard-MainWP-Settings.html#method_init)
+     [\MainWP\Dashboard\MainWP_Themes::init()](classes/MainWP-Dashboard-MainWP-Themes.html#method_init)
+     [\MainWP\Dashboard\MainWP_Updates::init()](classes/MainWP-Dashboard-MainWP-Updates.html#method_init)
+     [\MainWP\Dashboard\MainWP_User::init()](classes/MainWP-Dashboard-MainWP-User.html#method_init)
+     [\MainWP\Dashboard\MainWP_Updates::init()](classes/MainWP-Dashboard-MainWP-Updates.html#method_init)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1136,8 +1136,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1191,7 +1191,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_ping_childs)
+     [\MainWP\Dashboard\MainWP_System_Cron_Jobs::cron_ping_childs()](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_ping_childs)
 
 ## Tags
 
@@ -1218,7 +1218,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_backups_continue)
+     [\MainWP\Dashboard\MainWP_System_Cron_Jobs::cron_backups_continue()](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_backups_continue)
 
 ## Tags
 
@@ -1245,7 +1245,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_backups)
+     [\MainWP\Dashboard\MainWP_System_Cron_Jobs::cron_backups()](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_backups)
 
 ## Tags
 
@@ -1272,7 +1272,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_reconnect)
+     [\MainWP\Dashboard\MainWP_System_Cron_Jobs::cron_reconnect()](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_reconnect)
 
 ## Tags
 
@@ -1299,7 +1299,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_updates_check)
+     [\MainWP\Dashboard\MainWP_System_Cron_Jobs::cron_updates_check()](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_updates_check)
 
 ## Tags
 
@@ -1401,7 +1401,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_check_websites_health)
+     [\MainWP\Dashboard\MainWP_System_Cron_Jobs::cron_check_websites_health()](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.html#method_cron_check_websites_health)
 
 ## Tags
 
@@ -1511,11 +1511,11 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_upload_file)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](\\MainWP\\Dashboard\\MainWP_Setup_Wizard\(\))
+     [\MainWP\Dashboard\MainWP_System_Handler::upload_file()](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_upload_file)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Setup_Wizard()](\\MainWP\\Dashboard\\MainWP_Setup_Wizard\(\))
 
 ## Tags
 
@@ -1615,15 +1615,15 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Post-Handler.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.html#method_init)
-    [](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_activate_extension)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-System-View.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-System-View.html#method_get_mainwp_translations)
+     [\MainWP\Dashboard\MainWP_Post_Backup_Handler::init()](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.html#method_init)
+     [\MainWP\Dashboard\MainWP_Post_Extension_Handler::init()](classes/MainWP-Dashboard-MainWP-Post-Extension-Handler.html#method_init)
+     [\MainWP\Dashboard\MainWP_Post_Handler::init()](classes/MainWP-Dashboard-MainWP-Post-Handler.html#method_init)
+     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler::init()](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.html#method_init)
+     [\MainWP\Dashboard\MainWP_Post_Site_Handler::init()](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.html#method_init)
+     [\MainWP\Dashboard\MainWP_System_Handler::activate_extension()](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_activate_extension)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_System_View::get_class_name()](classes/MainWP-Dashboard-MainWP-System-View.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_System_View::get_mainwp_translations()](classes/MainWP-Dashboard-MainWP-System-View.html#method_get_mainwp_translations)
 
 ## Tags
 
@@ -1755,7 +1755,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
+     [\MainWP\Dashboard\MainWP_Cache::init_session()](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
 
 ## Tags
 
@@ -1934,14 +1934,14 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](\\MainWP\\Dashboard\\MainWP_Menu::init_subpages_menu\(\))
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
-    [](classes/MainWP-Dashboard-MainWP-System-View.html#method_render_footer_content)
-    [](classes/MainWP-Dashboard-MainWP-System-View.html#method_admin_footer)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Menu::init_subpages_menu()](\\MainWP\\Dashboard\\MainWP_Menu::init_subpages_menu\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_System_View::render_footer_content()](classes/MainWP-Dashboard-MainWP-System-View.html#method_render_footer_content)
+     [\MainWP\Dashboard\MainWP_System_View::admin_footer()](classes/MainWP-Dashboard-MainWP-System-View.html#method_admin_footer)
 
 ## Tags
 
@@ -1968,7 +1968,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
+     [\MainWP\Dashboard\MainWP_Deprecated_Hooks::maybe_handle_deprecated_hook()](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
 
 ## Tags
 
@@ -1995,8 +1995,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Install.html#method_install)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Install::install()](classes/MainWP-Dashboard-MainWP-Install.html#method_install)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -2048,7 +2048,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System](classes/MainWP-Dashboard-MainWP-System.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Install.html#method_install)
+     [\MainWP\Dashboard\MainWP_Install::install()](classes/MainWP-Dashboard-MainWP-Install.html#method_install)
 
 ## Tags
 
@@ -2182,7 +2182,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

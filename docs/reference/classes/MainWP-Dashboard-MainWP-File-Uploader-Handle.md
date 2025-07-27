@@ -821,8 +821,8 @@ TRUE on success|false on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_File_Uploader_Handle](classes/MainWP-Dashboard-MainWP-File-Uploader-Handle.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_base_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_base_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_base_dir)
 
 ## Tags
 
@@ -898,7 +898,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

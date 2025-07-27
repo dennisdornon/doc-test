@@ -924,7 +924,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification_Settings](classes/MainWP-Dashboard-MainWP-Notification-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -991,9 +991,9 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification_Settings](classes/MainWP-Dashboard-MainWP-Notification-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_edit_template)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_name_by_notification_type)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_is_overrided_template)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_edit_template()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_edit_template)
+     [\MainWP\Dashboard\MainWP_Notification_Template::get_template_name_by_notification_type()](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_name_by_notification_type)
+     [\MainWP\Dashboard\MainWP_Notification_Template::is_overrided_template()](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_is_overrided_template)
 
 ## Tags
 
@@ -1213,8 +1213,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification_Settings](classes/MainWP-Dashboard-MainWP-Notification-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_tokens_site_values)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_replace_tokens_values)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_tokens_site_values()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_tokens_site_values)
+     [\MainWP\Dashboard\MainWP_System_Utility::replace_tokens_values()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_replace_tokens_values)
 
 ## Tags
 
@@ -1250,7 +1250,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification_Settings](classes/MainWP-Dashboard-MainWP-Notification-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_notification_email)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_notification_email()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_notification_email)
 
 ## Tags
 
@@ -1286,7 +1286,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification_Settings](classes/MainWP-Dashboard-MainWP-Notification-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_replace_tokens_values)
+     [\MainWP\Dashboard\MainWP_System_Utility::replace_tokens_values()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_replace_tokens_values)
 
 ## Tags
 
@@ -1321,8 +1321,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification_Settings](classes/MainWP-Dashboard-MainWP-Notification-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_tokens_site_values)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_replace_tokens_values)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_tokens_site_values()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_tokens_site_values)
+     [\MainWP\Dashboard\MainWP_System_Utility::replace_tokens_values()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_replace_tokens_values)
 
 ## Tags
 
@@ -1352,7 +1352,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -932,9 +932,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Groups](classes/MainWP-Dashboard-MainWP-Manage-Groups.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Menu::add_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::init_subpages_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
 
 ## Tags
 
@@ -968,9 +968,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Groups](classes/MainWP-Dashboard-MainWP-Manage-Groups.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_UI::render_top_header()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
+     [\MainWP\Dashboard\MainWP_UI::render_page_navigation()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
 
 ## Tags
 
@@ -1026,7 +1026,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Groups](classes/MainWP-Dashboard-MainWP-Manage-Groups.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_groups_and_count)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_groups_and_count()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_groups_and_count)
 
 ## Tags
 
@@ -1055,11 +1055,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Groups](classes/MainWP-Dashboard-MainWP-Manage-Groups.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Utility::get_nice_url()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
 
 ## Tags
 
@@ -1171,8 +1171,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Groups](classes/MainWP-Dashboard-MainWP-Manage-Groups.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_group)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_group_by_id()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Common::update_group()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_group)
 
 ## Tags
 
@@ -1201,8 +1201,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Groups](classes/MainWP-Dashboard-MainWP-Manage-Groups.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_remove_group)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_group_by_id()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Common::remove_group()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_remove_group)
 
 ## Tags
 
@@ -1239,7 +1239,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Groups](classes/MainWP-Dashboard-MainWP-Manage-Groups.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_name)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_group_by_name()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_name)
 
 ## Tags
 
@@ -1268,8 +1268,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Groups](classes/MainWP-Dashboard-MainWP-Manage-Groups.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_add_group)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Common::add_group()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_add_group)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_group_by_id()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
 
 ## Tags
 
@@ -1332,11 +1332,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Groups](classes/MainWP-Dashboard-MainWP-Manage-Groups.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_clear_group)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_group_site)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_group_by_id()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_group_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Common::clear_group()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_clear_group)
+     [\MainWP\Dashboard\MainWP_DB_Common::update_group_site()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_group_site)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -1425,7 +1425,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

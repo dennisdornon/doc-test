@@ -776,7 +776,7 @@ Class hierarchy
 \MainWP_Extensions_View
 
 Uses
-     [ ](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_available_extensions)
+     [\MainWP\Dashboard\MainWP_Extensions_View::get_available_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_available_extensions)
 
 ## Tags
 
@@ -840,7 +840,7 @@ devtodo  |  Move to MainWP Server via an XML file.
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

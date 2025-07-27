@@ -783,7 +783,7 @@ Class hierarchy
 \MainWP\Dashboard\MainWP_Themes_Handler
 
 Uses
-     [ ](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
+     [\MainWP\Dashboard\MainWP_Install_Bulk](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
 
 ## Tags
 
@@ -855,9 +855,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Themes_Handler](classes/MainWP-Dashboard-MainWP-Themes-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_child_response)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_child_response()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_child_response)
 
 ## Tags
 
@@ -947,10 +947,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Themes_Handler](classes/MainWP-Dashboard-MainWP-Themes-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -977,10 +977,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Themes_Handler](classes/MainWP-Dashboard-MainWP-Themes-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::update_website_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Utility::esc_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
 
 ## Tags
 
@@ -1007,8 +1007,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Themes_Handler](classes/MainWP-Dashboard-MainWP-Themes-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_user_extension)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_DB_Common::update_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_user_extension)
 
 ## Tags
 
@@ -1063,7 +1063,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

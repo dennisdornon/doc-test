@@ -933,7 +933,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification_Template](classes/MainWP-Dashboard-MainWP-Notification-Template.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_sub_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_sub_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_sub_dir)
 
 ## Tags
 
@@ -1051,8 +1051,8 @@ false|string|void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification_Template](classes/MainWP-Dashboard-MainWP-Notification-Template.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_replace_tokens_for_content)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::replace_tokens_for_content()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_replace_tokens_for_content)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1143,7 +1143,7 @@ $done handle result.
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification_Template](classes/MainWP-Dashboard-MainWP-Notification-Template.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
 
 ## Tags
 
@@ -1238,7 +1238,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

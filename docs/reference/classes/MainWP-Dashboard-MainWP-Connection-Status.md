@@ -873,15 +873,15 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Connection_Status](classes/MainWP-Dashboard-MainWP-Connection-Status.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::get_sql_websites_by_id\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::get_websites_by_id\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_search_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_by_id()](\\MainWP\\Dashboard\\MainWP_DB::get_sql_websites_by_id\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_websites_by_id()](\\MainWP\\Dashboard\\MainWP_DB::get_websites_by_id\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_search_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_search_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1099,7 +1099,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

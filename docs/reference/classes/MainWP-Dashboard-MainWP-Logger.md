@@ -1361,7 +1361,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Logger](classes/MainWP-Dashboard-MainWP-Logger.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.md)
+     [\MainWP\Dashboard\MainWP_Logger](classes/MainWP-Dashboard-MainWP-Logger.md)
 
 ## Tags
 
@@ -1790,7 +1790,7 @@ Website debug info.
 Inherited from
     [\MainWP\Dashboard\MainWP_Logger](classes/MainWP-Dashboard-MainWP-Logger.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
+     [\MainWP\Dashboard\MainWP_Utility::get_nice_url()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
 
 ## Tags
 
@@ -1826,7 +1826,7 @@ Website Info.
 Inherited from
     [\MainWP\Dashboard\MainWP_Logger](classes/MainWP-Dashboard-MainWP-Logger.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
+     [\MainWP\Dashboard\MainWP_Utility::get_nice_url()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
 
 ## Tags
 
@@ -2191,7 +2191,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Logger](classes/MainWP-Dashboard-MainWP-Logger.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
 
 ## Tags
 
@@ -2325,7 +2325,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

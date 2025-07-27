@@ -901,7 +901,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_class_name()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_class_name)
 
 ## Tags
 
@@ -941,7 +941,7 @@ MainWP_Extensions_Handler::hook_fetch_urls_authed() Hook fetch authorized URLs.
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_fetch_urls_authed)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::hook_fetch_urls_authed()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_fetch_urls_authed)
 
 ## Tags
 
@@ -980,7 +980,7 @@ MainWP_Extensions_Handler::hook_fetch_url_authed() Hook fetch authorized URL.
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::hook_fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_fetch_url_authed)
 
 ## Tags
 
@@ -1050,7 +1050,7 @@ $output Output array.
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_verify)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::hook_verify()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_verify)
 
 ## Tags
 
@@ -1264,8 +1264,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_Twitter::clear_all_twitter_messages\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Twitter::clear_all_twitter_messages()](\\MainWP\\Dashboard\\MainWP_Twitter::clear_all_twitter_messages\(\))
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1292,11 +1292,11 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_handle_settings_post)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_handle_settings_post)
-    [](classes/MainWP-Dashboard-MainWP-Settings.html#method_handle_settings_post)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::handle_settings_post()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_handle_settings_post)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_DB_Common::update_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_user_extension)
+     [\MainWP\Dashboard\MainWP_Monitoring_Handler::handle_settings_post()](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_handle_settings_post)
+     [\MainWP\Dashboard\MainWP_Settings::handle_settings_post()](classes/MainWP-Dashboard-MainWP-Settings.html#method_handle_settings_post)
 
 ## Tags
 
@@ -1357,10 +1357,10 @@ $info|$input_value
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-API-Handler.html#method_get_update_information)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_available_extensions)
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_get_plugin_slug)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_slugs)
+     [\MainWP\Dashboard\MainWP_API_Handler::get_update_information()](classes/MainWP-Dashboard-MainWP-API-Handler.html#method_get_update_information)
+     [\MainWP\Dashboard\MainWP_Extensions_View::get_available_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_available_extensions)
+     [\MainWP\Dashboard\MainWP_System::get_plugin_slug()](classes/MainWP-Dashboard-MainWP-System.html#method_get_plugin_slug)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_slugs()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_slugs)
 
 ## Tags
 
@@ -1428,10 +1428,10 @@ $transient Transient information.
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-API-Handler.html#method_get_upgrade_information)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_indexed_extensions_infor)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extension_slug)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_API_Handler::get_upgrade_information()](classes/MainWP-Dashboard-MainWP-API-Handler.html#method_get_upgrade_information)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_indexed_extensions_infor()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_indexed_extensions_infor)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extension_slug()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extension_slug)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1499,8 +1499,8 @@ $transient Transient information.
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_indexed_extensions_infor)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extension_slug)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_indexed_extensions_infor()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_indexed_extensions_infor)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extension_slug()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extension_slug)
 
 ## Tags
 
@@ -1532,7 +1532,7 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ends_with)
+     [\MainWP\Dashboard\MainWP_Utility::ends_with()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ends_with)
 
 ## Tags
 
@@ -1627,8 +1627,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_set_activation_info)
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Password-Management.html#method_generate_password)
+     [\MainWP\Dashboard\MainWP_Api_Manager::set_activation_info()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_set_activation_info)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Password_Management::generate_password()](classes/MainWP-Dashboard-MainWP-Api-Manager-Password-Management.html#method_generate_password)
 
 ## Tags
 
@@ -1661,7 +1661,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_set_activation_info)
+     [\MainWP\Dashboard\MainWP_Api_Manager::set_activation_info()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_set_activation_info)
 
 ## Tags
 
@@ -1688,8 +1688,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Handler](classes/MainWP-Dashboard-MainWP-System-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-API-Handler.html#method_check_exts_upgrade)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_API_Handler::check_exts_upgrade()](classes/MainWP-Dashboard-MainWP-API-Handler.html#method_check_exts_upgrade)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1719,7 +1719,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -847,7 +847,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_View](classes/MainWP-Dashboard-MainWP-Extensions-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Extensions::get_class_name()](classes/MainWP-Dashboard-MainWP-Extensions.html#method_get_class_name)
 
 ## Tags
 
@@ -882,9 +882,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_View](classes/MainWP-Dashboard-MainWP-Extensions-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_UI::render_top_header()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
+     [\MainWP\Dashboard\MainWP_UI::render_page_navigation()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
 
 ## Tags
 
@@ -940,9 +940,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_View](classes/MainWP-Dashboard-MainWP-Extensions-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_added_on_menu)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_prefix)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::added_on_menu()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_added_on_menu)
+     [\MainWP\Dashboard\MainWP_Utility::remove_http_prefix()](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_prefix)
 
 ## Tags
 
@@ -1007,8 +1007,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_View](classes/MainWP-Dashboard-MainWP-Extensions-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_is_extension_activated)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_polish_ext_name)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::is_extension_activated()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_is_extension_activated)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::polish_ext_name()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_polish_ext_name)
 
 ## Tags
 
@@ -1192,7 +1192,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

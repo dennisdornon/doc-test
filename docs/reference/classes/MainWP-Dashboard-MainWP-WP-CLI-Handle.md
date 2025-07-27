@@ -1252,7 +1252,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_WP_CLI_Handle](classes/MainWP-Dashboard-MainWP-WP-CLI-Handle.md)
 Uses
-    [handle_sync_sites();]()
+     []() handle_sync_sites(); 
 
 ## Tags
 
@@ -2972,7 +2972,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

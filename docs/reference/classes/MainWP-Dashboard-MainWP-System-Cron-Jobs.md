@@ -1008,7 +1008,7 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#property_version)
+     [\MainWP\Dashboard\MainWP_System::$version](classes/MainWP-Dashboard-MainWP-System.html#property_version)
 
 ## Tags
 
@@ -1241,28 +1241,28 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_archive)
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup)
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_download_file)
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_backup_full_task_running)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension_by_user_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_sync_values)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_option)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_general_email_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_site_email_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_default_emails_fields)
-    [](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_site)
-    [](classes/MainWP-Dashboard-MainWP-Sync.html#method_get_wp_icon)
-    [](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_information_array)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::is_archive()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_archive)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::backup()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::backup_download_file()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_download_file)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_DB_Backup::backup_full_task_running()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_backup_full_task_running)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension_by_user_id()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension_by_user_id)
+     [\MainWP\Dashboard\MainWP_DB::update_website_sync_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_sync_values)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::update_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_option)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_general_email_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_general_email_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_site_email_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_site_email_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_default_emails_fields()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_default_emails_fields)
+     [\MainWP\Dashboard\MainWP_Sync::sync_site()](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_site)
+     [\MainWP\Dashboard\MainWP_Sync::get_wp_icon()](classes/MainWP-Dashboard-MainWP-Sync.html#method_get_wp_icon)
+     [\MainWP\Dashboard\MainWP_Sync::sync_information_array()](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_information_array)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1299,10 +1299,10 @@ True|False
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Format.html#method_get_site_updates_items)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_disconnected_websites)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-Notification.md)
+     [\MainWP\Dashboard\MainWP_Format::get_site_updates_items()](classes/MainWP-Dashboard-MainWP-Format.html#method_get_site_updates_items)
+     [\MainWP\Dashboard\MainWP_DB::get_disconnected_websites()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_disconnected_websites)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Notification](classes/MainWP-Dashboard-MainWP-Notification.md)
 
 ## Tags
 
@@ -1329,7 +1329,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1363,11 +1363,11 @@ True|False
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_http_check_notification)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_general_email_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_site_email_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_default_emails_fields)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
+     [\MainWP\Dashboard\MainWP_Notification::send_http_check_notification()](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_http_check_notification)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_general_email_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_general_email_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_site_email_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_site_email_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_default_emails_fields()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_default_emails_fields)
+     [\MainWP\Dashboard\MainWP_Utility::get_http_codes()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
 
 ## Tags
 
@@ -1417,13 +1417,13 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ends_with)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::ends_with()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ends_with)
 
 ## Tags
 
@@ -1450,12 +1450,12 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_tasks_to_complete)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_execute_backup_task)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_tasks_to_complete()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_tasks_to_complete)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_by_id()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler::execute_backup_task()](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_execute_backup_task)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1482,15 +1482,15 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [\- NOSONAR todo name.](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_tasks_todo_daily)
-    [\- NOSONAR todo name.](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_tasks_todo_weekly)
-    [\- NOSONAR todo name.](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_tasks_todo_monthly)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](\\MainWP\\Dashboard\\MainWP_Manage_Backups::validate_backup_tasks\(\))
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_execute_backup_task)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_tasks_todo_daily()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_tasks_todo_daily) \- NOSONAR todo name. 
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_tasks_todo_weekly()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_tasks_todo_weekly) \- NOSONAR todo name. 
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_tasks_todo_monthly()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_tasks_todo_monthly) \- NOSONAR todo name. 
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_by_id()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_by_id)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Manage_Backups::validate_backup_tasks()](\\MainWP\\Dashboard\\MainWP_Manage_Backups::validate_backup_tasks\(\))
+     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler::execute_backup_task()](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_execute_backup_task)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1517,16 +1517,16 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_stats_update_sql)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_stats)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info_for_website)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning_for_website)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_m_reconnect_site)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_websites_stats_update_sql()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_stats_update_sql)
+     [\MainWP\Dashboard\MainWP_DB::update_website_stats()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_stats)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Logger::info_for_website()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info_for_website)
+     [\MainWP\Dashboard\MainWP_Logger::warning_for_website()](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning_for_website)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::m_reconnect_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_m_reconnect_site)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1553,8 +1553,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1588,12 +1588,12 @@ True|False
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Cron_Jobs](classes/MainWP-Dashboard-MainWP-System-Cron-Jobs.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_to_notice_health_threshold)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
-    [](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_notice_site_health_threshold)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_general_email_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_site_email_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_default_emails_fields)
+     [\MainWP\Dashboard\MainWP_DB::get_websites_to_notice_health_threshold()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_to_notice_health_threshold)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Monitoring_Handler::notice_site_health_threshold()](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_notice_site_health_threshold)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_general_email_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_general_email_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_site_email_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_site_email_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_default_emails_fields()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_default_emails_fields)
 
 ## Tags
 
@@ -1699,7 +1699,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

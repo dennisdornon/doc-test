@@ -970,8 +970,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Demo_Handle](classes/MainWP-Dashboard-MainWP-Demo-Handle.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_starts_with)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_Utility::starts_with()](classes/MainWP-Dashboard-MainWP-Utility.html#method_starts_with)
 
 ## Tags
 
@@ -1494,7 +1494,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

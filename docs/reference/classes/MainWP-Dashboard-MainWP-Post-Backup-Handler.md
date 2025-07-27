@@ -805,7 +805,7 @@ Class hierarchy
 
 \MainWP\Dashboard\MainWP_Post_Backup_Handler
 
-     [ ](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
+     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 
 ## Tags
 
@@ -931,8 +931,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::backup()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
 
 ## Tags
 
@@ -966,8 +966,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::backup()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
 
 ## Tags
 
@@ -1001,8 +1001,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_check_pid)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::backup_check_pid()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_check_pid)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
 
 ## Tags
 
@@ -1036,8 +1036,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_download_file)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::backup_download_file()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_download_file)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
 
 ## Tags
 
@@ -1071,8 +1071,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_delete_file)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::backup_delete_file()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_backup_delete_file)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
 
 ## Tags
 
@@ -1106,10 +1106,10 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Utility::end_session()](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -1136,8 +1136,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](\\MainWP\\Dashboard\\MainWP_Manage_Sites::backup_get_file_size\(\))
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Manage_Sites::backup_get_file_size()](\\MainWP\\Dashboard\\MainWP_Manage_Sites::backup_get_file_size\(\))
 
 ## Tags
 
@@ -1171,7 +1171,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
 
 ## Tags
 
@@ -1205,7 +1205,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
 
 ## Tags
 
@@ -1232,7 +1232,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_add_backup)
+     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler::add_backup()](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_add_backup)
 
 ## Tags
 
@@ -1259,7 +1259,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_update_backup)
+     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler::update_backup()](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_update_backup)
 
 ## Tags
 
@@ -1286,7 +1286,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_remove_backup)
+     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler::remove_backup()](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_remove_backup)
 
 ## Tags
 
@@ -1313,7 +1313,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_resume_backup)
+     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler::resume_backup()](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_resume_backup)
 
 ## Tags
 
@@ -1340,7 +1340,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_pause_backup)
+     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler::pause_backup()](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_pause_backup)
 
 ## Tags
 
@@ -1367,7 +1367,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_get_backup_task_sites)
+     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler::get_backup_task_sites()](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_get_backup_task_sites)
 
 ## Tags
 
@@ -1401,8 +1401,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_backup)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Manage_Backups_Handler::backup()](classes/MainWP-Dashboard-MainWP-Manage-Backups-Handler.html#method_backup)
 
 ## Tags
 
@@ -1436,7 +1436,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Backup_Handler](classes/MainWP-Dashboard-MainWP-Post-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_check_backups)
+     [\MainWP\Dashboard\MainWP_Updates_Overview::check_backups()](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_check_backups)
 
 ## Tags
 
@@ -1469,8 +1469,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1649,7 +1649,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

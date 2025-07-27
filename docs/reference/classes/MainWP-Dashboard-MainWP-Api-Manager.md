@@ -1089,7 +1089,7 @@ Set activation info.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager](classes/MainWP-Dashboard-MainWP-Api-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1152,8 +1152,8 @@ Activation info.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager](classes/MainWP-Dashboard-MainWP-Api-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_activate)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Key::activate()](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_activate)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1186,7 +1186,7 @@ Deactivation info.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager](classes/MainWP-Dashboard-MainWP-Api-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_deactivate)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Key::deactivate()](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_deactivate)
 
 ## Tags
 
@@ -1218,7 +1218,7 @@ Login test result.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager](classes/MainWP-Dashboard-MainWP-Api-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_verify_api_key)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Key::verify_api_key()](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_verify_api_key)
 
 ## Tags
 
@@ -1250,7 +1250,7 @@ purchase_software() purchase extensions.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager](classes/MainWP-Dashboard-MainWP-Api-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_purchase_software)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Key::purchase_software()](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_purchase_software)
 
 ## Tags
 
@@ -1284,7 +1284,7 @@ Purchased extensions.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager](classes/MainWP-Dashboard-MainWP-Api-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_get_purchased_software)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Key::get_purchased_software()](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_get_purchased_software)
 
 ## Tags
 
@@ -1317,7 +1317,7 @@ Activation info.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager](classes/MainWP-Dashboard-MainWP-Api-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_grab_api_key)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Key::grab_api_key()](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_grab_api_key)
 
 ## Tags
 
@@ -1410,7 +1410,7 @@ Plugin info.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager](classes/MainWP-Dashboard-MainWP-Api-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Plugin-Update.html#method_request)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Plugin_Update::request()](classes/MainWP-Dashboard-MainWP-Api-Manager-Plugin-Update.html#method_request)
 
 ## Tags
 
@@ -1442,7 +1442,7 @@ True on success, false on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager](classes/MainWP-Dashboard-MainWP-Api-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_deactivate)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Key::deactivate()](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.html#method_deactivate)
 
 ## Tags
 
@@ -1472,7 +1472,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

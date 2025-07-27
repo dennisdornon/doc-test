@@ -924,7 +924,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Monitoring](classes/MainWP-Dashboard-MainWP-Monitoring.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Monitoring-Sites-List-Table.md)
+     [\MainWP\Dashboard\MainWP_Monitoring_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Monitoring-Sites-List-Table.md)
 
 ## Tags
 
@@ -1041,7 +1041,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Monitoring](classes/MainWP-Dashboard-MainWP-Monitoring.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Monitoring-Sites-List-Table.md)
+     [\MainWP\Dashboard\MainWP_Monitoring_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Monitoring-Sites-List-Table.md)
 
 ## Tags
 
@@ -1071,7 +1071,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

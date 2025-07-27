@@ -1060,11 +1060,11 @@ True|False
 Inherited from
     [\MainWP\Dashboard\MainWP_Uptime_Monitoring_Schedule](classes/MainWP-Dashboard-MainWP-Uptime-Monitoring-Schedule.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
-    [](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_notice_sites_uptime_monitoring)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_general_email_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_site_email_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_default_emails_fields)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Monitoring_Handler::notice_sites_uptime_monitoring()](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_notice_sites_uptime_monitoring)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_general_email_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_general_email_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_site_email_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_site_email_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_default_emails_fields()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_default_emails_fields)
 
 ## Tags
 
@@ -1100,9 +1100,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Uptime_Monitoring_Schedule](classes/MainWP-Dashboard-MainWP-Uptime-Monitoring-Schedule.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
-    [](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_websites_uptime_monitoring)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
+     [\MainWP\Dashboard\MainWP_DB::update_website_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
+     [\MainWP\Dashboard\MainWP_Notification::send_websites_uptime_monitoring()](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_websites_uptime_monitoring)
+     [\MainWP\Dashboard\MainWP_Notification_Template::get_template_html()](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
 
 ## Tags
 
@@ -1160,7 +1160,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

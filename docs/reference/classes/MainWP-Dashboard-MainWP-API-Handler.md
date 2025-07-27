@@ -841,8 +841,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_API_Handler](classes/MainWP-Dashboard-MainWP-API-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager-Plugin-Update.html#method_bulk_update_check)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_Api_Manager_Plugin_Update::bulk_update_check()](classes/MainWP-Dashboard-MainWP-Api-Manager-Plugin-Update.html#method_bulk_update_check)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
 
 ## Tags
 
@@ -876,8 +876,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_API_Handler](classes/MainWP-Dashboard-MainWP-API-Handler.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_Api_Manager::update_check\(\))
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_Api_Manager::update_check()](\\MainWP\\Dashboard\\MainWP_Api_Manager::update_check\(\))
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
 
 ## Tags
 
@@ -911,8 +911,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_API_Handler](classes/MainWP-Dashboard-MainWP-API-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_request_extension_information)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_Api_Manager::request_extension_information()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_request_extension_information)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
 
 ## Tags
 
@@ -942,7 +942,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

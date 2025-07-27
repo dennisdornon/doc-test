@@ -827,7 +827,7 @@ Class hierarchy
 
 \MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler
 
-     [ ](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
+     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 
 ## Tags
 
@@ -950,8 +950,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
-    [](classes/MainWP-Dashboard-MainWP-Themes.html#method_render_table)
+     [\MainWP\Dashboard\MainWP_Cache::init_session()](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
+     [\MainWP\Dashboard\MainWP_Themes::render_table()](classes/MainWP-Dashboard-MainWP-Themes.html#method_render_table)
 
 ## Tags
 
@@ -978,7 +978,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_activate_theme)
+     [\MainWP\Dashboard\MainWP_Themes_Handler::activate_theme()](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_activate_theme)
 
 ## Tags
 
@@ -1005,7 +1005,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_delete_themes)
+     [\MainWP\Dashboard\MainWP_Themes_Handler::delete_themes()](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_delete_themes)
 
 ## Tags
 
@@ -1032,7 +1032,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_ignore_updates)
+     [\MainWP\Dashboard\MainWP_Themes_Handler::ignore_updates()](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_ignore_updates)
 
 ## Tags
 
@@ -1059,8 +1059,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
-    [](classes/MainWP-Dashboard-MainWP-Themes.html#method_render_all_themes_table)
+     [\MainWP\Dashboard\MainWP_Cache::init_session()](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
+     [\MainWP\Dashboard\MainWP_Themes::render_all_themes_table()](classes/MainWP-Dashboard-MainWP-Themes.html#method_render_all_themes_table)
 
 ## Tags
 
@@ -1087,7 +1087,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_save_trusted_theme_note)
+     [\MainWP\Dashboard\MainWP_Themes_Handler::save_trusted_theme_note()](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_save_trusted_theme_note)
 
 ## Tags
 
@@ -1114,8 +1114,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
-    [](classes/MainWP-Dashboard-MainWP-Plugins.html#method_render_table)
+     [\MainWP\Dashboard\MainWP_Cache::init_session()](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
+     [\MainWP\Dashboard\MainWP_Plugins::render_table()](classes/MainWP-Dashboard-MainWP-Plugins.html#method_render_table)
 
 ## Tags
 
@@ -1142,8 +1142,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
-    [](classes/MainWP-Dashboard-MainWP-Plugins.html#method_render_all_active_table)
+     [\MainWP\Dashboard\MainWP_Cache::init_session()](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
+     [\MainWP\Dashboard\MainWP_Plugins::render_all_active_table()](classes/MainWP-Dashboard-MainWP-Plugins.html#method_render_all_active_table)
 
 ## Tags
 
@@ -1170,7 +1170,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_activate_plugins)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::activate_plugins()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_activate_plugins)
 
 ## Tags
 
@@ -1197,7 +1197,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_deactivate_plugins)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::deactivate_plugins()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_deactivate_plugins)
 
 ## Tags
 
@@ -1224,7 +1224,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_delete_plugins)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::delete_plugins()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_delete_plugins)
 
 ## Tags
 
@@ -1251,7 +1251,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_ignore_updates)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::ignore_updates()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_ignore_updates)
 
 ## Tags
 
@@ -1278,7 +1278,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_save_trusted_plugin_note)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::save_trusted_plugin_note()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_save_trusted_plugin_note)
 
 ## Tags
 
@@ -1305,7 +1305,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Widget-Plugins.html#method_activate_plugin)
+     [\MainWP\Dashboard\MainWP_Widget_Plugins::activate_plugin()](classes/MainWP-Dashboard-MainWP-Widget-Plugins.html#method_activate_plugin)
 
 ## Tags
 
@@ -1332,7 +1332,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Widget-Plugins.html#method_deactivate_plugin)
+     [\MainWP\Dashboard\MainWP_Widget_Plugins::deactivate_plugin()](classes/MainWP-Dashboard-MainWP-Widget-Plugins.html#method_deactivate_plugin)
 
 ## Tags
 
@@ -1359,7 +1359,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Widget-Plugins.html#method_delete_plugin)
+     [\MainWP\Dashboard\MainWP_Widget_Plugins::delete_plugin()](classes/MainWP-Dashboard-MainWP-Widget-Plugins.html#method_delete_plugin)
 
 ## Tags
 
@@ -1386,7 +1386,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Widget-Themes.html#method_activate_theme)
+     [\MainWP\Dashboard\MainWP_Widget_Themes::activate_theme()](classes/MainWP-Dashboard-MainWP-Widget-Themes.html#method_activate_theme)
 
 ## Tags
 
@@ -1413,7 +1413,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Widget-Themes.html#method_delete_theme)
+     [\MainWP\Dashboard\MainWP_Widget_Themes::delete_theme()](classes/MainWP-Dashboard-MainWP-Widget-Themes.html#method_delete_theme)
 
 ## Tags
 
@@ -1440,7 +1440,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_prepare_install)
+     [\MainWP\Dashboard\MainWP_Install_Bulk::prepare_install()](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_prepare_install)
 
 ## Tags
 
@@ -1467,7 +1467,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_perform_install)
+     [\MainWP\Dashboard\MainWP_Install_Bulk::perform_install()](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_perform_install)
 
 ## Tags
 
@@ -1494,7 +1494,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_prepare_upload)
+     [\MainWP\Dashboard\MainWP_Install_Bulk::prepare_upload()](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_prepare_upload)
 
 ## Tags
 
@@ -1521,7 +1521,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_perform_upload)
+     [\MainWP\Dashboard\MainWP_Install_Bulk::perform_upload()](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_perform_upload)
 
 ## Tags
 
@@ -1548,7 +1548,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_clean_upload)
+     [\MainWP\Dashboard\MainWP_Install_Bulk::clean_upload()](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_clean_upload)
 
 ## Tags
 
@@ -1650,8 +1650,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_upgrade_site)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::upgrade_site()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_upgrade_site)
 
 ## Tags
 
@@ -1678,11 +1678,11 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_backup_full_task_running)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_get_plugin_theme_slugs)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_upgrade_plugin_theme_translation)
+     [\MainWP\Dashboard\MainWP_DB_Backup::backup_full_task_running()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_backup_full_task_running)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::get_plugin_theme_slugs()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_get_plugin_theme_slugs)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::upgrade_plugin_theme_translation()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_upgrade_plugin_theme_translation)
 
 ## Tags
 
@@ -1759,8 +1759,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_ignore_plugin_theme)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_unignore_abandoned_plugin_theme)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::ignore_plugin_theme()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_ignore_plugin_theme)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::unignore_abandoned_plugin_theme()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_unignore_abandoned_plugin_theme)
 
 ## Tags
 
@@ -1787,7 +1787,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_unignore_abandoned_plugins_themes)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::unignore_abandoned_plugins_themes()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_unignore_abandoned_plugins_themes)
 
 ## Tags
 
@@ -1814,7 +1814,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_dismiss_plugin_theme)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::dismiss_plugin_theme()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_dismiss_plugin_theme)
 
 ## Tags
 
@@ -1841,7 +1841,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_dismiss_plugins_themes)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::dismiss_plugins_themes()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_dismiss_plugins_themes)
 
 ## Tags
 
@@ -1868,7 +1868,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_unignore_plugin_theme)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::unignore_plugin_theme()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_unignore_plugin_theme)
 
 ## Tags
 
@@ -1895,7 +1895,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_ignore_plugins_themes)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::ignore_plugins_themes()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_ignore_plugins_themes)
 
 ## Tags
 
@@ -1922,7 +1922,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_ignore_plugins_themes)
+     [\MainWP\Dashboard\MainWP_Updates_Handler::ignore_plugins_themes()](classes/MainWP-Dashboard-MainWP-Updates-Handler.html#method_ignore_plugins_themes)
 
 ## Tags
 
@@ -1999,8 +1999,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Plugin_Theme_Handler](classes/MainWP-Dashboard-MainWP-Post-Plugin-Theme-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_trust_post)
-    [](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_trust_post)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::trust_post()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_trust_post)
+     [\MainWP\Dashboard\MainWP_Themes_Handler::trust_post()](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_trust_post)
 
 ## Tags
 
@@ -2058,8 +2058,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -2238,7 +2238,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

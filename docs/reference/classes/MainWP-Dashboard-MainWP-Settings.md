@@ -978,7 +978,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
 
 ## Tags
 
@@ -1005,7 +1005,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
 
 ## Tags
 
@@ -1039,9 +1039,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Menu::add_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::init_subpages_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
 
 ## Tags
 
@@ -1073,9 +1073,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_UI::render_top_header()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
+     [\MainWP\Dashboard\MainWP_UI::render_page_navigation()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
 
 ## Tags
 
@@ -1131,12 +1131,12 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_DB_Common::update_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_update_user_extension)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1163,9 +1163,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Monitoring-View.md)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups.html#method_render_settings)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
+     [\MainWP\Dashboard\MainWP_Monitoring_View](classes/MainWP-Dashboard-MainWP-Monitoring-View.md)
+     [\MainWP\Dashboard\MainWP_Manage_Backups::render_settings()](classes/MainWP-Dashboard-MainWP-Manage-Backups.html#method_render_settings)
+     [\MainWP\Dashboard\MainWP_Utility::get_http_codes()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
 
 ## Tags
 
@@ -1271,7 +1271,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
 
 ## Tags
 
@@ -1300,7 +1300,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_openssl_config_warning)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::is_openssl_config_warning()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_openssl_config_warning)
 
 ## Tags
 
@@ -1327,7 +1327,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1431,7 +1431,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_screen_options)
+     [\MainWP\Dashboard\MainWP_UI::render_screen_options()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_screen_options)
 
 ## Tags
 
@@ -1600,11 +1600,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_Utility::map_site()](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
 
 ## Tags
 
@@ -1631,11 +1631,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Settings](classes/MainWP-Dashboard-MainWP-Settings.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_notification_types)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_render_edit_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_emails_general_settings_handle)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_render_all_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_handle_template_file_action)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_notification_types()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_notification_types)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::render_edit_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_render_edit_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::emails_general_settings_handle()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_emails_general_settings_handle)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::render_all_settings()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_render_all_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Template::handle_template_file_action()](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_handle_template_file_action)
 
 ## Tags
 
@@ -1692,7 +1692,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

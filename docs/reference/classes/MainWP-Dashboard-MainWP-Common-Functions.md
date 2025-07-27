@@ -931,10 +931,10 @@ $site_ids Array of Child Site ID's that have updates.
 Inherited from
     [\MainWP\Dashboard\MainWP_Common_Functions](classes/MainWP-Dashboard-MainWP-Common-Functions.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
 
 ## Tags
 
@@ -1031,7 +1031,7 @@ since  |  5.2.
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

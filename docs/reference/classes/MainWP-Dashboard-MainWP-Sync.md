@@ -915,14 +915,14 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Sync](classes/MainWP-Dashboard-MainWP-Sync.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension_by_user_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_option)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_primary_backup)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension_by_user_id()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension_by_user_id)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::update_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_option)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_primary_backup()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_primary_backup)
+     [\MainWP\Dashboard\MainWP_Utility::end_session()](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
 
 ## Tags
 
@@ -963,13 +963,13 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Sync](classes/MainWP-Dashboard-MainWP-Sync.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_option)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_sync_values)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning_for_website)
-    [](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_get_health_noticed_status_value)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_site_health)
+     [\MainWP\Dashboard\MainWP_DB::update_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_option)
+     [\MainWP\Dashboard\MainWP_DB::update_website_sync_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_sync_values)
+     [\MainWP\Dashboard\MainWP_DB::update_website_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
+     [\MainWP\Dashboard\MainWP_Logger::warning_for_website()](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning_for_website)
+     [\MainWP\Dashboard\MainWP_Monitoring_Handler::get_health_noticed_status_value()](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_get_health_noticed_status_value)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::get_site_health()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_site_health)
 
 ## Tags
 
@@ -1042,16 +1042,16 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Sync](classes/MainWP-Dashboard-MainWP-Sync.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_file_content)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB_Common::update_website_option\(\))
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_Connect::get_file_content()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_file_content)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Common::update_website_option()](\\MainWP\\Dashboard\\MainWP_DB_Common::update_website_option\(\))
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -1081,7 +1081,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

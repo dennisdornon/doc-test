@@ -951,7 +951,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Client_Overview_Sites](classes/MainWP-Dashboard-MainWP-Client-Overview-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Overview.md)
+     [\MainWP\Dashboard\MainWP_Overview](classes/MainWP-Dashboard-MainWP-Overview.md)
 
 ## Tags
 
@@ -1107,8 +1107,8 @@ Single Row Item.
 Inherited from
     [\MainWP\Dashboard\MainWP_Client_Overview_Sites](classes/MainWP-Dashboard-MainWP-Client-Overview-Sites.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::is_result\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_array\(\))
+     [\MainWP\Dashboard\MainWP_DB::is_result()](\\MainWP\\Dashboard\\MainWP_DB::is_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_array()](\\MainWP\\Dashboard\\MainWP_DB::fetch_array\(\))
 
 ## Tags
 
@@ -1138,7 +1138,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Client_Overview_Sites](classes/MainWP-Dashboard-MainWP-Client-Overview-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
+     [\MainWP\Dashboard\MainWP_Utility::sanitize_file_name()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
 
 ## Tags
 
@@ -1296,8 +1296,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Client_Overview_Sites](classes/MainWP-Dashboard-MainWP-Client-Overview-Sites.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::is_result\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::is_result()](\\MainWP\\Dashboard\\MainWP_DB::is_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
 
 ## Tags
 
@@ -1350,13 +1350,13 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Client_Overview_Sites](classes/MainWP-Dashboard-MainWP-Client-Overview-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_favico_url)
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_site_health)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Connect::get_favico_url()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_favico_url)
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_Utility::get_site_health()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_site_health)
+     [\MainWP\Dashboard\MainWP_Utility::esc_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
+     [\MainWP\Dashboard\MainWP_Utility::get_http_codes()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1386,7 +1386,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

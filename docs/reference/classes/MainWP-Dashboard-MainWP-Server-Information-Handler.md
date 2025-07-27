@@ -1274,7 +1274,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information_Handler](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_openssl_conf)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_openssl_conf()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_openssl_conf)
 
 ## Tags
 
@@ -1564,7 +1564,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information_Handler](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::get_my_sql_version\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_my_sql_version()](\\MainWP\\Dashboard\\MainWP_DB::get_my_sql_version\(\))
 
 ## Tags
 
@@ -2525,8 +2525,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information_Handler](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_count)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_DB::get_websites_count()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_count)
 
 ## Tags
 
@@ -2556,7 +2556,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

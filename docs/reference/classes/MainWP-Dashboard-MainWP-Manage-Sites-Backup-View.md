@@ -817,9 +817,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Backup_View](classes/MainWP-Dashboard-MainWP-Manage-Sites-Backup-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -885,8 +885,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Backup_View](classes/MainWP-Dashboard-MainWP-Manage-Sites-Backup-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_show_backups)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Manage_Sites::show_backups()](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_show_backups)
 
 ## Tags
 
@@ -920,8 +920,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Backup_View](classes/MainWP-Dashboard-MainWP-Manage-Sites-Backup-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_website_backup_settings)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_website_backup_settings()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_website_backup_settings)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
 
 ## Tags
 
@@ -951,7 +951,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

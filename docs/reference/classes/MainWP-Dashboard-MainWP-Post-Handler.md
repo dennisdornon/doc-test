@@ -860,7 +860,7 @@ Class hierarchy
 
 \MainWP\Dashboard\MainWP_Post_Handler
 
-     [ ](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
+     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 
 ## Tags
 
@@ -1039,8 +1039,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_render_table)
+     [\MainWP\Dashboard\MainWP_Cache::init_session()](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
+     [\MainWP\Dashboard\MainWP_User::render_table()](classes/MainWP-Dashboard-MainWP-User.html#method_render_table)
 
 ## Tags
 
@@ -1067,9 +1067,9 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
-    [](classes/MainWP-Dashboard-MainWP-Post.html#method_render_table)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Cache::init_session()](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
+     [\MainWP\Dashboard\MainWP_Post::render_table()](classes/MainWP-Dashboard-MainWP-Post.html#method_render_table)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1096,9 +1096,9 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
-    [](classes/MainWP-Dashboard-MainWP-Page.html#method_render_table)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Cache::init_session()](classes/MainWP-Dashboard-MainWP-Cache.html#method_init_session)
+     [\MainWP\Dashboard\MainWP_Page::render_table()](classes/MainWP-Dashboard-MainWP-Page.html#method_render_table)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1125,7 +1125,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_Post_Page_Handler::get_categories\(\))
+     [\MainWP\Dashboard\MainWP_Post_Page_Handler::get_categories()](\\MainWP\\Dashboard\\MainWP_Post_Page_Handler::get_categories\(\))
 
 ## Tags
 
@@ -1152,7 +1152,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.html#method_get_post)
+     [\MainWP\Dashboard\MainWP_Post_Page_Handler::get_post()](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.html#method_get_post)
 
 ## Tags
 
@@ -1179,7 +1179,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_delete)
+     [\MainWP\Dashboard\MainWP_User::delete()](classes/MainWP-Dashboard-MainWP-User.html#method_delete)
 
 ## Tags
 
@@ -1206,7 +1206,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_edit)
+     [\MainWP\Dashboard\MainWP_User::edit()](classes/MainWP-Dashboard-MainWP-User.html#method_edit)
 
 ## Tags
 
@@ -1233,7 +1233,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_update_password)
+     [\MainWP\Dashboard\MainWP_User::update_password()](classes/MainWP-Dashboard-MainWP-User.html#method_update_password)
 
 ## Tags
 
@@ -1260,7 +1260,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_update_user)
+     [\MainWP\Dashboard\MainWP_User::update_user()](classes/MainWP-Dashboard-MainWP-User.html#method_update_user)
 
 ## Tags
 
@@ -1287,7 +1287,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_unpublish)
+     [\MainWP\Dashboard\MainWP_Recent_Posts::unpublish()](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_unpublish)
 
 ## Tags
 
@@ -1314,7 +1314,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_publish)
+     [\MainWP\Dashboard\MainWP_Recent_Posts::publish()](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_publish)
 
 ## Tags
 
@@ -1341,7 +1341,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_approve)
+     [\MainWP\Dashboard\MainWP_Recent_Posts::approve()](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_approve)
 
 ## Tags
 
@@ -1368,7 +1368,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_trash)
+     [\MainWP\Dashboard\MainWP_Recent_Posts::trash()](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_trash)
 
 ## Tags
 
@@ -1395,7 +1395,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_delete)
+     [\MainWP\Dashboard\MainWP_Recent_Posts::delete()](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_delete)
 
 ## Tags
 
@@ -1422,7 +1422,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_restore)
+     [\MainWP\Dashboard\MainWP_Recent_Posts::restore()](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_restore)
 
 ## Tags
 
@@ -1449,7 +1449,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Page.html#method_unpublish)
+     [\MainWP\Dashboard\MainWP_Page::unpublish()](classes/MainWP-Dashboard-MainWP-Page.html#method_unpublish)
 
 ## Tags
 
@@ -1476,7 +1476,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Page.html#method_publish)
+     [\MainWP\Dashboard\MainWP_Page::publish()](classes/MainWP-Dashboard-MainWP-Page.html#method_publish)
 
 ## Tags
 
@@ -1503,7 +1503,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Page.html#method_trash)
+     [\MainWP\Dashboard\MainWP_Page::trash()](classes/MainWP-Dashboard-MainWP-Page.html#method_trash)
 
 ## Tags
 
@@ -1530,7 +1530,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Page.html#method_delete)
+     [\MainWP\Dashboard\MainWP_Page::delete()](classes/MainWP-Dashboard-MainWP-Page.html#method_delete)
 
 ## Tags
 
@@ -1557,7 +1557,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Page.html#method_restore)
+     [\MainWP\Dashboard\MainWP_Page::restore()](classes/MainWP-Dashboard-MainWP-Page.html#method_restore)
 
 ## Tags
 
@@ -1584,7 +1584,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1691,7 +1691,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1718,7 +1718,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1745,7 +1745,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1772,10 +1772,10 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_by_group_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_websites_by_group_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_by_group_id)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
 
 ## Tags
 
@@ -1827,8 +1827,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Security-Issues.html#method_fetch_security_issues)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Security_Issues::fetch_security_issues()](classes/MainWP-Dashboard-MainWP-Security-Issues.html#method_fetch_security_issues)
 
 ## Tags
 
@@ -1855,8 +1855,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Security-Issues.html#method_fix_security_issue)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Security_Issues::fix_security_issue()](classes/MainWP-Dashboard-MainWP-Security-Issues.html#method_fix_security_issue)
 
 ## Tags
 
@@ -1883,8 +1883,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Security-Issues.html#method_unfix_security_issue)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Security_Issues::unfix_security_issue()](classes/MainWP-Dashboard-MainWP-Security-Issues.html#method_unfix_security_issue)
 
 ## Tags
 
@@ -1911,8 +1911,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
 
 ## Tags
 
@@ -1939,7 +1939,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_ajax_optimize_display_rows)
+     [\MainWP\Dashboard\MainWP_Manage_Sites::ajax_optimize_display_rows()](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_ajax_optimize_display_rows)
 
 ## Tags
 
@@ -1966,7 +1966,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Monitoring.html#method_ajax_optimize_display_rows)
+     [\MainWP\Dashboard\MainWP_Monitoring::ajax_optimize_display_rows()](classes/MainWP-Dashboard-MainWP-Monitoring.html#method_ajax_optimize_display_rows)
 
 ## Tags
 
@@ -1993,7 +1993,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_do_bulk_add)
+     [\MainWP\Dashboard\MainWP_User::do_bulk_add()](classes/MainWP-Dashboard-MainWP-User.html#method_do_bulk_add)
 
 ## Tags
 
@@ -2020,7 +2020,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_do_import)
+     [\MainWP\Dashboard\MainWP_User::do_import()](classes/MainWP-Dashboard-MainWP-User.html#method_do_import)
 
 ## Tags
 
@@ -2172,7 +2172,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_save_note)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler::save_note()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_save_note)
 
 ## Tags
 
@@ -2199,7 +2199,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_save_note)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler::save_note()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_save_note)
 
 ## Tags
 
@@ -2226,7 +2226,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_save_note)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler::save_note()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_save_note)
 
 ## Tags
 
@@ -2253,7 +2253,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [\MainWP_DB_Client::instance()->get_wp_client_by()]()
+     []() \MainWP_DB_Client::instance()->get_wp_client_by() 
 
 ## Tags
 
@@ -2280,10 +2280,10 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [\MainWP_DB::instance()->get_websites_by_url()]()
-    [](\\MainWP_Client_Handler::get_default_client_fields\(\))
-    [\MainWP_DB_Client::instance()->update_client()]()
-    [\MainWP_DB_Client::instance()->update_selected_sites_for_client()]()
+     []() \MainWP_DB::instance()->get_websites_by_url() 
+     [\MainWP_Client_Handler::get_default_client_fields()](\\MainWP_Client_Handler::get_default_client_fields\(\))
+     []() \MainWP_DB_Client::instance()->update_client() 
+     []() \MainWP_DB_Client::instance()->update_selected_sites_for_client() 
 
 ## Tags
 
@@ -2310,7 +2310,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_dismiss_sync_errors)
+     [\MainWP\Dashboard\MainWP_Updates_Overview::dismiss_sync_errors()](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_dismiss_sync_errors)
 
 ## Tags
 
@@ -2412,9 +2412,9 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_check_ignored_http_code)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_handle_check_website)
+     [\MainWP\Dashboard\MainWP_Connect::check_ignored_http_code()](classes/MainWP-Dashboard-MainWP-Connect.html#method_check_ignored_http_code)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Monitoring_Handler::handle_check_website()](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.html#method_handle_check_website)
 
 ## Tags
 
@@ -2441,8 +2441,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::update_website_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
 
 ## Tags
 
@@ -2469,7 +2469,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_trust_plugin)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::trust_plugin()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_trust_plugin)
 
 ## Tags
 
@@ -2496,9 +2496,9 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -2640,8 +2640,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [MainWP_DB::instance()->get_general_option()]()
-    [MainWP_DB::instance()->update_general_option(()]()
+     []() MainWP_DB::instance()->get_general_option() 
+     []() MainWP_DB::instance()->update_general_option(() 
 
 ## Tags
 
@@ -2668,8 +2668,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [MainWP_DB::instance()->get_general_option().]()
-    [MainWP_DB::instance()->update_general_option().]()
+     []() MainWP_DB::instance()->get_general_option(). 
+     []() MainWP_DB::instance()->update_general_option(). 
 
 ## Tags
 
@@ -2834,8 +2834,8 @@ client data.
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [MainWP_DB_Client::instance()->get_wp_client_by()]()
-    [MainWP_DB_Client::instance()->update_client()]()
+     []() MainWP_DB_Client::instance()->get_wp_client_by() 
+     []() MainWP_DB_Client::instance()->update_client() 
 
 ## Tags
 
@@ -2868,8 +2868,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [MainWP_DB_Client::instance()->get_websites_by_client_ids()]()
-    [MainWP_DB_Client::instance()->update_selected_sites_for_client()]()
+     []() MainWP_DB_Client::instance()->get_websites_by_client_ids() 
+     []() MainWP_DB_Client::instance()->update_selected_sites_for_client() 
 
 ## Tags
 
@@ -2902,8 +2902,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Handler](classes/MainWP-Dashboard-MainWP-Post-Handler.md)
 Uses
-    [MainWP_DB_Client::instance()->update_client_contact()]()
-    [MMainWP_DB_Client::instance()->update_client()]()
+     []() MainWP_DB_Client::instance()->update_client_contact() 
+     []() MMainWP_DB_Client::instance()->update_client() 
 
 ## Tags
 
@@ -2936,8 +2936,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -3183,7 +3183,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

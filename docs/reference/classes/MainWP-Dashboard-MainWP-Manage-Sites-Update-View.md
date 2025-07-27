@@ -860,11 +860,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Update_View](classes/MainWP-Dashboard-MainWP-Manage-Sites-Update-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_website_by_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_header_tabs)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_DB::get_sql_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_header_tabs()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_header_tabs)
 
 ## Tags
 
@@ -932,7 +932,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Update_View](classes/MainWP-Dashboard-MainWP-Manage-Sites-Update-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
 
 ## Tags
 
@@ -968,8 +968,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Update_View](classes/MainWP-Dashboard-MainWP-Manage-Sites-Update-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Table-Helper.md)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_Updates_Table_Helper](classes/MainWP-Dashboard-MainWP-Updates-Table-Helper.md)
 
 ## Tags
 
@@ -1073,8 +1073,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Update_View](classes/MainWP-Dashboard-MainWP-Manage-Sites-Update-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Table-Helper.md)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_Updates_Table_Helper](classes/MainWP-Dashboard-MainWP-Updates-Table-Helper.md)
 
 ## Tags
 
@@ -1206,7 +1206,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Update_View](classes/MainWP-Dashboard-MainWP-Manage-Sites-Update-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
 
 ## Tags
 
@@ -1242,7 +1242,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_Update_View](classes/MainWP-Dashboard-MainWP-Manage-Sites-Update-View.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
 
 ## Tags
 
@@ -1272,7 +1272,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

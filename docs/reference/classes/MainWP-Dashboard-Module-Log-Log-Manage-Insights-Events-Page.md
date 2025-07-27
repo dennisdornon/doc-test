@@ -1055,8 +1055,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\Module\Log\Log_Manage_Insights_Events_Page](classes/MainWP-Dashboard-Module-Log-Log-Manage-Insights-Events-Page.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_enqueue_postbox_scripts)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
+     [\MainWP\Dashboard\MainWP_System::enqueue_postbox_scripts()](classes/MainWP-Dashboard-MainWP-System.html#method_enqueue_postbox_scripts)
 
 ## Tags
 
@@ -1353,7 +1353,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

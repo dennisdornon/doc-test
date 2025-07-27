@@ -952,9 +952,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Premium_Update](classes/MainWP-Dashboard-MainWP-Premium-Update.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-System.html#property_version)
+     [\MainWP\Dashboard\MainWP_Connect::get_get_data_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_System::$version](classes/MainWP-Dashboard-MainWP-System.html#property_version)
 
 ## Tags
 
@@ -1055,7 +1055,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -865,7 +865,7 @@ Database query results or null on failure.
 Inherited from
     [\MainWP_DB](classes/MainWP-DB.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
 
 ## Tags
 
@@ -898,7 +898,7 @@ Database uery result or null on failure.
 Inherited from
     [\MainWP_DB](classes/MainWP-DB.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
 
 ## Tags
 
@@ -931,7 +931,7 @@ Database uery result or null on failure.
 Inherited from
     [\MainWP_DB](classes/MainWP-DB.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
 
 ## Tags
 
@@ -966,7 +966,7 @@ Database query results or null on failure.
 Inherited from
     [\MainWP_DB](classes/MainWP-DB.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
 
 ## Tags
 
@@ -999,7 +999,7 @@ Database query result (as string), or null on failure.
 Inherited from
     [\MainWP_DB](classes/MainWP-DB.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
 
 ## Tags
 
@@ -1031,7 +1031,7 @@ mixed —
 Inherited from
     [\MainWP_DB](classes/MainWP-DB.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
 
 ## Tags
 
@@ -1061,7 +1061,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

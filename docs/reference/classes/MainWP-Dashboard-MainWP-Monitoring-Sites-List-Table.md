@@ -819,7 +819,7 @@ Class hierarchy
 
 \MainWP\Dashboard\MainWP_Monitoring_Sites_List_Table
 
-     [ ](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 
 ## Tags
 
@@ -1279,7 +1279,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB_Common::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB_Common::instance()](\\MainWP\\Dashboard\\MainWP_DB_Common::instance\(\))
 
 ## Tags
 
@@ -1309,14 +1309,14 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB_Common::instance\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::num_rows\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_DB_Common::instance()](\\MainWP\\Dashboard\\MainWP_DB_Common::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_DB::num_rows()](\\MainWP\\Dashboard\\MainWP_DB::num_rows\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1403,7 +1403,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
+     [\MainWP\Dashboard\MainWP_Utility::sanitize_file_name()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
 
 ## Tags
 
@@ -1432,14 +1432,14 @@ Rows html.
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_favico_url)
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_site_health)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Connect::get_favico_url()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_favico_url)
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_Utility::get_http_codes()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
+     [\MainWP\Dashboard\MainWP_Utility::sanitize_file_name()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
+     [\MainWP\Dashboard\MainWP_Utility::get_site_health()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_site_health)
+     [\MainWP\Dashboard\MainWP_Utility::esc_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1648,12 +1648,12 @@ $backupnow_lnk.
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_archive)
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::is_archive()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_archive)
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1737,7 +1737,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
 
 ## Tags
 
@@ -1835,8 +1835,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::is_result\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::is_result()](\\MainWP\\Dashboard\\MainWP_DB::is_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
 
 ## Tags
 
@@ -1893,8 +1893,8 @@ Single Row Item.
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::is_result\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_array\(\))
+     [\MainWP\Dashboard\MainWP_DB::is_result()](\\MainWP\\Dashboard\\MainWP_DB::is_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_array()](\\MainWP\\Dashboard\\MainWP_DB::fetch_array\(\))
 
 ## Tags
 
@@ -1973,13 +1973,13 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_favico_url)
-    [](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_site_health)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Connect::get_favico_url()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_favico_url)
+     [\MainWP\Dashboard\MainWP_DB::instance()](\\MainWP\\Dashboard\\MainWP_DB::instance\(\))
+     [\MainWP\Dashboard\MainWP_Utility::get_site_health()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_site_health)
+     [\MainWP\Dashboard\MainWP_Utility::esc_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
+     [\MainWP\Dashboard\MainWP_Utility::get_http_codes()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_http_codes)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -2009,7 +2009,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

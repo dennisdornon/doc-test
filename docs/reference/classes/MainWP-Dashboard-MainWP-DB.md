@@ -865,7 +865,7 @@ Class hierarchy
 
 \MainWP\Dashboard\MainWP_DB
 
-     [ ](classes/MainWP-Dashboard-MainWP-DB-Base.md)
+     [\MainWP\Dashboard\MainWP_DB_Base](classes/MainWP-Dashboard-MainWP-DB-Base.md)
 
 ## Tags
 
@@ -1206,7 +1206,7 @@ Child site count.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
+     [\MainWP\Dashboard\MainWP_System::is_multi_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
 
 ## Tags
 
@@ -1575,7 +1575,7 @@ Return database query or null on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -1616,7 +1616,7 @@ Database query results or null on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
+     [\MainWP\Dashboard\MainWP_System::is_multi_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
 
 ## Tags
 
@@ -1708,7 +1708,7 @@ Results or null on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
+     [\MainWP\Dashboard\MainWP_Utility::map_site()](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
 
 ## Tags
 
@@ -1740,7 +1740,7 @@ $qry Database query results or null on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
+     [\MainWP\Dashboard\MainWP_System::is_multi_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
 
 ## Tags
 
@@ -1932,7 +1932,7 @@ Database query result or null on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -1967,7 +1967,7 @@ Database query result or null on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
+     [\MainWP\Dashboard\MainWP_System::is_multi_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
 
 ## Tags
 
@@ -2001,7 +2001,7 @@ Database query result or null on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
+     [\MainWP\Dashboard\MainWP_System::is_multi_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
 
 ## Tags
 
@@ -2070,7 +2070,7 @@ Return database query or null on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -2134,7 +2134,7 @@ Database query result or null on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
+     [\MainWP\Dashboard\MainWP_System::is_multi_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
 
 ## Tags
 
@@ -2202,7 +2202,7 @@ Child site ID or false on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -2234,7 +2234,7 @@ Return child site ID that was removed or false on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -2347,8 +2347,8 @@ ture on success or false on failure.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -2555,8 +2555,8 @@ $output Array of content to output.
 Inherited from
     [\MainWP\Dashboard\MainWP_DB](classes/MainWP-Dashboard-MainWP-DB.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Utility::get_nice_url()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
 
 ## Tags
 
@@ -3544,7 +3544,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_DB_Base](classes/MainWP-Dashboard-MainWP-DB-Base.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
 
 ## Tags
 
@@ -3637,7 +3637,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

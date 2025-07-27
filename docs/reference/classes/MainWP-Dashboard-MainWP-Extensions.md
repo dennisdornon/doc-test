@@ -845,7 +845,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions](classes/MainWP-Dashboard-MainWP-Extensions.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_class_name()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_class_name)
 
 ## Tags
 
@@ -874,13 +874,13 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions](classes/MainWP-Dashboard-MainWP-Extensions.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_activation_info)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_polish_ext_name)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_added_on_menu)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Api_Manager::get_activation_info()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_activation_info)
+     [\MainWP\Dashboard\MainWP_Extensions_View::init_menu()](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::polish_ext_name()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_polish_ext_name)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::added_on_menu()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_added_on_menu)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -914,9 +914,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions](classes/MainWP-Dashboard-MainWP-Extensions.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Menu::add_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::init_subpages_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
 
 ## Tags
 
@@ -945,9 +945,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions](classes/MainWP-Dashboard-MainWP-Extensions.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_added_on_menu)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_polish_ext_name)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::added_on_menu()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_added_on_menu)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::polish_ext_name()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_polish_ext_name)
 
 ## Tags
 
@@ -976,13 +976,13 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions](classes/MainWP-Dashboard-MainWP-Extensions.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_purchased_extension)
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_check_response_for_intall_errors)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_available_extensions)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_extension_groups)
-    [](\\MainWP\\Dashboard\\MainWP_Post_Handler::secure_request\(\))
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Api_Manager::get_purchased_extension()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_purchased_extension)
+     [\MainWP\Dashboard\MainWP_Api_Manager::check_response_for_intall_errors()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_check_response_for_intall_errors)
+     [\MainWP\Dashboard\MainWP_Extensions_View::get_available_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_available_extensions)
+     [\MainWP\Dashboard\MainWP_Extensions_View::get_extension_groups()](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_extension_groups)
+     [\MainWP\Dashboard\MainWP_Post_Handler::secure_request()](\\MainWP\\Dashboard\\MainWP_Post_Handler::secure_request\(\))
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1016,8 +1016,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions](classes/MainWP-Dashboard-MainWP-Extensions.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_render_header)
+     [\MainWP\Dashboard\MainWP_Deprecated_Hooks::maybe_handle_deprecated_hook()](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
+     [\MainWP\Dashboard\MainWP_Extensions_View::render_header()](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_render_header)
 
 ## Tags
 
@@ -1051,8 +1051,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions](classes/MainWP-Dashboard-MainWP-Extensions.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_render_footer)
+     [\MainWP\Dashboard\MainWP_Deprecated_Hooks::maybe_handle_deprecated_hook()](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
+     [\MainWP\Dashboard\MainWP_Extensions_View::render_footer()](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_render_footer)
 
 ## Tags
 
@@ -1081,8 +1081,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions](classes/MainWP-Dashboard-MainWP-Extensions.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_render)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
+     [\MainWP\Dashboard\MainWP_Extensions_View::render()](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_render)
+     [\MainWP\Dashboard\MainWP_UI::render_top_header()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
 
 ## Tags
 
@@ -1139,7 +1139,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

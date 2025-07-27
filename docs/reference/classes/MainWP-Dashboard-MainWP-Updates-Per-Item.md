@@ -853,18 +853,18 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Per_Item](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-UI.md)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Table-Helper.md)
-    [](\\MainWP\\Dashboard\\MainWP_Updates::user_can_ignore_updates\(\))
-    [](\\MainWP\\Dashboard\\MainWP_Updates::user_can_update_plugins\(\))
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
+     [\MainWP\Dashboard\MainWP_UI::render_sorting_icons()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
+     [\MainWP\Dashboard\MainWP_UI::render_show_all_updates_button()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
+     [\MainWP\Dashboard\MainWP_Updates_Table_Helper](classes/MainWP-Dashboard-MainWP-Updates-Table-Helper.md)
+     [\MainWP\Dashboard\MainWP_Updates::user_can_ignore_updates()](\\MainWP\\Dashboard\\MainWP_Updates::user_can_ignore_updates\(\))
+     [\MainWP\Dashboard\MainWP_Updates::user_can_update_plugins()](\\MainWP\\Dashboard\\MainWP_Updates::user_can_update_plugins\(\))
+     [\MainWP\Dashboard\MainWP_Updates::set_continue_update_html_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
+     [\MainWP\Dashboard\MainWP_Updates::render_site_link_dashboard()](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
+     [\MainWP\Dashboard\MainWP_Updates::get_continue_update_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
 
 ## Tags
 
@@ -903,18 +903,18 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Per_Item](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-UI.md)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Table-Helper.md)
-    [](\\MainWP\\Dashboard\\MainWP_Updates::user_can_update_themes\(\))
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
-    [](\\MainWP\\Dashboard\\MainWP_Updates::user_can_ignore_updates\(\))
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
+     [\MainWP\Dashboard\MainWP_UI::render_sorting_icons()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
+     [\MainWP\Dashboard\MainWP_UI::render_show_all_updates_button()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
+     [\MainWP\Dashboard\MainWP_Updates_Table_Helper](classes/MainWP-Dashboard-MainWP-Updates-Table-Helper.md)
+     [\MainWP\Dashboard\MainWP_Updates::user_can_update_themes()](\\MainWP\\Dashboard\\MainWP_Updates::user_can_update_themes\(\))
+     [\MainWP\Dashboard\MainWP_Updates::set_continue_update_html_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
+     [\MainWP\Dashboard\MainWP_Updates::user_can_ignore_updates()](\\MainWP\\Dashboard\\MainWP_Updates::user_can_ignore_updates\(\))
+     [\MainWP\Dashboard\MainWP_Updates::render_site_link_dashboard()](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
+     [\MainWP\Dashboard\MainWP_Updates::get_continue_update_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
 
 ## Tags
 
@@ -952,14 +952,14 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Per_Item](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
-    [](\\MainWP\\Dashboard\\MainWP_Updates::user_can_update_trans\(\))
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_UI::render_sorting_icons()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
+     [\MainWP\Dashboard\MainWP_UI::render_show_all_updates_button()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
+     [\MainWP\Dashboard\MainWP_Updates::user_can_update_trans()](\\MainWP\\Dashboard\\MainWP_Updates::user_can_update_trans\(\))
+     [\MainWP\Dashboard\MainWP_Updates::set_continue_update_html_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
+     [\MainWP\Dashboard\MainWP_Updates::get_continue_update_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
+     [\MainWP\Dashboard\MainWP_Updates::render_site_link_dashboard()](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
 
 ## Tags
 
@@ -1002,13 +1002,13 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Per_Item](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
-    [](\\MainWP\\Dashboard\\MainWP_Updates::user_can_ignore_updates\(\))
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_UI::render_sorting_icons()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
+     [\MainWP\Dashboard\MainWP_UI::render_show_all_updates_button()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
+     [\MainWP\Dashboard\MainWP_Updates::user_can_ignore_updates()](\\MainWP\\Dashboard\\MainWP_Updates::user_can_ignore_updates\(\))
+     [\MainWP\Dashboard\MainWP_Updates::render_site_link_dashboard()](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
 
 ## Tags
 
@@ -1044,13 +1044,13 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Per_Item](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
-    [](\\MainWP\\Dashboard\\MainWP_Updates::user_can_ignore_updates\(\))
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_UI::render_sorting_icons()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_sorting_icons)
+     [\MainWP\Dashboard\MainWP_UI::render_show_all_updates_button()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_show_all_updates_button)
+     [\MainWP\Dashboard\MainWP_Updates::user_can_ignore_updates()](\\MainWP\\Dashboard\\MainWP_Updates::user_can_ignore_updates\(\))
+     [\MainWP\Dashboard\MainWP_Updates::render_site_link_dashboard()](classes/MainWP-Dashboard-MainWP-Updates.html#method_render_site_link_dashboard)
 
 ## Tags
 
@@ -1080,7 +1080,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

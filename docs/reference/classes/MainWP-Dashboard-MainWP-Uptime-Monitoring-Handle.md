@@ -1117,8 +1117,8 @@ Check result.
 Inherited from
     [\MainWP\Dashboard\MainWP_Uptime_Monitoring_Handle](classes/MainWP-Dashboard-MainWP-Uptime-Monitoring-Handle.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_check_ignored_http_code)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
+     [\MainWP\Dashboard\MainWP_Connect::check_ignored_http_code()](classes/MainWP-Dashboard-MainWP-Connect.html#method_check_ignored_http_code)
+     [\MainWP\Dashboard\MainWP_DB::update_website_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
 
 ## Tags
 
@@ -1155,7 +1155,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Uptime_Monitoring_Handle](classes/MainWP-Dashboard-MainWP-Uptime-Monitoring-Handle.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_is_domain_valid)
+     [\MainWP\Dashboard\MainWP_Utility::is_domain_valid()](classes/MainWP-Dashboard-MainWP-Utility.html#method_is_domain_valid)
 
 ## Tags
 
@@ -1296,7 +1296,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -907,7 +907,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Overview](classes/MainWP-Dashboard-MainWP-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Overview.md)
+     [\MainWP\Dashboard\MainWP_Overview](classes/MainWP-Dashboard-MainWP-Overview.md)
 
 ## Tags
 
@@ -988,8 +988,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Overview](classes/MainWP-Dashboard-MainWP-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -1016,7 +1016,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Overview](classes/MainWP-Dashboard-MainWP-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::add_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
 
 ## Tags
 
@@ -1075,14 +1075,14 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Overview](classes/MainWP-Dashboard-MainWP-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_apply_filters)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_add_widget_box)
-    [](classes/MainWP-Dashboard-MainWP-Connection-Status.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Recent-Pages.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Security-Issues-Widget.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_System_Handler::apply_filters()](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_apply_filters)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_UI::add_widget_box()](classes/MainWP-Dashboard-MainWP-UI.html#method_add_widget_box)
+     [\MainWP\Dashboard\MainWP_Connection_Status::get_class_name()](classes/MainWP-Dashboard-MainWP-Connection-Status.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Recent_Pages::get_class_name()](classes/MainWP-Dashboard-MainWP-Recent-Pages.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Recent_Posts::get_class_name()](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Security_Issues_Widget::get_class_name()](classes/MainWP-Dashboard-MainWP-Security-Issues-Widget.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Updates_Overview::get_class_name()](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_get_class_name)
 
 ## Tags
 
@@ -1109,8 +1109,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Overview](classes/MainWP-Dashboard-MainWP-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_second_top_header)
+     [\MainWP\Dashboard\MainWP_UI::render_top_header()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
+     [\MainWP\Dashboard\MainWP_UI::render_second_top_header()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_second_top_header)
 
 ## Tags
 
@@ -1144,10 +1144,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Overview](classes/MainWP-Dashboard-MainWP-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_page_id)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_do_widget_boxes)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_page_id()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_page_id)
+     [\MainWP\Dashboard\MainWP_UI::do_widget_boxes()](classes/MainWP-Dashboard-MainWP-UI.html#method_do_widget_boxes)
+     [\MainWP\Dashboard\MainWP_Utility::show_mainwp_message()](classes/MainWP-Dashboard-MainWP-Utility.html#method_show_mainwp_message)
 
 ## Tags
 
@@ -1229,7 +1229,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

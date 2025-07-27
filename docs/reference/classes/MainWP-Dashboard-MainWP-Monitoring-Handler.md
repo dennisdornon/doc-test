@@ -815,9 +815,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Monitoring_Handler](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -851,9 +851,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Monitoring_Handler](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_check_website_status)
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_check_ignored_http_code)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
+     [\MainWP\Dashboard\MainWP_Connect::check_website_status()](classes/MainWP-Dashboard-MainWP-Connect.html#method_check_website_status)
+     [\MainWP\Dashboard\MainWP_Connect::check_ignored_http_code()](classes/MainWP-Dashboard-MainWP-Connect.html#method_check_ignored_http_code)
+     [\MainWP\Dashboard\MainWP_DB::update_website_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
 
 ## Tags
 
@@ -985,9 +985,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Monitoring_Handler](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
-    [](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_websites_uptime_monitoring)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
+     [\MainWP\Dashboard\MainWP_DB::update_website_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
+     [\MainWP\Dashboard\MainWP_Notification::send_websites_uptime_monitoring()](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_websites_uptime_monitoring)
+     [\MainWP\Dashboard\MainWP_Notification_Template::get_template_html()](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
 
 ## Tags
 
@@ -1024,10 +1024,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Monitoring_Handler](classes/MainWP-Dashboard-MainWP-Monitoring-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_notification_email)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_sync_values)
-    [](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_websites_health_status_notification)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_notification_email()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_notification_email)
+     [\MainWP\Dashboard\MainWP_DB::update_website_sync_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_sync_values)
+     [\MainWP\Dashboard\MainWP_Notification::send_websites_health_status_notification()](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_websites_health_status_notification)
+     [\MainWP\Dashboard\MainWP_Notification_Template::get_template_html()](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
 
 ## Tags
 
@@ -1057,7 +1057,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

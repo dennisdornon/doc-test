@@ -839,11 +839,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notes](classes/MainWP-Dashboard-MainWP-Notes.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_modal_edit_notes)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_UI::render_modal_edit_notes()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_modal_edit_notes)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::esc_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
 
 ## Tags
 
@@ -873,7 +873,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

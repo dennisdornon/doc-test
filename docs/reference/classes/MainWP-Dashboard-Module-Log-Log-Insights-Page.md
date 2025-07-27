@@ -937,7 +937,7 @@ static
 Inherited from
     [\MainWP\Dashboard\Module\Log\Log_Insights_Page](classes/MainWP-Dashboard-Module-Log-Log-Insights-Page.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Overview.md)
+     [\MainWP\Dashboard\MainWP_Overview](classes/MainWP-Dashboard-MainWP-Overview.md)
 
 ## Tags
 
@@ -1192,13 +1192,13 @@ static
 Inherited from
     [\MainWP\Dashboard\Module\Log\Log_Insights_Page](classes/MainWP-Dashboard-Module-Log-Log-Insights-Page.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_apply_filters)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_add_widget_box)
-    [](classes/MainWP-Dashboard-MainWP-Connection-Status.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Recent-Pages.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Security-Issues-Widget.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_System_Handler::apply_filters()](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_apply_filters)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_UI::add_widget_box()](classes/MainWP-Dashboard-MainWP-UI.html#method_add_widget_box)
+     [\MainWP\Dashboard\MainWP_Connection_Status::get_class_name()](classes/MainWP-Dashboard-MainWP-Connection-Status.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Recent_Pages::get_class_name()](classes/MainWP-Dashboard-MainWP-Recent-Pages.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Recent_Posts::get_class_name()](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Security_Issues_Widget::get_class_name()](classes/MainWP-Dashboard-MainWP-Security-Issues-Widget.html#method_get_class_name)
 
 ## Tags
 
@@ -1578,7 +1578,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

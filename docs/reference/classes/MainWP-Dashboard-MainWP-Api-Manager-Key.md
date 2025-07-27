@@ -919,7 +919,7 @@ Request response.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager_Key](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
+     [\MainWP\Dashboard\MainWP_Api_Manager::get_upgrade_url()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
 
 ## Tags
 
@@ -953,7 +953,7 @@ Request response.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager_Key](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
+     [\MainWP\Dashboard\MainWP_Api_Manager::get_upgrade_url()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
 
 ## Tags
 
@@ -987,7 +987,7 @@ Request response.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager_Key](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
+     [\MainWP\Dashboard\MainWP_Api_Manager::get_upgrade_url()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
 
 ## Tags
 
@@ -1028,10 +1028,10 @@ Request response.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager_Key](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Api_Manager::get_upgrade_url()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Utility::value_to_string()](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1065,7 +1065,7 @@ Request response.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager_Key](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
+     [\MainWP\Dashboard\MainWP_Api_Manager::get_upgrade_url()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
 
 ## Tags
 
@@ -1097,7 +1097,7 @@ Request response.
 Inherited from
     [\MainWP\Dashboard\MainWP_Api_Manager_Key](classes/MainWP-Dashboard-MainWP-Api-Manager-Key.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
+     [\MainWP\Dashboard\MainWP_Api_Manager::get_upgrade_url()](classes/MainWP-Dashboard-MainWP-Api-Manager.html#method_get_upgrade_url)
 
 ## Tags
 
@@ -1152,7 +1152,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

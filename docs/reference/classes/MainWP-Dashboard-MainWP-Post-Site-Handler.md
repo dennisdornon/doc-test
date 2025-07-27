@@ -803,7 +803,7 @@ Class hierarchy
 
 \MainWP\Dashboard\MainWP_Post_Site_Handler
 
-     [ ](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
+     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 
 ## Tags
 
@@ -928,7 +928,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_rename_group)
+     [\MainWP\Dashboard\MainWP_Manage_Groups::rename_group()](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_rename_group)
 
 ## Tags
 
@@ -955,7 +955,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_delete_group)
+     [\MainWP\Dashboard\MainWP_Manage_Groups::delete_group()](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_delete_group)
 
 ## Tags
 
@@ -982,7 +982,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_add_group)
+     [\MainWP\Dashboard\MainWP_Manage_Groups::add_group()](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_add_group)
 
 ## Tags
 
@@ -1059,7 +1059,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_update_group)
+     [\MainWP\Dashboard\MainWP_Manage_Groups::update_group()](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_update_group)
 
 ## Tags
 
@@ -1086,7 +1086,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_check_site)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler::check_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_check_site)
 
 ## Tags
 
@@ -1113,7 +1113,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_add_site)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler::add_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_add_site)
 
 ## Tags
 
@@ -1140,7 +1140,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Sync.html#method_get_wp_icon)
+     [\MainWP\Dashboard\MainWP_Sync::get_wp_icon()](classes/MainWP-Dashboard-MainWP-Sync.html#method_get_wp_icon)
 
 ## Tags
 
@@ -1192,9 +1192,9 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_try_visit)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_prefix)
+     [\MainWP\Dashboard\MainWP_Connect::try_visit()](classes/MainWP-Dashboard-MainWP-Connect.html#method_try_visit)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Utility::remove_http_prefix()](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_prefix)
 
 ## Tags
 
@@ -1221,7 +1221,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_remove_site)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler::remove_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_remove_site)
 
 ## Tags
 
@@ -1248,7 +1248,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_reconnect_site)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler::reconnect_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_reconnect_site)
 
 ## Tags
 
@@ -1275,7 +1275,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_update_child_site_value)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Handler::update_child_site_value()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Handler.html#method_update_child_site_value)
 
 ## Tags
 
@@ -1302,7 +1302,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_dismiss_sync_errors)
+     [\MainWP\Dashboard\MainWP_Updates_Overview::dismiss_sync_errors()](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_dismiss_sync_errors)
 
 ## Tags
 
@@ -1354,7 +1354,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Site_Handler](classes/MainWP-Dashboard-MainWP-Post-Site-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Sync.html#method_get_wp_icon)
+     [\MainWP\Dashboard\MainWP_Sync::get_wp_icon()](classes/MainWP-Dashboard-MainWP-Sync.html#method_get_wp_icon)
 
 ## Tags
 
@@ -1387,8 +1387,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Post_Base_Handler](classes/MainWP-Dashboard-MainWP-Post-Base-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1567,7 +1567,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

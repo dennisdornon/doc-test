@@ -1012,7 +1012,7 @@ void —
 Inherited from
     [\MainWP\Dashboard\MainWP_Install](classes/MainWP-Dashboard-MainWP-Install.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1772,7 +1772,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_DB_Base](classes/MainWP-Dashboard-MainWP-DB-Base.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
 
 ## Tags
 
@@ -1835,7 +1835,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

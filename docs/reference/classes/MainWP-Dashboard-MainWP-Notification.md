@@ -851,7 +851,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification](classes/MainWP-Dashboard-MainWP-Notification.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_notification_email)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_notification_email()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_notification_email)
 
 ## Tags
 
@@ -889,8 +889,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification](classes/MainWP-Dashboard-MainWP-Notification.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Notification_Template::get_template_html()](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
 
 ## Tags
 
@@ -966,8 +966,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification](classes/MainWP-Dashboard-MainWP-Notification.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Notification_Template::get_template_html()](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_get_template_html)
 
 ## Tags
 
@@ -1004,7 +1004,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification](classes/MainWP-Dashboard-MainWP-Notification.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
 
 ## Tags
 
@@ -1041,7 +1041,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Notification](classes/MainWP-Dashboard-MainWP-Notification.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
 
 ## Tags
 
@@ -1106,7 +1106,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

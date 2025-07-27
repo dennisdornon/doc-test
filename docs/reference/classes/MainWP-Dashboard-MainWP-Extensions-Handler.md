@@ -1192,7 +1192,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1324,7 +1324,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
 
 ## Tags
 
@@ -1520,7 +1520,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
 
 ## Tags
 
@@ -1560,7 +1560,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_urls_authed)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_urls_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_urls_authed)
 
 ## Tags
 
@@ -1606,7 +1606,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -1650,7 +1650,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -1688,8 +1688,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::map_site()](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
 
 ## Tags
 
@@ -1761,8 +1761,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Utility::get_nice_url()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
 
 ## Tags
 
@@ -1865,9 +1865,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_site)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_www_prefix)
+     [\MainWP\Dashboard\MainWP_Sync::sync_site()](classes/MainWP-Dashboard-MainWP-Sync.html#method_sync_site)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Utility::remove_http_www_prefix()](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_www_prefix)
 
 ## Tags
 
@@ -1904,8 +1904,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_icons_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_icons_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_icons_dir)
 
 ## Tags
 
@@ -1941,7 +1941,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Extensions_Handler](classes/MainWP-Dashboard-MainWP-Extensions-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_check_group_name)
+     [\MainWP\Dashboard\MainWP_Manage_Groups::check_group_name()](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_check_group_name)
 
 ## Tags
 
@@ -1971,7 +1971,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

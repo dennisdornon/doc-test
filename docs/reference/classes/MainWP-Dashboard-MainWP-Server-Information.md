@@ -929,8 +929,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_apache_server_software)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::is_apache_server_software()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_apache_server_software)
 
 ## Tags
 
@@ -957,8 +957,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_apache_server_software)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::is_apache_server_software()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_apache_server_software)
 
 ## Tags
 
@@ -990,10 +990,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_apache_server_software)
+     [\MainWP\Dashboard\MainWP_Menu::add_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::init_subpages_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::is_apache_server_software()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_apache_server_software)
 
 ## Tags
 
@@ -1025,10 +1025,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_apache_server_software)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_UI::render_top_header()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
+     [\MainWP\Dashboard\MainWP_UI::render_page_navigation()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_page_navigation)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::is_apache_server_software()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_is_apache_server_software)
 
 ## Tags
 
@@ -1105,40 +1105,40 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_available_extensions)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_mainwp_version)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_current_version)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_file_system_method)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_php_allow_url_fopen)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_php_exif)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_php_iptc)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_php_xml)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_loaded_php_extensions)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_sql_mode)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_wp_root)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_name)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_software)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_os)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_architecture)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_ip)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_protocol)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_http_host)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_https)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_server_self_connect)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_user_agent)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_port)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_gateway_interface)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_memory_usage)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_complete_url)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_request_time)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_http_accept)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_accept_charset)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_script_file_name)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_current_page_uri)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_remote_address)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_remote_host)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_remote_port)
+     [\MainWP\Dashboard\MainWP_Extensions_View::get_available_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-View.html#method_get_available_extensions)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_extensions()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_extensions)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_mainwp_version()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_mainwp_version)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_current_version()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_current_version)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_file_system_method()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_file_system_method)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_php_allow_url_fopen()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_php_allow_url_fopen)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_php_exif()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_php_exif)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_php_iptc()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_php_iptc)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_php_xml()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_php_xml)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_loaded_php_extensions()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_loaded_php_extensions)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_sql_mode()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_sql_mode)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_wp_root()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_wp_root)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_server_name()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_name)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_server_software()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_software)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_os()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_os)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_architecture()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_architecture)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_server_ip()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_ip)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_server_protocol()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_protocol)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_http_host()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_http_host)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_https()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_https)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::server_self_connect()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_server_self_connect)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_user_agent()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_user_agent)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_server_port()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_port)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_server_gateway_interface()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_gateway_interface)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::memory_usage()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_memory_usage)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_complete_url()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_complete_url)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_server_request_time()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_request_time)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_server_http_accept()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_http_accept)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_server_accept_charset()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_server_accept_charset)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_script_file_name()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_script_file_name)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_current_page_uri()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_current_page_uri)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_remote_address()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_remote_address)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_remote_host()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_remote_host)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_remote_port()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_remote_port)
 
 ## Tags
 
@@ -1367,7 +1367,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_mainwp_version)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_mainwp_version()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_mainwp_version)
 
 ## Tags
 
@@ -1394,8 +1394,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1490,8 +1490,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
 
 ## Tags
 
@@ -1566,9 +1566,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_filesize_compare)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_curlssl_compare)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::filesize_compare()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_filesize_compare)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::curlssl_compare()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_curlssl_compare)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_class_name()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_class_name)
 
 ## Tags
 
@@ -1608,9 +1608,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_filesize_compare)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_curlssl_compare)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_class_name()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::filesize_compare()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_filesize_compare)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::curlssl_compare()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_curlssl_compare)
 
 ## Tags
 
@@ -1639,7 +1639,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_file_system_method)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_file_system_method()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_file_system_method)
 
 ## Tags
 
@@ -1695,8 +1695,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_last_lines)
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::last_lines()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_last_lines)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::get_class_name()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_get_class_name)
 
 ## Tags
 
@@ -1748,9 +1748,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.md)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_clear_log)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_Logger](classes/MainWP-Dashboard-MainWP-Logger.md)
+     [\MainWP\Dashboard\MainWP_Logger::clear_log()](classes/MainWP-Dashboard-MainWP-Logger.html#method_clear_log)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1852,7 +1852,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Server_Information](classes/MainWP-Dashboard-MainWP-Server-Information.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_mainwp_options)
+     [\MainWP\Dashboard\MainWP_Server_Information_Handler::mainwp_options()](classes/MainWP-Dashboard-MainWP-Server-Information-Handler.html#method_mainwp_options)
 
 ## Tags
 
@@ -1947,7 +1947,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

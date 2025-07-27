@@ -873,11 +873,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Recent_Pages](classes/MainWP-Dashboard-MainWP-Recent-Pages.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
 
 ## Tags
 
@@ -936,10 +936,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Recent_Pages](classes/MainWP-Dashboard-MainWP-Recent-Pages.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_sub_array_having()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
+     [\MainWP\Dashboard\MainWP_Utility::sortmulti()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -973,10 +973,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Recent_Pages](classes/MainWP-Dashboard-MainWP-Recent-Pages.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_sub_array_having()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
+     [\MainWP\Dashboard\MainWP_Utility::sortmulti()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1010,9 +1010,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Recent_Pages](classes/MainWP-Dashboard-MainWP-Recent-Pages.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_sub_array_having()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1046,10 +1046,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Recent_Pages](classes/MainWP-Dashboard-MainWP-Recent-Pages.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_sub_array_having()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
+     [\MainWP\Dashboard\MainWP_Utility::sortmulti()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1083,10 +1083,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Recent_Pages](classes/MainWP-Dashboard-MainWP-Recent-Pages.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_sub_array_having()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_sub_array_having)
+     [\MainWP\Dashboard\MainWP_Utility::sortmulti()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sortmulti)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_Utility::get_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_timestamp)
 
 ## Tags
 
@@ -1116,7 +1116,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

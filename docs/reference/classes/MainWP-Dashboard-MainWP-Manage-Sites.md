@@ -1072,7 +1072,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Security-Issues.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Security_Issues::get_class_name()](classes/MainWP-Dashboard-MainWP-Security-Issues.html#method_get_class_name)
 
 ## Tags
 
@@ -1134,11 +1134,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_init_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
-    [](classes/MainWP-Dashboard-MainWP-Site-Open.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::init_menu()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::init_left_menu()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_init_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Site_Open::get_class_name()](classes/MainWP-Dashboard-MainWP-Site-Open.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -1165,7 +1165,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_init_subpages_menu)
 
 ## Tags
 
@@ -1194,8 +1194,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_enqueue_postbox_scripts)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
+     [\MainWP\Dashboard\MainWP_System::enqueue_postbox_scripts()](classes/MainWP-Dashboard-MainWP-System.html#method_enqueue_postbox_scripts)
 
 ## Tags
 
@@ -1251,7 +1251,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
+     [\MainWP\Dashboard\MainWP_System_Utility::set_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
 
 ## Tags
 
@@ -1285,8 +1285,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_header)
+     [\MainWP\Dashboard\MainWP_Deprecated_Hooks::maybe_handle_deprecated_hook()](classes/MainWP-Dashboard-MainWP-Deprecated-Hooks.html#method_maybe_handle_deprecated_hook)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_header()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_header)
 
 ## Tags
 
@@ -1403,7 +1403,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_List_Table](classes/MainWP-Dashboard-MainWP-Manage-Sites-List-Table.md)
 
 ## Tags
 
@@ -1434,10 +1434,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_groups_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_sync_exts_settings)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_groups_for_current_user()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_groups_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_sync_exts_settings()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_sync_exts_settings)
 
 ## Tags
 
@@ -1471,9 +1471,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_get_default_icons)
-    [MainWP_DB_Client::instance()->get_wp_client_by()]()
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_sync_exts_settings)
+     [\MainWP\Dashboard\MainWP_UI::get_default_icons()](classes/MainWP-Dashboard-MainWP-UI.html#method_get_default_icons)
+     []() MainWP_DB_Client::instance()->get_wp_client_by() 
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_sync_exts_settings()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_sync_exts_settings)
 
 ## Tags
 
@@ -1527,7 +1527,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](\\MainWP\\Dashboard\\static::mainwp_managesites_form_import_sites\(\))
+     [\MainWP\Dashboard\static::mainwp_managesites_form_import_sites()](\\MainWP\\Dashboard\\static::mainwp_managesites_form_import_sites\(\))
 
 ## Tags
 
@@ -1643,8 +1643,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_import_sites)
-    [](\\MainWP_Utility::show_mainwp_message\(\))
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_import_sites()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_import_sites)
+     [\MainWP_Utility::show_mainwp_message()](\\MainWP_Utility::show_mainwp_message\(\))
 
 ## Tags
 
@@ -1673,16 +1673,16 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_apply_filters)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_add_widget_box)
-    [](classes/MainWP-Dashboard-MainWP-Notes.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Recent-Pages.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Security-Issues-Widget.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Site-Info.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Widget-Plugins.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Widget-Themes.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_System_Handler::apply_filters()](classes/MainWP-Dashboard-MainWP-System-Handler.html#method_apply_filters)
+     [\MainWP\Dashboard\MainWP_UI::add_widget_box()](classes/MainWP-Dashboard-MainWP-UI.html#method_add_widget_box)
+     [\MainWP\Dashboard\MainWP_Notes::get_class_name()](classes/MainWP-Dashboard-MainWP-Notes.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Recent_Pages::get_class_name()](classes/MainWP-Dashboard-MainWP-Recent-Pages.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Recent_Posts::get_class_name()](classes/MainWP-Dashboard-MainWP-Recent-Posts.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Security_Issues_Widget::get_class_name()](classes/MainWP-Dashboard-MainWP-Security-Issues-Widget.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Site_Info::get_class_name()](classes/MainWP-Dashboard-MainWP-Site-Info.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Updates_Overview::get_class_name()](classes/MainWP-Dashboard-MainWP-Updates-Overview.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Widget_Plugins::get_class_name()](classes/MainWP-Dashboard-MainWP-Widget-Plugins.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Widget_Themes::get_class_name()](classes/MainWP-Dashboard-MainWP-Widget-Themes.html#method_get_class_name)
 
 ## Tags
 
@@ -1716,8 +1716,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Update-View.html#method_render_updates)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Update_View::render_updates()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Update-View.html#method_render_updates)
+     [\MainWP\Dashboard\MainWP_System_Utility::set_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
 
 ## Tags
 
@@ -1754,10 +1754,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_site_edit_email_settings)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_notification_types)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_site_edit_email_settings()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_site_edit_email_settings)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_notification_types()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_notification_types)
+     [\MainWP\Dashboard\MainWP_System_Utility::set_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
 
 ## Tags
 
@@ -1791,8 +1791,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_dashboard)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_dashboard()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_dashboard)
+     [\MainWP\Dashboard\MainWP_System_Utility::set_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
 
 ## Tags
 
@@ -1826,8 +1826,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Backup-View.html#method_render_backup_site)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Backup_View::render_backup_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Backup-View.html#method_render_backup_site)
+     [\MainWP\Dashboard\MainWP_System_Utility::set_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
 
 ## Tags
 
@@ -1861,8 +1861,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_scan_site)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_scan_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_scan_site)
+     [\MainWP\Dashboard\MainWP_System_Utility::set_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
 
 ## Tags
 
@@ -1926,10 +1926,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_sql_file)
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_archive)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-Backup-View.html#method_show_backups)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::is_sql_file()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_sql_file)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::is_archive()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_archive)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_Backup_View::show_backups()](classes/MainWP-Dashboard-MainWP-Manage-Sites-Backup-View.html#method_show_backups)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
 
 ## Tags
 
@@ -1958,7 +1958,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_modal_edit_notes)
+     [\MainWP\Dashboard\MainWP_UI::render_modal_edit_notes()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_modal_edit_notes)
 
 ## Tags
 
@@ -1987,9 +1987,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_handle_template_file_action)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Notification_Template::handle_template_file_action()](classes/MainWP-Dashboard-MainWP-Notification-Template.html#method_handle_template_file_action)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
 
 ## Tags
 
@@ -2024,8 +2024,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_edit_site)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_edit_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_edit_site)
+     [\MainWP\Dashboard\MainWP_System_Utility::set_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_set_current_wpid)
 
 ## Tags
 
@@ -2143,8 +2143,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [MainWP_DB::instance()->get_general_option()]()
-    [MainWP_DB::instance()->update_general_option()]()
+     []() MainWP_DB::instance()->get_general_option() 
+     []() MainWP_DB::instance()->update_general_option() 
 
 ## Tags
 
@@ -2314,7 +2314,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_import_sites)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::render_import_sites()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_render_import_sites)
 
 ## Tags
 
@@ -2350,9 +2350,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_notification_types)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_valid_input_emails)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_Notification_Settings::get_notification_types()](classes/MainWP-Dashboard-MainWP-Notification-Settings.html#method_get_notification_types)
+     [\MainWP\Dashboard\MainWP_Utility::valid_input_emails()](classes/MainWP-Dashboard-MainWP-Utility.html#method_valid_input_emails)
 
 ## Tags
 
@@ -2388,11 +2388,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Manage_Sites](classes/MainWP-Dashboard-MainWP-Manage-Sites.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_option)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_prefix)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_valid_input_emails)
+     [\MainWP\Dashboard\MainWP_DB::update_website()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website)
+     [\MainWP\Dashboard\MainWP_DB::update_website_values()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_values)
+     [\MainWP\Dashboard\MainWP_DB::update_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_update_website_option)
+     [\MainWP\Dashboard\MainWP_Utility::remove_http_prefix()](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_http_prefix)
+     [\MainWP\Dashboard\MainWP_Utility::valid_input_emails()](classes/MainWP-Dashboard-MainWP-Utility.html#method_valid_input_emails)
 
 ## Tags
 
@@ -2422,7 +2422,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

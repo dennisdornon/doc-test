@@ -781,7 +781,7 @@ Class hierarchy
 \MainWP\Dashboard\MainWP_Bulk_Update_Admin_Passwords
 
 Uses
-     [ ](classes/MainWP-Dashboard-MainWP-Bulk-Add.md)
+     [\MainWP\Dashboard\MainWP_Bulk_Add](classes/MainWP-Dashboard-MainWP-Bulk-Add.md)
 
 ## Tags
 
@@ -894,18 +894,18 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Bulk_Update_Admin_Passwords](classes/MainWP-Dashboard-MainWP-Bulk-Update-Admin-Passwords.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_by_group_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-Bulk-Add.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_render_header)
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_render_footer)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_by_group_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_by_group_id)
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_Bulk_Add::get_class_name()](classes/MainWP-Dashboard-MainWP-Bulk-Add.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_User::render_header()](classes/MainWP-Dashboard-MainWP-User.html#method_render_header)
+     [\MainWP\Dashboard\MainWP_User::render_footer()](classes/MainWP-Dashboard-MainWP-User.html#method_render_footer)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::map_site()](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
 
 ## Tags
 
@@ -968,8 +968,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Bulk_Update_Admin_Passwords](classes/MainWP-Dashboard-MainWP-Bulk-Update-Admin-Passwords.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
 
 ## Tags
 
@@ -999,7 +999,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -1030,7 +1030,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Utility](classes/MainWP-Dashboard-MainWP-System-Utility.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
 
 ## Tags
 
@@ -1356,7 +1356,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Utility](classes/MainWP-Dashboard-MainWP-System-Utility.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
+     [\MainWP\Dashboard\MainWP_System::is_single_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
 
 ## Tags
 
@@ -1392,7 +1392,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Utility](classes/MainWP-Dashboard-MainWP-System-Utility.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
+     [\MainWP\Dashboard\MainWP_System::is_single_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
 
 ## Tags
 
@@ -1489,7 +1489,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Utility](classes/MainWP-Dashboard-MainWP-System-Utility.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
+     [\MainWP\Dashboard\MainWP_System::is_single_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
 
 ## Tags
 
@@ -1872,7 +1872,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_System_Utility](classes/MainWP-Dashboard-MainWP-System-Utility.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
 
 ## Tags
 
@@ -2501,7 +2501,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -915,7 +915,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\Module\Log\Log_Connectors](classes/MainWP-Dashboard-Module-Log-Log-Connectors.md)
 Uses
-    [](classes/MainWP-Dashboard-Module-Log-Log-Connector.md)
+     [\MainWP\Dashboard\Module\Log\Log_Connector](classes/MainWP-Dashboard-Module-Log-Log-Connector.md)
 
 ## Tags
 
@@ -945,7 +945,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

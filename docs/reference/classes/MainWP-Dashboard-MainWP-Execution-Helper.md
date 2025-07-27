@@ -854,7 +854,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Execution_Helper](classes/MainWP-Dashboard-MainWP-Execution-Helper.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.md)
+     [\MainWP\Dashboard\MainWP_Logger](classes/MainWP-Dashboard-MainWP-Logger.md)
 
 ## Tags
 
@@ -959,7 +959,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

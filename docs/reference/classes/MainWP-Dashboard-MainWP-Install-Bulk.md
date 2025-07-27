@@ -821,7 +821,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Install_Bulk](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
 Uses
-    [](\\MainWP\\Dashboard\\static::init\(\))
+     [\MainWP\Dashboard\static::init()](\\MainWP\\Dashboard\\static::init\(\))
 
 ## Tags
 
@@ -879,8 +879,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Install_Bulk](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-QQ2-File-Uploader.md)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_QQ2_File_Uploader](classes/MainWP-Dashboard-MainWP-QQ2-File-Uploader.md)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
 
 ## Tags
 
@@ -943,14 +943,14 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Install_Bulk](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_by_group_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_by_group_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_by_group_id)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::map_site()](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
 
 ## Tags
 
@@ -1011,9 +1011,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Install_Bulk](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Utility::end_session()](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
 
 ## Tags
 
@@ -1042,13 +1042,13 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Install_Bulk](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_download_url)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::get_download_url()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_download_url)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::map_site()](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
 
 ## Tags
 
@@ -1107,9 +1107,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Install_Bulk](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Utility::end_session()](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
 
 ## Tags
 
@@ -1138,8 +1138,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Install_Bulk](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
 
 ## Tags
 
@@ -1176,7 +1176,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Install_Bulk](classes/MainWP-Dashboard-MainWP-Install-Bulk.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_child_response)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_child_response()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_child_response)
 
 ## Tags
 
@@ -1206,7 +1206,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

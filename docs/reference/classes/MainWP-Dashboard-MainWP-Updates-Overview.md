@@ -973,15 +973,15 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Overview](classes/MainWP-Dashboard-MainWP-Updates-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_last_sync_status)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_last_sync_status()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_last_sync_status)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_Utility::format_timestamp()](classes/MainWP-Dashboard-MainWP-Utility.html#method_format_timestamp)
 
 ## Tags
 
@@ -1107,8 +1107,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Overview](classes/MainWP-Dashboard-MainWP-Updates-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
+     [\MainWP\Dashboard\MainWP_Updates::set_continue_update_html_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
+     [\MainWP\Dashboard\MainWP_Updates::get_continue_update_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
 
 ## Tags
 
@@ -1144,8 +1144,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Overview](classes/MainWP-Dashboard-MainWP-Updates-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
+     [\MainWP\Dashboard\MainWP_Updates::set_continue_update_html_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
+     [\MainWP\Dashboard\MainWP_Updates::get_continue_update_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
 
 ## Tags
 
@@ -1181,8 +1181,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Overview](classes/MainWP-Dashboard-MainWP-Updates-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
+     [\MainWP\Dashboard\MainWP_Updates::set_continue_update_html_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
+     [\MainWP\Dashboard\MainWP_Updates::get_continue_update_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
 
 ## Tags
 
@@ -1217,8 +1217,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Overview](classes/MainWP-Dashboard-MainWP-Updates-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
+     [\MainWP\Dashboard\MainWP_Updates::set_continue_update_html_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_set_continue_update_html_selector)
+     [\MainWP\Dashboard\MainWP_Updates::get_continue_update_selector()](classes/MainWP-Dashboard-MainWP-Updates.html#method_get_continue_update_selector)
 
 ## Tags
 
@@ -1361,9 +1361,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Overview](classes/MainWP-Dashboard-MainWP-Updates-Overview.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
 
 ## Tags
 
@@ -1426,11 +1426,11 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates_Overview](classes/MainWP-Dashboard-MainWP-Updates-Overview.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_archive)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_primary_backup)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_Backup_Handler::is_archive()](classes/MainWP-Dashboard-MainWP-Backup-Handler.html#method_is_archive)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_primary_backup()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_primary_backup)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
 
 ## Tags
 
@@ -1460,7 +1460,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

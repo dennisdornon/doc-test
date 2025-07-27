@@ -887,7 +887,7 @@ Use MainWP_UI_Select_Sites::select_sites_box().
 Inherited from
     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_maybe_unserialyze)
+     [\MainWP\Dashboard\MainWP_System_Utility::maybe_unserialyze()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_maybe_unserialyze)
 
 ## Tags
 
@@ -932,8 +932,8 @@ Use MainWP_UI_Select_Sites::select_sites_box_body().
 Inherited from
     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
 
 ## Tags
 
@@ -1010,8 +1010,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
 
 ## Tags
 
@@ -1049,10 +1049,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
 
 ## Tags
 
@@ -1122,9 +1122,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_render_left_menu)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_Menu::render_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_render_left_menu)
 
 ## Tags
 
@@ -1223,12 +1223,12 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_groups_for_manage_sites)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_not_empty_groups)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
+     [\MainWP\Dashboard\MainWP_DB_Common::get_groups_for_manage_sites()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_groups_for_manage_sites)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_not_empty_groups()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_not_empty_groups)
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::free_result()](\\MainWP\\Dashboard\\MainWP_DB::free_result\(\))
 
 ## Tags
 
@@ -1259,7 +1259,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_count)
+     [\MainWP\Dashboard\MainWP_DB::get_websites_count()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_count)
 
 ## Tags
 
@@ -1392,7 +1392,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_page_id)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_page_id()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_page_id)
 
 ## Tags
 
@@ -1429,7 +1429,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_UI](classes/MainWP-Dashboard-MainWP-UI.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_page_id)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_page_id()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_page_id)
 
 ## Tags
 
@@ -1960,7 +1960,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

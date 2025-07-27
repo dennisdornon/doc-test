@@ -867,25 +867,25 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Backup_Handler](classes/MainWP-Dashboard-MainWP-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_download_to_file)
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_progress)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_add_backup_task_progress)
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_progress)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug_for_website)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning_for_website)
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_date)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_preslash_spaces)
-    [](\\MainWP\\Dashboard\\static::normalize_filename\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
-    [](\\MainWP\\Dashboard\\static::get_real_extension\(\))
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_Connect::download_to_file()](classes/MainWP-Dashboard-MainWP-Connect.html#method_download_to_file)
+     [\MainWP\Dashboard\MainWP_Connect::get_get_data_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_backup_task_progress()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_backup_task_progress)
+     [\MainWP\Dashboard\MainWP_DB_Backup::add_backup_task_progress()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_add_backup_task_progress)
+     [\MainWP\Dashboard\MainWP_DB_Backup::update_backup_task_progress()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_update_backup_task_progress)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_Logger::debug_for_website()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug_for_website)
+     [\MainWP\Dashboard\MainWP_Logger::warning_for_website()](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning_for_website)
+     [\MainWP\Dashboard\MainWP_System::is_single_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_single_user)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_Utility::sanitize()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
+     [\MainWP\Dashboard\MainWP_Utility::date()](classes/MainWP-Dashboard-MainWP-Utility.html#method_date)
+     [\MainWP\Dashboard\MainWP_Utility::remove_preslash_spaces()](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_preslash_spaces)
+     [\MainWP\Dashboard\static::normalize_filename()](\\MainWP\\Dashboard\\static::normalize_filename\(\))
+     [\MainWP\Dashboard\MainWP_Utility::value_to_string()](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
+     [\MainWP\Dashboard\static::get_real_extension()](\\MainWP\\Dashboard\\static::get_real_extension\(\))
 
 ## Tags
 
@@ -932,10 +932,10 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Backup_Handler](classes/MainWP-Dashboard-MainWP-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_download_to_file)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
+     [\MainWP\Dashboard\MainWP_Connect::get_get_data_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_get_get_data_authed)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Connect::download_to_file()](classes/MainWP-Dashboard-MainWP-Connect.html#method_download_to_file)
+     [\MainWP\Dashboard\MainWP_Utility::end_session()](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
 
 ## Tags
 
@@ -972,8 +972,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Backup_Handler](classes/MainWP-Dashboard-MainWP-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
 
 ## Tags
 
@@ -1020,16 +1020,16 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Backup_Handler](classes/MainWP-Dashboard-MainWP-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_date)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_preslash_spaces)
-    [](\\MainWP\\Dashboard\\static::normalize_filename\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
-    [](\\MainWP\\Dashboard\\static::get_real_extension\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Utility::end_session()](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
+     [\MainWP\Dashboard\MainWP_Utility::sanitize()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
+     [\MainWP\Dashboard\MainWP_Utility::get_nice_url()](classes/MainWP-Dashboard-MainWP-Utility.html#method_get_nice_url)
+     [\MainWP\Dashboard\MainWP_Utility::date()](classes/MainWP-Dashboard-MainWP-Utility.html#method_date)
+     [\MainWP\Dashboard\MainWP_Utility::remove_preslash_spaces()](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_preslash_spaces)
+     [\MainWP\Dashboard\static::normalize_filename()](\\MainWP\\Dashboard\\static::normalize_filename\(\))
+     [\MainWP\Dashboard\MainWP_Utility::sanitize_file_name()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
+     [\MainWP\Dashboard\static::get_real_extension()](\\MainWP\\Dashboard\\static::get_real_extension\(\))
 
 ## Tags
 
@@ -1088,20 +1088,20 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Backup_Handler](classes/MainWP-Dashboard-MainWP-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
-    [](classes/MainWP-Dashboard-MainWP-Exception.md)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug_for_website)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_date)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_preslash_spaces)
-    [](\\MainWP\\Dashboard\\static::normalize_filename\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
-    [](\\MainWP\\Dashboard\\static::get_real_extension\(\))
+     [\MainWP\Dashboard\MainWP_Connect::fetch_url_authed()](classes/MainWP-Dashboard-MainWP-Connect.html#method_fetch_url_authed)
+     [\MainWP\Dashboard\MainWP_Exception](classes/MainWP-Dashboard-MainWP-Exception.md)
+     [\MainWP\Dashboard\MainWP_DB::get_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_by_id)
+     [\MainWP\Dashboard\MainWP_Logger::debug_for_website()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug_for_website)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_Utility::sanitize()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize)
+     [\MainWP\Dashboard\MainWP_Utility::date()](classes/MainWP-Dashboard-MainWP-Utility.html#method_date)
+     [\MainWP\Dashboard\MainWP_Utility::remove_preslash_spaces()](classes/MainWP-Dashboard-MainWP-Utility.html#method_remove_preslash_spaces)
+     [\MainWP\Dashboard\static::normalize_filename()](\\MainWP\\Dashboard\\static::normalize_filename\(\))
+     [\MainWP\Dashboard\MainWP_Utility::sanitize_file_name()](classes/MainWP-Dashboard-MainWP-Utility.html#method_sanitize_file_name)
+     [\MainWP\Dashboard\MainWP_Utility::end_session()](classes/MainWP-Dashboard-MainWP-Utility.html#method_end_session)
+     [\MainWP\Dashboard\MainWP_Utility::value_to_string()](classes/MainWP-Dashboard-MainWP-Utility.html#method_value_to_string)
+     [\MainWP\Dashboard\static::get_real_extension()](\\MainWP\\Dashboard\\static::get_real_extension\(\))
 
 ## Tags
 
@@ -1276,7 +1276,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Backup_Handler](classes/MainWP-Dashboard-MainWP-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_website_backup_settings)
+     [\MainWP\Dashboard\MainWP_DB_Backup::get_website_backup_settings()](classes/MainWP-Dashboard-MainWP-DB-Backup.html#method_get_website_backup_settings)
 
 ## Tags
 
@@ -1341,8 +1341,8 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Backup_Handler](classes/MainWP-Dashboard-MainWP-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Utility::update_option()](classes/MainWP-Dashboard-MainWP-Utility.html#method_update_option)
 
 ## Tags
 
@@ -1376,7 +1376,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Backup_Handler](classes/MainWP-Dashboard-MainWP-Backup-Handler.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_specific_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_specific_dir)
 
 ## Tags
 
@@ -1406,7 +1406,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

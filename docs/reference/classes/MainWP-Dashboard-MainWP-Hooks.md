@@ -908,10 +908,10 @@ Hook deprecation - Please use filter `mainwp_get_error_message` instead of `main
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_class_name()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_UI::get_class_name()](classes/MainWP-Dashboard-MainWP-UI.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::get_class_name()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Install_Bulk::get_class_name()](classes/MainWP-Dashboard-MainWP-Install-Bulk.html#method_get_class_name)
 
 ## Tags
 
@@ -968,7 +968,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
 
 ## Tags
 
@@ -1000,7 +1000,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
 
 ## Tags
 
@@ -1032,7 +1032,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning)
+     [\MainWP\Dashboard\MainWP_Logger::warning()](classes/MainWP-Dashboard-MainWP-Logger.html#method_warning)
 
 ## Tags
 
@@ -1067,7 +1067,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
 
 ## Tags
 
@@ -1099,7 +1099,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
+     [\MainWP\Dashboard\MainWP_Logger::debug()](classes/MainWP-Dashboard-MainWP-Logger.html#method_debug)
 
 ## Tags
 
@@ -1126,7 +1126,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_enqueue_postbox_scripts)
+     [\MainWP\Dashboard\MainWP_System::enqueue_postbox_scripts()](classes/MainWP-Dashboard-MainWP-System.html#method_enqueue_postbox_scripts)
 
 ## Tags
 
@@ -1167,9 +1167,9 @@ $ret data fields: response, siteid.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_update_wp_site)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_add_wp_site)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::update_wp_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_update_wp_site)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::add_wp_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_add_wp_site)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -1237,8 +1237,8 @@ Return false if empty and return array error - Site not found | result - SUCCESS
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_icons_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_wp_file_system()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_wp_file_system)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_icons_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_icons_dir)
 
 ## Tags
 
@@ -1277,7 +1277,7 @@ Site array to clone.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_clone_site)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::hook_clone_site()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_clone_site)
 
 ## Tags
 
@@ -1314,7 +1314,7 @@ Site array to delete.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_delete_clone_site)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::hook_delete_clone_site()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_hook_delete_clone_site)
 
 ## Tags
 
@@ -1355,8 +1355,8 @@ $ret Child site ID.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_update_wp_site)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Manage_Sites_View::update_wp_site()](classes/MainWP-Dashboard-MainWP-Manage-Sites-View.html#method_update_wp_site)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -1392,7 +1392,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::add_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
 
 ## Tags
 
@@ -1459,7 +1459,7 @@ Activation notice.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_is_extension_activated)
+     [\MainWP\Dashboard\MainWP_Extensions_Handler::is_extension_activated()](classes/MainWP-Dashboard-MainWP-Extensions-Handler.html#method_is_extension_activated)
 
 ## Tags
 
@@ -1718,7 +1718,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_notify_user)
+     [\MainWP\Dashboard\MainWP_Notification::send_notify_user()](classes/MainWP-Dashboard-MainWP-Notification.html#method_send_notify_user)
 
 ## Tags
 
@@ -1753,7 +1753,7 @@ Error message.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
 
 ## Tags
 
@@ -2048,9 +2048,9 @@ $output All posts data array.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Post.html#method_get_class_name)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
+     [\MainWP\Dashboard\MainWP_Post::get_class_name()](classes/MainWP-Dashboard-MainWP-Post.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Utility::map_site()](classes/MainWP-Dashboard-MainWP-Utility.html#method_map_site)
 
 ## Tags
 
@@ -2127,8 +2127,8 @@ $response valid response data.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_mixed_content)
+     [\MainWP\Dashboard\MainWP_Utility::esc_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
+     [\MainWP\Dashboard\MainWP_Utility::esc_mixed_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_mixed_content)
 
 ## Tags
 
@@ -2171,7 +2171,7 @@ $response valid response data.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
+     [\MainWP\Dashboard\MainWP_Utility::esc_content()](classes/MainWP-Dashboard-MainWP-Utility.html#method_esc_content)
 
 ## Tags
 
@@ -2591,7 +2591,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_Post_Handler::secure_request\(\))
+     [\MainWP\Dashboard\MainWP_Post_Handler::secure_request()](\\MainWP\\Dashboard\\MainWP_Post_Handler::secure_request\(\))
 
 ## Tags
 
@@ -2659,7 +2659,7 @@ $newdir, $url.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
+     [\MainWP\Dashboard\MainWP_System_Utility::get_mainwp_dir()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_mainwp_dir)
 
 ## Tags
 
@@ -2688,7 +2688,7 @@ true|false.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
+     [\MainWP\Dashboard\MainWP_System::is_multi_user()](classes/MainWP-Dashboard-MainWP-System.html#method_is_multi_user)
 
 ## Tags
 
@@ -2723,7 +2723,7 @@ Return instance of MainWP_QQ2_File_Uploader
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-QQ2-File-Uploader.md)
+     [\MainWP\Dashboard\MainWP_QQ2_File_Uploader](classes/MainWP-Dashboard-MainWP-QQ2-File-Uploader.md)
 
 ## Tags
 
@@ -2752,7 +2752,7 @@ Return error or true.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System.html#property_metaboxes)
+     [\MainWP\Dashboard\MainWP_System::$metaboxes](classes/MainWP-Dashboard-MainWP-System.html#property_metaboxes)
 
 ## Tags
 
@@ -2815,7 +2815,7 @@ Return error or true.
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Format.html#method_format_email)
+     [\MainWP\Dashboard\MainWP_Format::format_email()](classes/MainWP-Dashboard-MainWP-Format.html#method_format_email)
 
 ## Tags
 
@@ -2842,7 +2842,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_activate_plugins)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::activate_plugins()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_activate_plugins)
 
 ## Tags
 
@@ -2869,7 +2869,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_deactivate_plugins)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::deactivate_plugins()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_deactivate_plugins)
 
 ## Tags
 
@@ -2896,7 +2896,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_delete_plugins)
+     [\MainWP\Dashboard\MainWP_Plugins_Handler::delete_plugins()](classes/MainWP-Dashboard-MainWP-Plugins-Handler.html#method_delete_plugins)
 
 ## Tags
 
@@ -2923,7 +2923,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_delete_themes)
+     [\MainWP\Dashboard\MainWP_Themes_Handler::delete_themes()](classes/MainWP-Dashboard-MainWP-Themes-Handler.html#method_delete_themes)
 
 ## Tags
 
@@ -2975,9 +2975,9 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
+     [\MainWP\Dashboard\MainWP_Error_Helper::get_error_message()](classes/MainWP-Dashboard-MainWP-Error-Helper.html#method_get_error_message)
+     [\MainWP\Dashboard\MainWP_System_Utility::can_edit_website()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_can_edit_website)
+     [\MainWP\Dashboard\MainWP_Utility::ctype_digit()](classes/MainWP-Dashboard-MainWP-Utility.html#method_ctype_digit)
 
 ## Tags
 
@@ -3037,7 +3037,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.html#method_get_post)
+     [\MainWP\Dashboard\MainWP_Post_Page_Handler::get_post()](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.html#method_get_post)
 
 ## Tags
 
@@ -3064,7 +3064,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_Hooks](classes/MainWP-Dashboard-MainWP-Hooks.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.html#method_get_post)
+     [\MainWP\Dashboard\MainWP_Post_Page_Handler::get_post()](classes/MainWP-Dashboard-MainWP-Post-Page-Handler.html#method_get_post)
 
 ## Tags
 
@@ -4034,7 +4034,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

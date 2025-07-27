@@ -1127,7 +1127,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\Module\Log\Log_Manager](classes/MainWP-Dashboard-Module-Log-Log-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-Module-Log-Log-Connectors.md)
+     [\MainWP\Dashboard\Module\Log\Log_Connectors](classes/MainWP-Dashboard-Module-Log-Log-Connectors.md)
 
 ## Tags
 
@@ -1175,8 +1175,8 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\Module\Log\Log_Manager](classes/MainWP-Dashboard-Module-Log-Log-Manager.md)
 Uses
-    [](classes/MainWP-Dashboard-Module-Log-Log-DB.md)
-    [](classes/MainWP-Dashboard-Module-Log-Log-DB-Driver-WPDB.md)
+     [\MainWP\Dashboard\Module\Log\Log_DB](classes/MainWP-Dashboard-Module-Log-Log-DB.md)
+     [\MainWP\Dashboard\Module\Log\Log_DB_Driver_WPDB](classes/MainWP-Dashboard-Module-Log-Log-DB-Driver-WPDB.md)
 
 ## Tags
 
@@ -1238,7 +1238,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

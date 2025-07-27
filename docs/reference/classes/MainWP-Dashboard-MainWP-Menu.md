@@ -900,20 +900,20 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Menu](classes/MainWP-Dashboard-MainWP-Menu.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
-    [](classes/MainWP-Dashboard-MainWP-Updates.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Post.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Page.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Themes.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Plugins.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Monitoring.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Settings.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Extensions.html#method_init_menu)
-    [](classes/MainWP-Dashboard-MainWP-Bulk-Update-Admin-Passwords.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_System_Utility::is_admin()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_is_admin)
+     [\MainWP\Dashboard\MainWP_Updates::init_menu()](classes/MainWP-Dashboard-MainWP-Updates.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Manage_Sites::init_menu()](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Post::init_menu()](classes/MainWP-Dashboard-MainWP-Post.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Page::init_menu()](classes/MainWP-Dashboard-MainWP-Page.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Themes::init_menu()](classes/MainWP-Dashboard-MainWP-Themes.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Plugins::init_menu()](classes/MainWP-Dashboard-MainWP-Plugins.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_User::init_menu()](classes/MainWP-Dashboard-MainWP-User.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Manage_Backups::init_menu()](classes/MainWP-Dashboard-MainWP-Manage-Backups.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Manage_Groups::init_menu()](classes/MainWP-Dashboard-MainWP-Manage-Groups.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Monitoring::init_menu()](classes/MainWP-Dashboard-MainWP-Monitoring.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Settings::init_menu()](classes/MainWP-Dashboard-MainWP-Settings.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Extensions::init_menu()](classes/MainWP-Dashboard-MainWP-Extensions.html#method_init_menu)
+     [\MainWP\Dashboard\MainWP_Bulk_Update_Admin_Passwords::init_menu()](classes/MainWP-Dashboard-MainWP-Bulk-Update-Admin-Passwords.html#method_init_menu)
 
 ## Tags
 
@@ -975,17 +975,17 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Menu](classes/MainWP-Dashboard-MainWP-Menu.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Extensions.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Backups.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-Page.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-Post.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-Settings.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-Themes.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-Themes.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-Plugins.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-User.html#method_init_subpages_menu)
-    [](classes/MainWP-Dashboard-MainWP-Settings.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Extensions::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Extensions.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Manage_Backups::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Manage-Backups.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Manage_Sites::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Manage-Sites.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Page::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Page.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Post::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Post.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Settings::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Settings.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Themes::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Themes.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Themes::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Themes.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Plugins::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Plugins.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_User::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-User.html#method_init_subpages_menu)
+     [\MainWP\Dashboard\MainWP_Settings::init_subpages_menu()](classes/MainWP-Dashboard-MainWP-Settings.html#method_init_subpages_menu)
 
 ## Tags
 
@@ -1269,7 +1269,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

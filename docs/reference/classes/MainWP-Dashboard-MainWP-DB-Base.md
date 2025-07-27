@@ -1486,7 +1486,7 @@ mixed —
 Inherited from
     [\MainWP\Dashboard\MainWP_DB_Base](classes/MainWP-Dashboard-MainWP-DB-Base.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
+     [\MainWP\Dashboard\MainWP_Logger::info()](classes/MainWP-Dashboard-MainWP-Logger.html#method_info)
 
 ## Tags
 
@@ -1549,7 +1549,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

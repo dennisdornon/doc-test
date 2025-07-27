@@ -1061,7 +1061,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Post.html#method_get_class_name)
+     [\MainWP\Dashboard\MainWP_Post::get_class_name()](classes/MainWP-Dashboard-MainWP-Post.html#method_get_class_name)
 
 ## Tags
 
@@ -1088,7 +1088,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::add_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
 
 ## Tags
 
@@ -1120,9 +1120,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
-    [](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
+     [\MainWP\Dashboard\MainWP_Menu::add_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_add_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::init_subpages_left_menu()](classes/MainWP-Dashboard-MainWP-Menu.html#method_init_subpages_left_menu)
+     [\MainWP\Dashboard\MainWP_Menu::is_disable_menu_item()](classes/MainWP-Dashboard-MainWP-Menu.html#method_is_disable_menu_item)
 
 ## Tags
 
@@ -1210,7 +1210,7 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
+     [\MainWP\Dashboard\MainWP_UI::render_top_header()](classes/MainWP-Dashboard-MainWP-UI.html#method_render_top_header)
 
 ## Tags
 
@@ -1435,13 +1435,13 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_groups_for_current_user)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_by_group_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-Utility.html#method_array_sort)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_DB_Common::get_groups_for_current_user()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_groups_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::get_websites_by_group_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_websites_by_group_id)
+     [\MainWP\Dashboard\MainWP_DB::get_website_option()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_website_option)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_Utility::array_sort()](classes/MainWP-Dashboard-MainWP-Utility.html#method_array_sort)
 
 ## Tags
 
@@ -1479,9 +1479,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_wpcore_updates)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_wpcore_updates)
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_Updates_Per_Group::render_wpcore_updates()](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_wpcore_updates)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Site::render_wpcore_updates()](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_wpcore_updates)
 
 ## Tags
 
@@ -1552,9 +1552,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_plugins_updates)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_plugins_updates)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_plugins_updates)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Group::render_plugins_updates()](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_plugins_updates)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Item::render_plugins_updates()](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_plugins_updates)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Site::render_plugins_updates()](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_plugins_updates)
 
 ## Tags
 
@@ -1594,9 +1594,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_themes_updates)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_themes_updates)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_themes_updates)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Group::render_themes_updates()](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_themes_updates)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Item::render_themes_updates()](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_themes_updates)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Site::render_themes_updates()](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_themes_updates)
 
 ## Tags
 
@@ -1637,9 +1637,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_trans_update)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_trans_update)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_trans_update)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Group::render_trans_update()](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_trans_update)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Item::render_trans_update()](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_trans_update)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Site::render_trans_update()](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_trans_update)
 
 ## Tags
 
@@ -1677,9 +1677,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_abandoned_plugins)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_abandoned_plugins)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_abandoned_plugins)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Group::render_abandoned_plugins()](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_abandoned_plugins)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Item::render_abandoned_plugins()](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_abandoned_plugins)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Site::render_abandoned_plugins()](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_abandoned_plugins)
 
 ## Tags
 
@@ -1717,9 +1717,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_abandoned_themes)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_abandoned_themes)
-    [](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_abandoned_themes)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Group::render_abandoned_themes()](classes/MainWP-Dashboard-MainWP-Updates-Per-Group.html#method_render_abandoned_themes)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Item::render_abandoned_themes()](classes/MainWP-Dashboard-MainWP-Updates-Per-Item.html#method_render_abandoned_themes)
+     [\MainWP\Dashboard\MainWP_Updates_Per_Site::render_abandoned_themes()](classes/MainWP-Dashboard-MainWP-Updates-Per-Site.html#method_render_abandoned_themes)
 
 ## Tags
 
@@ -1778,12 +1778,12 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_website_by_id)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
-    [](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
-    [](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
+     [\MainWP\Dashboard\MainWP_DB::query()](\\MainWP\\Dashboard\\MainWP_DB::query\(\))
+     [\MainWP\Dashboard\MainWP_DB::get_sql_website_by_id()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_website_by_id)
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB::data_seek()](\\MainWP\\Dashboard\\MainWP_DB::data_seek\(\))
+     [\MainWP\Dashboard\MainWP_System_Utility::get_current_wpid()](classes/MainWP-Dashboard-MainWP-System-Utility.html#method_get_current_wpid)
 
 ## Tags
 
@@ -1943,9 +1943,9 @@ static
 Inherited from
     [\MainWP\Dashboard\MainWP_Updates](classes/MainWP-Dashboard-MainWP-Updates.md)
 Uses
-    [](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
-    [](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
-    [](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
+     [\MainWP\Dashboard\MainWP_DB_Common::get_user_extension()](classes/MainWP-Dashboard-MainWP-DB-Common.html#method_get_user_extension)
+     [\MainWP\Dashboard\MainWP_DB::get_sql_websites_for_current_user()](classes/MainWP-Dashboard-MainWP-DB.html#method_get_sql_websites_for_current_user)
+     [\MainWP\Dashboard\MainWP_DB::fetch_object()](\\MainWP\\Dashboard\\MainWP_DB::fetch_object\(\))
 
 ## Tags
 
@@ -2224,7 +2224,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 20th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 27th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
