@@ -799,7 +799,7 @@ since  |  1.0.0
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 3rd, 2025 at 00:36. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 10th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
