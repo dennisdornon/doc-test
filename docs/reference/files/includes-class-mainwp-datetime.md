@@ -796,7 +796,7 @@ author  |  Woocommerce Authors.
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 10th, 2025 at 00:36. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 17th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
