@@ -795,7 +795,7 @@ version  |  4.5.1
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 5th, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 12th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
