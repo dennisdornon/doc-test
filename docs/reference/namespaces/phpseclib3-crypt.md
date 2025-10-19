@@ -813,7 +813,7 @@ Namespace hierarchy
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 12th, 2025 at 00:26. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 19th, 2025 at 00:29. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
