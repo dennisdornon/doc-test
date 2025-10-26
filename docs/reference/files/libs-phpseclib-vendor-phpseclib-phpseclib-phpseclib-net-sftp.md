@@ -846,7 +846,7 @@ package  |  Application
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 19th, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 26th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
