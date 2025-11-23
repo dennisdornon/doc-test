@@ -1034,7 +1034,7 @@ _None found_
 
 __
 [code]
-    hook_managesites_getbackuplink(array  $input, int  $site_id, int  $last_primary_backup, string  $primary_backup = '') : array
+    hook_managesites_getbackuplink(array  $input, int  $site_id, int  $last_primary_backup = 0, string  $primary_backup = '') : array
 [/code]
 
 _Handle @filter hook_managesites_getbackuplink()._
@@ -1225,7 +1225,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

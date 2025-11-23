@@ -1372,7 +1372,7 @@ _None found_
 
 __
 [code]
-    set_log_priority(mixed  $logPriority, mixed  $spec_log) : mixed
+    set_log_priority(mixed  $logPriority, mixed  $spec_log = 0) : mixed
 [/code]
 
 _Method set_log_priority()_
@@ -1617,7 +1617,7 @@ used-by  |
 
 __
 [code]
-    log_action(string  $text, int  $priority, int  $log_color, bool  $forced = false) : string
+    log_action(string  $text, int  $priority, int  $log_color = 0, bool  $forced = \MainWP\Dashboard\false) : string
 [/code]
 
 _Method actions()_
@@ -1837,7 +1837,7 @@ used-by  |
 
 __
 [code]
-    warning_for_website(object  $website, string  $action, string  $message, bool  $addStackTrace = true) : string
+    warning_for_website(object  $website, string  $action, string  $message, bool  $addStackTrace = \MainWP\Dashboard\true) : string
 [/code]
 
 _Method warning_for_website()_
@@ -2202,7 +2202,7 @@ _None found_
 
 __
 [code]
-    log_to_db(string  $text, int  $priority, int  $log_color, bool  $forced = false, mixed  $website = false) : bool
+    log_to_db(string  $text, int  $priority, int  $log_color = 0, bool  $forced = \MainWP\Dashboard\false, mixed  $website = \MainWP\Dashboard\false) : bool
 [/code]
 
 _Method log_to_db()_
@@ -2238,7 +2238,7 @@ _None found_
 
 __
 [code]
-    log(string  $text, int  $priority, int  $log_color, bool  $forced = false, mixed  $website = false) : bool
+    log(string  $text, int  $priority, int  $log_color = 0, bool  $forced = \MainWP\Dashboard\false, mixed  $website = \MainWP\Dashboard\false) : bool
 [/code]
 
 _Method log()_
@@ -2325,7 +2325,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

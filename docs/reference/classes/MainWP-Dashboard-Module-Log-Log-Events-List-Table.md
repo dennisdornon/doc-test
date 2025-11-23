@@ -1144,7 +1144,7 @@ _None found_
 
 __
 [code]
-    get_action_title(string  $act, string  $type, bool  $coloring = false) : string
+    get_action_title(string  $act, string  $type, bool  $coloring = \MainWP\Dashboard\Module\Log\false) : string
 [/code]
 
 _Returns the label for a connector term._
@@ -1496,7 +1496,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

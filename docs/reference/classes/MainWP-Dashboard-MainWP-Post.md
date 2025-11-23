@@ -1311,7 +1311,7 @@ _None found_
 
 __
 [code]
-    render_header(string  $shownPage = '', null  $post_id = null) : mixed
+    render_header(string  $shownPage = '', null  $post_id = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Method render_header()_
@@ -1433,7 +1433,7 @@ _None found_
 
 __
 [code]
-    render_table(bool  $cached = true, mixed  $keyword = '', mixed  $dtsstart = '', mixed  $dtsstop = '', mixed  $status = '', array  $params = array()) : mixed
+    render_table(bool  $cached = \MainWP\Dashboard\true, mixed  $keyword = '', mixed  $dtsstart = '', mixed  $dtsstop = '', mixed  $status = '', array  $params = array()) : mixed
 [/code]
 
 _Renders Posts table._
@@ -1471,7 +1471,7 @@ used-by  |
 
 __
 [code]
-    render_table_body(mixed  $keyword, mixed  $dtsstart, mixed  $dtsstop, mixed  $status, mixed  $groups, mixed  $sites, int  $postId, int  $userId, string  $post_type = '', string  $search_on = 'all', bool  $table_content = false, mixed  $clients = '') : void
+    render_table_body(mixed  $keyword, mixed  $dtsstart, mixed  $dtsstop, mixed  $status, mixed  $groups, mixed  $sites, int  $postId, int  $userId, string  $post_type = '', string  $search_on = 'all', bool  $table_content = \MainWP\Dashboard\false, mixed  $clients = '') : void
 [/code]
 
 _Method render_table_body()_
@@ -1609,7 +1609,7 @@ used-by  |
 
 __
 [code]
-    meta_form(\MainWP\Dashboard\WP_Post  $pos = null) : mixed
+    meta_form(\MainWP\Dashboard\WP_Post  $pos = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Method meta_form()_
@@ -1674,7 +1674,7 @@ since  |  2.6.0
 
 __
 [code]
-    wp_post_thumbnail_html(int  $thumbnail_id = null, mixed  $pos = null) : string
+    wp_post_thumbnail_html(int  $thumbnail_id = \MainWP\Dashboard\null, mixed  $pos = \MainWP\Dashboard\null) : string
 [/code]
 
 _Output HTML for the post thumbnail meta-box._
@@ -1739,7 +1739,7 @@ _None found_
 
 __
 [code]
-    touch_time(object  $post, int  $edit = 1, int  $for_post = 1, int  $tab_index, int  $multi) : string
+    touch_time(object  $post, int  $edit = 1, int  $for_post = 1, int  $tab_index = 0, int  $multi = 0) : string
 [/code]
 
 _Method touch_time()_
@@ -2150,7 +2150,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

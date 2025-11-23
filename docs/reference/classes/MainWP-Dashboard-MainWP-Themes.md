@@ -1348,7 +1348,7 @@ _None found_
 
 __
 [code]
-    render_all_themes_table(null  $output = null) : void
+    render_all_themes_table(null  $output = \MainWP\Dashboard\null) : void
 [/code]
 
 _Method render_all_themes_table()_
@@ -1698,7 +1698,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

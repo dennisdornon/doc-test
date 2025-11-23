@@ -947,7 +947,7 @@ _None found_
 
 __
 [code]
-    savePrivateKey(\phpseclib3\Math\BigInteger  $privateKey, \phpseclib3\Crypt\EC\Curves\Ed25519  $curve, \phpseclib3\Math\Common\FiniteField\Integer[]  $publicKey, string  $secret = null, string  $password = '') : string
+    savePrivateKey(\phpseclib3\Math\BigInteger  $privateKey, \phpseclib3\Crypt\EC\Curves\Ed25519  $curve, \phpseclib3\Math\Common\FiniteField\Integer[]  $publicKey, string  $secret = \phpseclib3\Crypt\EC\Formats\Keys\null, string  $password = '') : string
 [/code]
 
 _Convert a private key to the appropriate format._
@@ -1155,7 +1155,7 @@ _None found_
 
 __
 [code]
-    encodeParameters(\phpseclib3\Crypt\EC\BaseCurves\Base  $curve, bool  $returnArray = false, array  $options = []) : string|false
+    encodeParameters(\phpseclib3\Crypt\EC\BaseCurves\Base  $curve, bool  $returnArray = \phpseclib3\Crypt\EC\Formats\Keys\false, array  $options = []) : string|false
 [/code]
 
 _Encode Parameters_
@@ -1206,7 +1206,7 @@ todo  |  Maybe at some point this could be moved to __toString() for each of the
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

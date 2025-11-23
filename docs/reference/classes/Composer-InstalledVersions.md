@@ -923,7 +923,7 @@ psalm-return  |  list
 
 __
 [code]
-    isInstalled(string  $packageName, bool  $includeDevRequirements = true) : bool
+    isInstalled(string  $packageName, bool  $includeDevRequirements = \Composer\true) : bool
 [/code]
 
 _Checks whether the given package is installed_
@@ -1311,7 +1311,7 @@ psalm-return  |  list<array{root: array{name: string, pretty_version: string, ve
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

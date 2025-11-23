@@ -1040,7 +1040,7 @@ used-by  |
 
 __
 [code]
-    backup(mixed  $pSiteId, mixed  $pType, mixed  $pSubfolder, mixed  $pExclude, mixed  $excludebackup, mixed  $excludecache, mixed  $excludenonwp, mixed  $excludezip, null  $pFilename = null, string  $pFileNameUID = '', bool  $pArchiveFormat = false, bool  $pMaximumFileDescriptorsOverride = false, bool  $pMaximumFileDescriptorsAuto = false, bool  $pMaximumFileDescriptors = false, bool  $pLoadFilesBeforeZip = false, bool  $pid = false, bool  $append = false) : mixed
+    backup(mixed  $pSiteId, mixed  $pType, mixed  $pSubfolder, mixed  $pExclude, mixed  $excludebackup, mixed  $excludecache, mixed  $excludenonwp, mixed  $excludezip, null  $pFilename = \MainWP\Dashboard\null, string  $pFileNameUID = '', bool  $pArchiveFormat = \MainWP\Dashboard\false, bool  $pMaximumFileDescriptorsOverride = \MainWP\Dashboard\false, bool  $pMaximumFileDescriptorsAuto = \MainWP\Dashboard\false, bool  $pMaximumFileDescriptors = \MainWP\Dashboard\false, bool  $pLoadFilesBeforeZip = \MainWP\Dashboard\false, bool  $pid = \MainWP\Dashboard\false, bool  $append = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Method backup()_
@@ -1250,7 +1250,7 @@ _None found_
 
 __
 [code]
-    get_current_archive_extension(bool  $website = false, bool|string  $task = false) : mixed
+    get_current_archive_extension(bool  $website = \MainWP\Dashboard\false, bool|string  $task = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Method get_current_archive_extension()_
@@ -1406,7 +1406,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

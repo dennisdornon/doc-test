@@ -1261,7 +1261,7 @@ _None found_
 
 __
 [code]
-    get_purchased_extension(string  $api_key, string  $productId = '', bool  $no_register = false) : array
+    get_purchased_extension(string  $api_key, string  $productId = '', bool  $no_register = \MainWP\Dashboard\false) : array
 [/code]
 
 _Get users purchased extensions._
@@ -1472,7 +1472,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

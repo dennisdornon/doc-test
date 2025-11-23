@@ -813,7 +813,7 @@ _None found_
 
 __
 [code]
-    decode(string  $encodedString, bool  $strictPadding = false) : string
+    decode(string  $encodedString, bool  $strictPadding = \ParagonIE\ConstantTime\false) : string
 [/code]
 
 _Convert a binary string into a hexadecimal string without cache-timing leaks_
@@ -865,7 +865,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

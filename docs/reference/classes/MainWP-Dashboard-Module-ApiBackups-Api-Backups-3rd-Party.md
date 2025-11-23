@@ -1552,7 +1552,7 @@ _None found_
 
 __
 [code]
-    cloudways_action_create_backup(int  $website_id = '', bool  $ret_val = false) : mixed
+    cloudways_action_create_backup(int  $website_id = '', bool  $ret_val = \MainWP\Dashboard\Module\ApiBackups\false) : mixed
 [/code]
 
 _Cloudways: action backup._
@@ -1694,7 +1694,7 @@ _None found_
 
 __
 [code]
-    call_vultr_api(string  $method, string  $url, string  $accessToken, string  $data = null, bool  $die_error = true) : array
+    call_vultr_api(string  $method, string  $url, string  $accessToken, string  $data = \MainWP\Dashboard\Module\ApiBackups\null, bool  $die_error = \MainWP\Dashboard\Module\ApiBackups\true) : array
 [/code]
 
 _Call Vultr API, Authenticate & perform given method._
@@ -2345,7 +2345,7 @@ _None found_
 
 __
 [code]
-    gridpane_action_create_backup(int  $website_id = '', bool  $ret_val = false) : mixed
+    gridpane_action_create_backup(int  $website_id = '', bool  $ret_val = \MainWP\Dashboard\Module\ApiBackups\false) : mixed
 [/code]
 
 _GridPane: action create backup._
@@ -2541,7 +2541,7 @@ _None found_
 
 __
 [code]
-    linode_action_create_backup(int  $website_id = '', bool  $ret_val = false) : mixed
+    linode_action_create_backup(int  $website_id = '', bool  $ret_val = \MainWP\Dashboard\Module\ApiBackups\false) : mixed
 [/code]
 
 _Linode: action create backup._
@@ -2796,7 +2796,7 @@ _None found_
 
 __
 [code]
-    digitalocean_action_create_backup(int  $website_id = '', bool  $ret_val = false) : mixed
+    digitalocean_action_create_backup(int  $website_id = '', bool  $ret_val = \MainWP\Dashboard\Module\ApiBackups\false) : mixed
 [/code]
 
 _DigitalOcean: Action create backup._
@@ -2969,7 +2969,7 @@ _None found_
 
 __
 [code]
-    get_plesk_authentication_credentials(int  $website_id = null) : array
+    get_plesk_authentication_credentials(int  $website_id = \MainWP\Dashboard\Module\ApiBackups\null) : array
 [/code]
 
 _Plesk: Authentication._
@@ -3128,7 +3128,7 @@ _None found_
 
 __
 [code]
-    plesk_action_create_backup(bool  $ret_val = false, int  $website_id = null) : mixed
+    plesk_action_create_backup(bool  $ret_val = \MainWP\Dashboard\Module\ApiBackups\false, int  $website_id = \MainWP\Dashboard\Module\ApiBackups\null) : mixed
 [/code]
 
 _Plesk: Action create manual backup._
@@ -3698,7 +3698,7 @@ _None found_
 
 __
 [code]
-    ajax_cpanel_action_create_database_backup(bool  $ret_val = false, int  $website_id = null) : mixed
+    ajax_cpanel_action_create_database_backup(bool  $ret_val = \MainWP\Dashboard\Module\ApiBackups\false, int  $website_id = \MainWP\Dashboard\Module\ApiBackups\null) : mixed
 [/code]
 
 _CPanel: action create database backup._
@@ -3731,7 +3731,7 @@ _None found_
 
 __
 [code]
-    cpanel_action_create_manual_backup(bool  $ret_val = false, int  $website_id = null) : mixed
+    cpanel_action_create_manual_backup(bool  $ret_val = \MainWP\Dashboard\Module\ApiBackups\false, int  $website_id = \MainWP\Dashboard\Module\ApiBackups\null) : mixed
 [/code]
 
 _CPanel: Action create manual backup._
@@ -3764,7 +3764,7 @@ _None found_
 
 __
 [code]
-    cpanel_action_create_wptk_backup(bool  $ret_val = false) : array|void
+    cpanel_action_create_wptk_backup(bool  $ret_val = \MainWP\Dashboard\Module\ApiBackups\false) : array|void
 [/code]
 
 _CPanel: Action create WP-Toolkit backup._
@@ -3796,7 +3796,7 @@ _None found_
 
 __
 [code]
-    cpanel_action_restore_wptk_backup(bool  $ret_val = false) : array|void
+    cpanel_action_restore_wptk_backup(bool  $ret_val = \MainWP\Dashboard\Module\ApiBackups\false) : array|void
 [/code]
 
 _CPanel: Action create WP-Toolkit backup._
@@ -4049,7 +4049,7 @@ _None found_
 
 __
 [code]
-    get_kinsta_authentication_credentials(int  $website_id = null) : array
+    get_kinsta_authentication_credentials(int  $website_id = \MainWP\Dashboard\Module\ApiBackups\null) : array
 [/code]
 
 _Kinsta: Authentication._
@@ -4172,7 +4172,7 @@ _None found_
 
 __
 [code]
-    kinsta_action_create_backup(bool  $resturn_values = false, int  $site_id = null) : mixed
+    kinsta_action_create_backup(bool  $resturn_values = \MainWP\Dashboard\Module\ApiBackups\false, int  $site_id = \MainWP\Dashboard\Module\ApiBackups\null) : mixed
 [/code]
 
 _Kinsta: Action create manual backup._
@@ -4207,7 +4207,7 @@ _None found_
 
 __
 [code]
-    kinsta_action_delete_backup(bool  $return_values = false) : array
+    kinsta_action_delete_backup(bool  $return_values = \MainWP\Dashboard\Module\ApiBackups\false) : array
 [/code]
 
 _Kinsta: Action create manual backup._
@@ -4239,7 +4239,7 @@ _None found_
 
 __
 [code]
-    kinsta_action_restore_backup(bool  $return_values = false) : array
+    kinsta_action_restore_backup(bool  $return_values = \MainWP\Dashboard\Module\ApiBackups\false) : array
 [/code]
 
 _Kinsta: Action restore manual backup._
@@ -4290,7 +4290,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

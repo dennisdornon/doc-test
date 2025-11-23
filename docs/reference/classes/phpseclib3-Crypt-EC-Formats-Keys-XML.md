@@ -1205,7 +1205,7 @@ _None found_
 
 __
 [code]
-    query(\DOMXPath  $xpath, string  $name, string  $error = null, bool  $decode = true) : \DOMNodeList
+    query(\DOMXPath  $xpath, string  $name, string  $error = \phpseclib3\Crypt\EC\Formats\Keys\null, bool  $decode = \phpseclib3\Crypt\EC\Formats\Keys\true) : \DOMNodeList
 [/code]
 
 _Case-insensitive xpath query_
@@ -1417,7 +1417,7 @@ _None found_
 
 __
 [code]
-    encodeParameters(\phpseclib3\Crypt\EC\BaseCurves\Base  $curve, bool  $returnArray = false, array  $options = []) : string|false
+    encodeParameters(\phpseclib3\Crypt\EC\BaseCurves\Base  $curve, bool  $returnArray = \phpseclib3\Crypt\EC\Formats\Keys\false, array  $options = []) : string|false
 [/code]
 
 _Encode Parameters_
@@ -1468,7 +1468,7 @@ todo  |  Maybe at some point this could be moved to __toString() for each of the
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

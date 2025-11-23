@@ -871,7 +871,7 @@ _None found_
 
 __
 [code]
-    savePrivateKey(\phpseclib3\Math\BigInteger  $p, \phpseclib3\Math\BigInteger  $q, \phpseclib3\Math\BigInteger  $g, \phpseclib3\Math\BigInteger  $y, \phpseclib3\Math\BigInteger  $x, string  $password = false, array  $options = []) : string
+    savePrivateKey(\phpseclib3\Math\BigInteger  $p, \phpseclib3\Math\BigInteger  $q, \phpseclib3\Math\BigInteger  $g, \phpseclib3\Math\BigInteger  $y, \phpseclib3\Math\BigInteger  $x, string  $password = \phpseclib3\Crypt\DSA\Formats\Keys\false, array  $options = []) : string
 [/code]
 
 _Convert a private key to the appropriate format._
@@ -1086,7 +1086,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

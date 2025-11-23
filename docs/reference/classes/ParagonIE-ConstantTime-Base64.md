@@ -876,7 +876,7 @@ _None found_
 
 __
 [code]
-    decode(string  $encodedString, bool  $strictPadding = false) : string
+    decode(string  $encodedString, bool  $strictPadding = \ParagonIE\ConstantTime\false) : string
 [/code]
 
 _decode from base64 into binary_
@@ -946,7 +946,7 @@ _None found_
 
 __
 [code]
-    doEncode(string  $src, bool  $pad = true) : string
+    doEncode(string  $src, bool  $pad = \ParagonIE\ConstantTime\true) : string
 [/code]
 
 __
@@ -1063,7 +1063,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

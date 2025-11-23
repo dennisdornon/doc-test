@@ -951,7 +951,7 @@ _None found_
 
 __
 [code]
-    render_settings_content(bool  $individual = false) : mixed
+    render_settings_content(bool  $individual = \MainWP\Dashboard\Module\ApiBackups\false) : mixed
 [/code]
 
 _Render settings_
@@ -981,7 +981,7 @@ _None found_
 
 __
 [code]
-    render_3rd_party_api_manager(bool  $individual = false) : mixed
+    render_3rd_party_api_manager(bool  $individual = \MainWP\Dashboard\Module\ApiBackups\false) : mixed
 [/code]
 
 _Render 3rd party api settings_
@@ -1088,7 +1088,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

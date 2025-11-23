@@ -952,7 +952,7 @@ _None found_
 
 __
 [code]
-    filter_fetch_url_authed(mixed  $pluginFile, string  $key, int  $websiteId, string  $what, array  $params, null  $raw_response = null) : mixed
+    filter_fetch_url_authed(mixed  $pluginFile, string  $key, int  $websiteId, string  $what, array  $params, null  $raw_response = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Method filter_fetch_url_authed()_
@@ -1639,7 +1639,7 @@ used-by  |
 
 __
 [code]
-    deactivate_extension(mixed  $ext_key, bool  $dashboard_only = false) : mixed
+    deactivate_extension(mixed  $ext_key, bool  $dashboard_only = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Method deactivate_extension()_
@@ -1719,7 +1719,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

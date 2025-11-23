@@ -988,7 +988,7 @@ _None found_
 
 __
 [code]
-    rest_api_add_client(array  $data, bool  $edit = false) : mixed
+    rest_api_add_client(array  $data, bool  $edit = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Method rest_api_add_client()._
@@ -1030,7 +1030,7 @@ _None found_
 
 __
 [code]
-    get_website_client_tokens_data(int  $websiteid = false) : mixed
+    get_website_client_tokens_data(int  $websiteid = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Method get_website_client_tokens_data()_
@@ -1207,7 +1207,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

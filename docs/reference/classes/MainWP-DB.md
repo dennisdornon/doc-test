@@ -843,7 +843,7 @@ _None found_
 
 __
 [code]
-    getWebsiteById(int  $id, array  $selectGroups = false) : object|null
+    getWebsiteById(int  $id, array  $selectGroups = \false) : object|null
 [/code]
 
 _Get child site by ID._
@@ -876,7 +876,7 @@ _None found_
 
 __
 [code]
-    getWebsitesByIds(array  $ids, int  $userId = null) : object|null
+    getWebsitesByIds(array  $ids, int  $userId = \null) : object|null
 [/code]
 
 _Get child sites by child site IDs._
@@ -909,7 +909,7 @@ _None found_
 
 __
 [code]
-    getWebsitesByGroupIds(array  $ids, int  $userId = null) : object|null
+    getWebsitesByGroupIds(array  $ids, int  $userId = \null) : object|null
 [/code]
 
 _Get child sites by groups IDs._
@@ -942,7 +942,7 @@ _None found_
 
 __
 [code]
-    getWebsitesByUserId(int  $userid, bool  $selectgroups = false, null  $search_site = null, string  $orderBy = 'wp.url') : object|null
+    getWebsitesByUserId(int  $userid, bool  $selectgroups = \false, null  $search_site = \null, string  $orderBy = 'wp.url') : object|null
 [/code]
 
 _Get sites by user ID._
@@ -1061,7 +1061,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

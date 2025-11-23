@@ -1462,7 +1462,7 @@ _None found_
 
 __
 [code]
-    render_add_field_modal(int  $client_id) : mixed
+    render_add_field_modal(int  $client_id = 0) : mixed
 [/code]
 
 _Method render_add_field_modal()_
@@ -1548,7 +1548,7 @@ _None found_
 
 __
 [code]
-    render_add_client_content(mixed  $edit_client = false) : mixed
+    render_add_client_content(mixed  $edit_client = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Method render_add_client_content()._
@@ -1614,7 +1614,7 @@ _None found_
 
 __
 [code]
-    get_add_contact_temp(mixed  $edit_contact = false, bool  $echo_out = false, int  $client_id) : mixed
+    get_add_contact_temp(mixed  $edit_contact = \MainWP\Dashboard\false, bool  $echo_out = \MainWP\Dashboard\false, int  $client_id = 0) : mixed
 [/code]
 
 _Method get_add_contact_temp()._
@@ -1721,7 +1721,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

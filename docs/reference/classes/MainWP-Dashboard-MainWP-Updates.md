@@ -1246,7 +1246,7 @@ _None found_
 
 __
 [code]
-    render_site_link_dashboard(object  $website, bool  $echo_out = true) : string
+    render_site_link_dashboard(object  $website, bool  $echo_out = \MainWP\Dashboard\true) : string
 [/code]
 
 _Generates individual site overview page link._
@@ -2044,7 +2044,7 @@ _None found_
 
 __
 [code]
-    set_continue_update_html_selector(string  $current_update, bool  $slug = false) : mixed
+    set_continue_update_html_selector(string  $current_update, bool  $slug = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Sets the HTML selector to continue updates._
@@ -2224,7 +2224,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

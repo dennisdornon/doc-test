@@ -804,7 +804,7 @@ since  |  5.2
 
 __
 [code]
-    mainwp_rest_prepare_date_response(string|null|\DateTime  $date, bool  $utc = true) : string|null
+    mainwp_rest_prepare_date_response(string|null|\DateTime  $date, bool  $utc = \true) : string|null
 [/code]
 
 _Parses and formats a date for ISO8601/RFC3339._
@@ -951,7 +951,7 @@ package  |  MainWP/Dashboard
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

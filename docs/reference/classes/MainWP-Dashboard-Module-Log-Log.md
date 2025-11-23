@@ -845,7 +845,7 @@ _None found_
 
 __
 [code]
-    log(\MainWP\Dashboard\Module\Log\Connector  $connector, string  $message, array  $args, int  $site_id, string  $context, string  $action, int|null  $state = null, int  $user_id = null) : bool|\MainWP\Dashboard\Module\Log\WP_Error
+    log(\MainWP\Dashboard\Module\Log\Connector  $connector, string  $message, array  $args, int  $site_id, string  $context, string  $action, int|null  $state = \MainWP\Dashboard\Module\Log\null, int  $user_id = \MainWP\Dashboard\Module\Log\null) : bool|\MainWP\Dashboard\Module\Log\WP_Error
 [/code]
 
 _Log handler._
@@ -961,7 +961,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

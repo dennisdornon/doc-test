@@ -919,7 +919,7 @@ _None found_
 
 __
 [code]
-    backups_selected_site(bool  $die_output = true) : mixed
+    backups_selected_site(bool  $die_output = \MainWP\Dashboard\Module\ApiBackups\true) : mixed
 [/code]
 
 _Backups selected site._
@@ -949,7 +949,7 @@ _None found_
 
 __
 [code]
-    send_backups_response(bool  $success = true, mixed  $error = '') : void
+    send_backups_response(bool  $success = \MainWP\Dashboard\Module\ApiBackups\true, mixed  $error = '') : void
 [/code]
 
 _Send backups response._
@@ -980,7 +980,7 @@ _None found_
 
 __
 [code]
-    send_bulk_backups_error(bool  $success = true, mixed  $error = '') : void
+    send_bulk_backups_error(bool  $success = \MainWP\Dashboard\Module\ApiBackups\true, mixed  $error = '') : void
 [/code]
 
 _Send bulk backups error._
@@ -1030,7 +1030,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

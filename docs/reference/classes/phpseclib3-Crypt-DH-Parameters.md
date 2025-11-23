@@ -1056,7 +1056,7 @@ _None found_
 
 __
 [code]
-    load(string  $key, string  $password = false) : \phpseclib3\Crypt\Common\AsymmetricKey
+    load(string  $key, string  $password = \phpseclib3\Crypt\false) : \phpseclib3\Crypt\Common\AsymmetricKey
 [/code]
 
 _Load the key_
@@ -1178,7 +1178,7 @@ _None found_
 
 __
 [code]
-    loadFormat(string  $type, string  $key, string  $password = false) : static
+    loadFormat(string  $type, string  $key, string  $password = \phpseclib3\Crypt\Common\false) : static
 [/code]
 
 _Load the key, assuming a specific format_
@@ -1210,7 +1210,7 @@ _None found_
 
 __
 [code]
-    loadPrivateKeyFormat(string  $type, string  $key, string  $password = false) : \phpseclib3\Crypt\Common\PrivateKey
+    loadPrivateKeyFormat(string  $type, string  $key, string  $password = \phpseclib3\Crypt\Common\false) : \phpseclib3\Crypt\Common\PrivateKey
 [/code]
 
 _Loads a private key_
@@ -1575,7 +1575,7 @@ _None found_
 
 __
 [code]
-    createKey(\phpseclib3\Crypt\DH\Parameters  $params, int  $length) : \phpseclib3\Crypt\DH\PrivateKey
+    createKey(\phpseclib3\Crypt\DH\Parameters  $params, int  $length = 0) : \phpseclib3\Crypt\DH\PrivateKey
 [/code]
 
 _Create public / private key pair._
@@ -1718,7 +1718,7 @@ _None found_
 
 __
 [code]
-    validatePlugin(string  $format, string  $type, string  $method = null) : mixed
+    validatePlugin(string  $format, string  $type, string  $method = \phpseclib3\Crypt\Common\null) : mixed
 [/code]
 
 _Validate Plugin_
@@ -1855,7 +1855,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

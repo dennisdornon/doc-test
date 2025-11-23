@@ -948,7 +948,7 @@ _None found_
 
 __
 [code]
-    get_site_updates_items(string  $what, array  $sites_ids = false) : array
+    get_site_updates_items(string  $what, array  $sites_ids = \MainWP\Dashboard\false) : array
 [/code]
 
 _Method get_site_updates_items()._
@@ -983,7 +983,7 @@ used-by  |
 
 __
 [code]
-    format_email(string  $to_email = null, string  $body = '', string  $title = '', bool  $plain_text = false) : string
+    format_email(string  $to_email = \MainWP\Dashboard\null, string  $body = '', string  $title = '', bool  $plain_text = \MainWP\Dashboard\false) : string
 [/code]
 
 _Method format_email()_
@@ -1039,7 +1039,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

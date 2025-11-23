@@ -1415,7 +1415,7 @@ _None found_
 
 __
 [code]
-    get_add_contact_temp(bool  $echo_out = false) : mixed
+    get_add_contact_temp(bool  $echo_out = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Method get_add_contact_temp()._
@@ -1566,7 +1566,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

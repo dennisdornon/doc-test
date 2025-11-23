@@ -1447,7 +1447,7 @@ _None found_
 
 __
 [code]
-    check_rest_api_enabled(bool  $check_logged_in = false) : bool
+    check_rest_api_enabled(bool  $check_logged_in = \MainWP\Dashboard\false) : bool
 [/code]
 
 _Method check_rest_api_enabled()._
@@ -1525,7 +1525,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

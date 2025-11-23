@@ -1088,7 +1088,7 @@ _None found_
 
 __
 [code]
-    __construct(string|null  $vendorDir = null) : mixed
+    __construct(string|null  $vendorDir = \Composer\Autoload\null) : mixed
 [/code]
 
 __
@@ -1261,7 +1261,7 @@ _None found_
 
 __
 [code]
-    add(string  $prefix, list|string  $paths, bool  $prepend = false) : void
+    add(string  $prefix, list|string  $paths, bool  $prepend = \Composer\Autoload\false) : void
 [/code]
 
 _Registers a set of PSR-0 directories for a given prefix, either appending or prepending to the ones previously set for this prefix._
@@ -1291,7 +1291,7 @@ _None found_
 
 __
 [code]
-    addPsr4(string  $prefix, list|string  $paths, bool  $prepend = false) : void
+    addPsr4(string  $prefix, list|string  $paths, bool  $prepend = \Composer\Autoload\false) : void
 [/code]
 
 _Registers a set of PSR-4 directories for a given namespace, either appending or prepending to the ones previously set for this namespace._
@@ -1542,7 +1542,7 @@ _None found_
 
 __
 [code]
-    register(bool  $prepend = false) : void
+    register(bool  $prepend = \Composer\Autoload\false) : void
 [/code]
 
 _Registers this instance as an autoloader._
@@ -1751,7 +1751,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

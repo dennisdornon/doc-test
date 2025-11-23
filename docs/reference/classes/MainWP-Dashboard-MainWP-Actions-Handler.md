@@ -874,7 +874,7 @@ _None found_
 
 __
 [code]
-    do_action_mainwp_install_actions(array  $websites, string  $pAction, mixed  $output, string  $type, mixed  $post_data = array(), bool  $upload = false) : mixed
+    do_action_mainwp_install_actions(array  $websites, string  $pAction, mixed  $output, string  $type, mixed  $post_data = array(), bool  $upload = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Action mainwp_install_actions._
@@ -958,7 +958,7 @@ since  |  4.5.1.1
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:29. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

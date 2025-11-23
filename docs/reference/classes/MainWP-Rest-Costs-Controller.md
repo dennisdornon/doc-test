@@ -1390,7 +1390,7 @@ _None found_
 
 __
 [code]
-    get_endpoint_args_for_item_schema(string  $method = WP_REST_Server::CREATABLE) : array
+    get_endpoint_args_for_item_schema(string  $method = \WP_REST_Server::CREATABLE) : array
 [/code]
 
 _Compatibility functions for WP 5.5, since custom types are not supported anymore._
@@ -1422,7 +1422,7 @@ _None found_
 
 __
 [code]
-    parent_get_endpoint_args_for_item_schema(string  $method = WP_REST_Server::CREATABLE) : array
+    parent_get_endpoint_args_for_item_schema(string  $method = \WP_REST_Server::CREATABLE) : array
 [/code]
 
 _Retrieves an array of endpoint arguments from the item schema for the controller._
@@ -2242,7 +2242,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

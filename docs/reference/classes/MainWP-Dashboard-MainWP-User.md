@@ -1219,7 +1219,7 @@ _None found_
 
 __
 [code]
-    render_table(bool  $cached = true, string  $role = '', string  $groups = '', string  $sites = '', null  $search = null, mixed  $clients = '') : mixed
+    render_table(bool  $cached = \MainWP\Dashboard\true, string  $role = '', string  $groups = '', string  $sites = '', null  $search = \MainWP\Dashboard\null, mixed  $clients = '') : mixed
 [/code]
 
 _Renders Users Table._
@@ -1829,7 +1829,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

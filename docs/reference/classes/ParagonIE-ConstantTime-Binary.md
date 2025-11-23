@@ -826,7 +826,7 @@ ref  |  mbstring.func_overload
 
 __
 [code]
-    safeSubstr(string  $str, int  $start, ?int  $length = null) : string
+    safeSubstr(string  $str, int  $start = 0, ?int  $length = \ParagonIE\ConstantTime\null) : string
 [/code]
 
 _Safe substring_
@@ -883,7 +883,7 @@ staticvar  |  boolean $exists
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

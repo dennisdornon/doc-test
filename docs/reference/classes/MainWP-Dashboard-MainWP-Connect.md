@@ -846,7 +846,7 @@ _None found_
 
 __
 [code]
-    try_visit(string  $url, bool  $ssl_verifyhost = null, string  $http_user = null, string  $http_pass = null, int  $sslVersion, bool  $forceUseIPv4 = null, bool  $no_body = false) : array
+    try_visit(string  $url, bool  $ssl_verifyhost = \MainWP\Dashboard\null, string  $http_user = \MainWP\Dashboard\null, string  $http_pass = \MainWP\Dashboard\null, int  $sslVersion = 0, bool  $forceUseIPv4 = \MainWP\Dashboard\null, bool  $no_body = \MainWP\Dashboard\false) : array
 [/code]
 
 _Method try visit._
@@ -923,7 +923,7 @@ _None found_
 
 __
 [code]
-    check_ignored_http_code(mixed  $value, object|false  $website = false) : \MainWP\Dashboard\bolean
+    check_ignored_http_code(mixed  $value, object|false  $website = \MainWP\Dashboard\false) : \MainWP\Dashboard\bolean
 [/code]
 
 _Method check_ignored_http_code()_
@@ -994,7 +994,7 @@ used-by  |
 
 __
 [code]
-    get_post_data_authed(mixed  $website, mixed  $what, null  $params = null) : mixed
+    get_post_data_authed(mixed  $website, mixed  $what, null  $params = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Method get_post_data_authed()_
@@ -1030,7 +1030,7 @@ _None found_
 
 __
 [code]
-    get_get_data_authed(mixed  $website, mixed  $paramValue, string  $paramName = 'where', bool  $asArray = false, array  $other_params = array()) : string
+    get_get_data_authed(mixed  $website, mixed  $paramValue, string  $paramName = 'where', bool  $asArray = \MainWP\Dashboard\false, array  $other_params = array()) : string
 [/code]
 
 _Method get_get_data_authed()_
@@ -1106,7 +1106,7 @@ _None found_
 
 __
 [code]
-    get_post_data_not_authed(mixed  $url, mixed  $admin, mixed  $what, null  $params = null) : mixed
+    get_post_data_not_authed(mixed  $url, mixed  $admin, mixed  $what, null  $params = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Method get_post_data_not_authed()_
@@ -1143,7 +1143,7 @@ _None found_
 
 __
 [code]
-    fetch_urls_authed(object  $websites, string  $what, array  $params, mixed  $handler, mixed  $output, mixed  $whatPage = null, array  $others = array()) : bool
+    fetch_urls_authed(object  $websites, string  $what, array  $params, mixed  $handler, mixed  $output, mixed  $whatPage = \MainWP\Dashboard\null, array  $others = array()) : bool
 [/code]
 
 _Method fetch_urls_authed()_
@@ -1320,7 +1320,7 @@ _None found_
 
 __
 [code]
-    fetch_url_authed(object  $website, string  $what, null  $params = null, bool  $checkConstraints = false, bool  $pForceFetch = false, bool  $pRetryFailed = true, null  $rawResponse = null) : mixed
+    fetch_url_authed(object  $website, string  $what, null  $params = \MainWP\Dashboard\null, bool  $checkConstraints = \MainWP\Dashboard\false, bool  $pForceFetch = \MainWP\Dashboard\false, bool  $pRetryFailed = \MainWP\Dashboard\true, null  $rawResponse = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Method fetch_url_authed()_
@@ -1364,7 +1364,7 @@ used-by  |
 
 __
 [code]
-    fetch_url_not_authed(string  $url, string  $admin, string  $what, null  $params = null, bool  $pForceFetch = false, null  $verifyCertificate = null, null  $http_user = null, null  $http_pass = null, int  $sslVersion, array  $others = array(), array  $output = array()) : mixed
+    fetch_url_not_authed(string  $url, string  $admin, string  $what, null  $params = \MainWP\Dashboard\null, bool  $pForceFetch = \MainWP\Dashboard\false, null  $verifyCertificate = \MainWP\Dashboard\null, null  $http_user = \MainWP\Dashboard\null, null  $http_pass = \MainWP\Dashboard\null, int  $sslVersion = 0, array  $others = array(), array  $output = array()) : mixed
 [/code]
 
 _Method fetch_url_not_authed()_
@@ -1408,7 +1408,7 @@ _None found_
 
 __
 [code]
-    fetch_url(object  $website, string  $url, mixed  $postdata, bool  $checkConstraints = false, null  $verifyCertificate = null, bool  $pRetryFailed = true, null  $http_user = null, null  $http_pass = null, int  $sslVersion, array  $others = array(), array  $output = array()) : mixed
+    fetch_url(object  $website, string  $url, mixed  $postdata, bool  $checkConstraints = \MainWP\Dashboard\false, null  $verifyCertificate = \MainWP\Dashboard\null, bool  $pRetryFailed = \MainWP\Dashboard\true, null  $http_user = \MainWP\Dashboard\null, null  $http_pass = \MainWP\Dashboard\null, int  $sslVersion = 0, array  $others = array(), array  $output = array()) : mixed
 [/code]
 
 _Method fetch_url()_
@@ -1459,7 +1459,7 @@ _None found_
 
 __
 [code]
-    fetch_url_site(object  $website, string  $url, mixed  $postdata, bool  $checkConstraints = false, null  $verifyCertificate = null, null  $http_user = null, null  $http_pass = null, int  $sslVersion, array  $others = array(), array  $output = array()) : mixed
+    fetch_url_site(object  $website, string  $url, mixed  $postdata, bool  $checkConstraints = \MainWP\Dashboard\false, null  $verifyCertificate = \MainWP\Dashboard\null, null  $http_user = \MainWP\Dashboard\null, null  $http_pass = \MainWP\Dashboard\null, int  $sslVersion = 0, array  $others = array(), array  $output = array()) : mixed
 [/code]
 
 _Method fetch_url_site()_
@@ -1518,7 +1518,7 @@ _None found_
 
 __
 [code]
-    download_to_file(mixed  $url, mixed  $file, bool  $size = false, null  $http_user = null, null  $http_pass = null) : mixed
+    download_to_file(mixed  $url, mixed  $file, bool  $size = \MainWP\Dashboard\false, null  $http_user = \MainWP\Dashboard\null, null  $http_pass = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Method download_to_file()_
@@ -1779,7 +1779,7 @@ _None found_
 
 __
 [code]
-    check_constraints_last_request(mixed  $identifier, int  $minimumDelay, string|null  $ip = null) : mixed
+    check_constraints_last_request(mixed  $identifier, int  $minimumDelay, string|null  $ip = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Method check_constraints_last_request()._
@@ -1815,7 +1815,7 @@ _None found_
 
 __
 [code]
-    check_constraints_open_requests(mixed  $identifier, int  $maximumRequests, string|null  $ip = null) : mixed
+    check_constraints_open_requests(mixed  $identifier, int  $maximumRequests, string|null  $ip = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Method check_constraints_open_requests()._
@@ -1870,7 +1870,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

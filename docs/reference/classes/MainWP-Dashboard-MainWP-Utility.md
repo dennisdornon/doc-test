@@ -1063,7 +1063,7 @@ used-by  |
 
 __
 [code]
-    get_nice_url(string  $pUrl, bool  $showHttp = false) : string
+    get_nice_url(string  $pUrl, bool  $showHttp = \MainWP\Dashboard\false) : string
 [/code]
 
 _Method get_nice_url()_
@@ -1166,7 +1166,7 @@ used-by  |
 
 __
 [code]
-    sortmulti(mixed  $arr, mixed  $index, mixed  $order, bool  $natsort = false, bool  $case_sensitive = false) : array
+    sortmulti(mixed  $arr, mixed  $index, mixed  $order, bool  $natsort = \MainWP\Dashboard\false, bool  $case_sensitive = \MainWP\Dashboard\false) : array
 [/code]
 
 _Method sortmulti()_
@@ -1401,7 +1401,7 @@ used-by  |
 
 __
 [code]
-    get_timestamp(mixed  $timestamp = false) : string
+    get_timestamp(mixed  $timestamp = \MainWP\Dashboard\false) : string
 [/code]
 
 _Method get_timestamp()_
@@ -1638,7 +1638,7 @@ _None found_
 
 __
 [code]
-    map_fields(mixed  $data, mixed  $keys, bool  $object_output = true) : mixed
+    map_fields(mixed  $data, mixed  $keys, bool  $object_output = \MainWP\Dashboard\true) : mixed
 [/code]
 
 _Method map_fields()_
@@ -1674,7 +1674,7 @@ _None found_
 
 __
 [code]
-    map_site(mixed  $website, mixed  $keys, bool  $object_output = true) : mixed
+    map_site(mixed  $website, mixed  $keys, bool  $object_output = \MainWP\Dashboard\true) : mixed
 [/code]
 
 _Method map_site()_
@@ -1849,7 +1849,7 @@ used-by  |
 
 __
 [code]
-    remove_http_prefix(mixed  $pUrl, bool  $pTrimSlashes = false) : string
+    remove_http_prefix(mixed  $pUrl, bool  $pTrimSlashes = \MainWP\Dashboard\false) : string
 [/code]
 
 _Method remove_http_prefix()_
@@ -2132,7 +2132,7 @@ _None found_
 
 __
 [code]
-    get_flash_message(mixed  $message_id, bool  $delete = true) : bool
+    get_flash_message(mixed  $message_id, bool  $delete = \MainWP\Dashboard\true) : bool
 [/code]
 
 _Method get_flash_message()_
@@ -2202,7 +2202,7 @@ _None found_
 
 __
 [code]
-    array_sort(mixed  $arr, mixed  $key, string  $sort_flag = SORT_STRING) : mixed
+    array_sort(mixed  $arr, mixed  $key, string  $sort_flag = \MainWP\Dashboard\SORT_STRING) : mixed
 [/code]
 
 _Method array_sort()_
@@ -2236,7 +2236,7 @@ used-by  |
 
 __
 [code]
-    array_sort_existed_keys(mixed  $arr, mixed  $key, string  $sort_flag = SORT_STRING) : mixed
+    array_sort_existed_keys(mixed  $arr, mixed  $key, string  $sort_flag = \MainWP\Dashboard\SORT_STRING) : mixed
 [/code]
 
 _Method array_sort_existed_keys()_
@@ -2433,7 +2433,7 @@ used-by  |
 
 __
 [code]
-    get_http_codes(int  $code = false) : array
+    get_http_codes(int  $code = \MainWP\Dashboard\false) : array
 [/code]
 
 _Get HTTP code._
@@ -2531,7 +2531,7 @@ _None found_
 
 __
 [code]
-    check_abandoned(mixed  $siteId = null, string  $which = '') : array
+    check_abandoned(mixed  $siteId = \MainWP\Dashboard\null, string  $which = '') : array
 [/code]
 
 _Method check_abandoned()_
@@ -2723,7 +2723,7 @@ _None found_
 
 __
 [code]
-    hook_verify_ping_nonce(bool  $input_value, string  $nonce = '', mixed  $siteid = false) : mixed
+    hook_verify_ping_nonce(bool  $input_value, string  $nonce = '', mixed  $siteid = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Method hook_verify_ping_nonce()_
@@ -2759,7 +2759,7 @@ _None found_
 
 __
 [code]
-    create_site_nonce(mixed  $action = -1, mixed  $siteid = false) : string
+    create_site_nonce(mixed  $action = -1, mixed  $siteid = \MainWP\Dashboard\false) : string
 [/code]
 
 _Method create_site_nonce()_
@@ -2794,7 +2794,7 @@ _None found_
 
 __
 [code]
-    verify_site_nonce(string  $nonce, mixed  $action = -1, mixed  $siteid) : mixed
+    verify_site_nonce(string  $nonce, mixed  $action = -1, mixed  $siteid = 0) : mixed
 [/code]
 
 _Method verify_site_nonce()_
@@ -2896,7 +2896,7 @@ _None found_
 
 __
 [code]
-    get_set_deactivated_licenses_alerted(string  $slug, bool  $time_value = false, string  $act = 'get') : array
+    get_set_deactivated_licenses_alerted(string  $slug, bool  $time_value = \MainWP\Dashboard\false, string  $act = 'get') : array
 [/code]
 
 _Method get_set_deactivated_licenses_alerted()._
@@ -2928,7 +2928,7 @@ _None found_
 
 __
 [code]
-    get_remote_favicon(string  $url, string  $favi = '', int  $item_id = false, string  $file_prefix = '') : mixed
+    get_remote_favicon(string  $url, string  $favi = '', int  $item_id = \MainWP\Dashboard\false, string  $file_prefix = '') : mixed
 [/code]
 
 _Method get_remote_favicon()._
@@ -3084,7 +3084,7 @@ _None found_
 
 __
 [code]
-    valid_file_check(string  $path, bool  $readable = true) : bool
+    valid_file_check(string  $path, bool  $readable = \MainWP\Dashboard\true) : bool
 [/code]
 
 _Method valid_file_check()._
@@ -3321,7 +3321,7 @@ Inherited from
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

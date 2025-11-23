@@ -1097,7 +1097,7 @@ _None found_
 
 __
 [code]
-    hook_get_default_cost_fields(string  $def_val = null, string  $field = 'all') : array
+    hook_get_default_cost_fields(string  $def_val = \MainWP\Dashboard\Module\CostTracker\null, string  $field = 'all') : array
 [/code]
 
 _Method hook_get_default_cost_fields()._
@@ -1334,7 +1334,7 @@ _None found_
 
 __
 [code]
-    validate_custom_settings_text_fields(array  $arr, mixed  $product_types_colors = null, mixed  $product_types_icons = null) : array
+    validate_custom_settings_text_fields(array  $arr, mixed  $product_types_colors = \MainWP\Dashboard\Module\CostTracker\null, mixed  $product_types_icons = \MainWP\Dashboard\Module\CostTracker\null) : array
 [/code]
 
 _Method array_validate_text_fields()._
@@ -1425,7 +1425,7 @@ _None found_
 
 __
 [code]
-    get_next_renewal(int  $previous_renewal, string  $renewal_type, bool  $get_real_renewal = true) : mixed
+    get_next_renewal(int  $previous_renewal, string  $renewal_type, bool  $get_real_renewal = \MainWP\Dashboard\Module\CostTracker\true) : mixed
 [/code]
 
 _Method get_next_renewal()._
@@ -1509,7 +1509,7 @@ _None found_
 
 __
 [code]
-    get_product_colors(string  $type = false) : mixed
+    get_product_colors(string  $type = \MainWP\Dashboard\Module\CostTracker\false) : mixed
 [/code]
 
 _Method get_product_colors()._
@@ -1564,7 +1564,7 @@ _None found_
 
 __
 [code]
-    get_product_type_icons(string  $type = false) : mixed
+    get_product_type_icons(string  $type = \MainWP\Dashboard\Module\CostTracker\false) : mixed
 [/code]
 
 _Method get_product_type_icons()._
@@ -1746,7 +1746,7 @@ _None found_
 
 __
 [code]
-    calc_next_renewal_today(object  $subscription, int  $next_renewal = false) : mixed
+    calc_next_renewal_today(object  $subscription, int  $next_renewal = \MainWP\Dashboard\Module\CostTracker\false) : mixed
 [/code]
 
 _Method calc_next_renewal_today()_
@@ -1781,7 +1781,7 @@ _None found_
 
 __
 [code]
-    generate_next_renewal(object  $subscription, int  $next_renewal = false) : void
+    generate_next_renewal(object  $subscription, int  $next_renewal = \MainWP\Dashboard\Module\CostTracker\false) : void
 [/code]
 
 _Method generate_next_renewal()_
@@ -1814,7 +1814,7 @@ _None found_
 
 __
 [code]
-    get_cost_status_label(mixed  $key = false) : string
+    get_cost_status_label(mixed  $key = \MainWP\Dashboard\Module\CostTracker\false) : string
 [/code]
 
 _Returns the label for a cost status._
@@ -1844,7 +1844,7 @@ _None found_
 
 __
 [code]
-    get_product_icon_display(string  $product = false, string  $img_id_attr = '', bool  $with_color = true) : mixed
+    get_product_icon_display(string  $product = \MainWP\Dashboard\Module\CostTracker\false, string  $img_id_attr = '', bool  $with_color = \MainWP\Dashboard\Module\CostTracker\true) : mixed
 [/code]
 
 _Gets product icon to output._
@@ -1893,7 +1893,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

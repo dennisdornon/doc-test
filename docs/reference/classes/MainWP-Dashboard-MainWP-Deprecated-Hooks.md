@@ -1007,7 +1007,7 @@ used-by  |
 
 __
 [code]
-    deprecated_message(string  $old_hook, string  $new_hook, string  $message = null) : mixed
+    deprecated_message(string  $old_hook, string  $new_hook, string  $message = \MainWP\Dashboard\null) : mixed
 [/code]
 
 _Display a deprecated notice for old hooks._
@@ -1084,7 +1084,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

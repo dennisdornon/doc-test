@@ -1123,7 +1123,7 @@ _None found_
 
 __
 [code]
-    fetch_uptime_monitor(mixed  $monitor, mixed  $global_settings = array(), bool  $second_try = false, array  $params = array()) : mixed
+    fetch_uptime_monitor(mixed  $monitor, mixed  $global_settings = array(), bool  $second_try = \MainWP\Dashboard\false, array  $params = array()) : mixed
 [/code]
 
 _Method fetch uptime monitor._
@@ -1187,7 +1187,7 @@ _None found_
 
 __
 [code]
-    fetch_single_uptime_url(mixed  $ch, mixed  $handler, object  $website, object  $output, array  $params, bool  $try_second = false) : mixed
+    fetch_single_uptime_url(mixed  $ch, mixed  $handler, object  $website, object  $output, array  $params, bool  $try_second = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Fetch single curl exec._
@@ -1284,7 +1284,7 @@ _None found_
 
 __
 [code]
-    parse_response_status(mixed  $httpCode, mixed  $error = false) : mixed
+    parse_response_status(mixed  $httpCode, mixed  $error = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Parse response status._
@@ -1506,7 +1506,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

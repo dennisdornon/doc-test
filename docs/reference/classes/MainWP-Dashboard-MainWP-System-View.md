@@ -1613,7 +1613,7 @@ _None found_
 
 __
 [code]
-    render_footer_content(mixed  $websites, int  $current_wpid = false) : mixed
+    render_footer_content(mixed  $websites, int  $current_wpid = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Method render_footer_content()_
@@ -1750,7 +1750,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

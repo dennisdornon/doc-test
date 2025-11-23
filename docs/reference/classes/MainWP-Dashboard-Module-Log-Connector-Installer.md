@@ -926,7 +926,7 @@ _None found_
 
 __
 [code]
-    callback_mainwp_install_update_actions(array  $website, string  $pAction, array  $data, string  $type, mixed  $post_data = array(), bool  $upload = false) : mixed
+    callback_mainwp_install_update_actions(array  $website, string  $pAction, array  $data, string  $type, mixed  $post_data = array(), bool  $upload = \MainWP\Dashboard\Module\Log\false) : mixed
 [/code]
 
 _Log plugin|theme installations._
@@ -1090,7 +1090,7 @@ _None found_
 
 __
 [code]
-    log(string  $message, array  $args, int  $site_id, string  $context, string  $action, int|null  $state = null, int  $user_id = null) : bool
+    log(string  $message, array  $args, int  $site_id, string  $context, string  $action, int|null  $state = \MainWP\Dashboard\Module\Log\null, int  $user_id = \MainWP\Dashboard\Module\Log\null) : bool
 [/code]
 
 _Log handler_
@@ -1154,7 +1154,7 @@ _None found_
 
 __
 [code]
-    get_changed_keys(mixed  $old_value, mixed  $new_value, bool|int  $deep = false) : array
+    get_changed_keys(mixed  $old_value, mixed  $new_value, bool|int  $deep = \MainWP\Dashboard\Module\Log\false) : array
 [/code]
 
 _Compare two values and return changed keys if they are arrays_
@@ -1231,7 +1231,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

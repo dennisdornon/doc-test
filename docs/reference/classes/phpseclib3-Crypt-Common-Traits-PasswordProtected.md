@@ -813,7 +813,7 @@ _None found_
 
 __
 [code]
-    withPassword(string|bool  $password = false) : mixed
+    withPassword(string|bool  $password = \phpseclib3\Crypt\Common\Traits\false) : mixed
 [/code]
 
 _Sets the password_
@@ -865,7 +865,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -914,7 +914,7 @@ _None found_
 
 __
 [code]
-    __construct(int  $instanceID, \phpseclib3\Math\BigInteger  $num = null) : mixed
+    __construct(int  $instanceID, \phpseclib3\Math\BigInteger  $num = \phpseclib3\Math\PrimeField\null) : mixed
 [/code]
 
 _Default constructor_
@@ -1581,7 +1581,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

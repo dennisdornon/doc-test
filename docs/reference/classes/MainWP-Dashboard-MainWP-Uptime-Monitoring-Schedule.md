@@ -962,7 +962,7 @@ _None found_
 
 __
 [code]
-    update_monitoring_time(object  $monitor, bool  $set_retry = false) : void
+    update_monitoring_time(object  $monitor, bool  $set_retry = \MainWP\Dashboard\false) : void
 [/code]
 
 _Method update_monitoring_time_
@@ -1075,7 +1075,7 @@ _None found_
 
 __
 [code]
-    send_uptime_notification_heartbeats_importance_status(array  $uptime_notices, string  $admin_email, string  $email_settings, bool  $plain_text, bool  $to_admin = false) : mixed
+    send_uptime_notification_heartbeats_importance_status(array  $uptime_notices, string  $admin_email, string  $email_settings, bool  $plain_text, bool  $to_admin = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Basic site uptime monitoring._
@@ -1160,7 +1160,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

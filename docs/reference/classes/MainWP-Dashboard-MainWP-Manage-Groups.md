@@ -1213,7 +1213,7 @@ used-by  |
 
 __
 [code]
-    check_group_name(mixed  $groupName, null  $groupId = null) : string
+    check_group_name(mixed  $groupName, null  $groupId = \MainWP\Dashboard\null) : string
 [/code]
 
 _Method check_group_name()_
@@ -1425,7 +1425,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

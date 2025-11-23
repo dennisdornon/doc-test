@@ -1011,7 +1011,7 @@ used-by  |
 
 __
 [code]
-    init_left_menu(array  $subPages = array(), bool  $enableLegacyBackup = true) : mixed
+    init_left_menu(array  $subPages = array(), bool  $enableLegacyBackup = \MainWP\Dashboard\true) : mixed
 [/code]
 
 _Instantiate Legacy Backups Menu._
@@ -1662,7 +1662,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

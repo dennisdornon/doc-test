@@ -1121,7 +1121,7 @@ _None found_
 
 __
 [code]
-    render_demo_disable_button(string  $content, bool  $echo_out = true) : mixed
+    render_demo_disable_button(string  $content, bool  $echo_out = \MainWP\Dashboard\true) : mixed
 [/code]
 
 _Method render_demo_disable_button()_
@@ -1494,7 +1494,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

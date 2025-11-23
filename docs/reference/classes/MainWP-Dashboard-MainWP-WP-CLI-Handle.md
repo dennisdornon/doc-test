@@ -1296,7 +1296,7 @@ _None found_
 
 __
 [code]
-    callback_sites_disconnect_sites(array  $args = array(), array  $assoc_args = false) : mixed
+    callback_sites_disconnect_sites(array  $args = array(), array  $assoc_args = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Disconnects all child sites._
@@ -1329,7 +1329,7 @@ _None found_
 
 __
 [code]
-    callback_site_site(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists child site data._
@@ -1363,7 +1363,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_info(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_info(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Shows child site info._
@@ -1397,7 +1397,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_installed_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_installed_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists installed plugins on a child site._
@@ -1431,7 +1431,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_installed_plugins_count(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_installed_plugins_count(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns the number of installed plugins on a child site._
@@ -1465,7 +1465,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_active_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_active_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all active plugins on a child site._
@@ -1499,7 +1499,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_active_plugins_count(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_active_plugins_count(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns a number of active plugins on a child site._
@@ -1533,7 +1533,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_inactive_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_inactive_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all inactive plugins on a child site._
@@ -1567,7 +1567,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_inactive_plugins_count(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_inactive_plugins_count(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns the number of inactive plugins on a child site._
@@ -1601,7 +1601,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_installed_themes(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_installed_themes(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all installed themes on a child site._
@@ -1635,7 +1635,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_installed_themes_count(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_installed_themes_count(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns the number of installed themes._
@@ -1669,7 +1669,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_active_themes(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_active_themes(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Shows the active theme on the child site._
@@ -1703,7 +1703,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_inactive_themes(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_inactive_themes(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all inactive themes on a child site._
@@ -1737,7 +1737,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_inactive_themes_count(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_inactive_themes_count(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns the number of inactive themes._
@@ -1771,7 +1771,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_available_updates(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_available_updates(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists available updates for a child site._
@@ -1805,7 +1805,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_available_updates_count(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_available_updates_count(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns the number of available updates for a child site._
@@ -1839,7 +1839,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_abandoned_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_abandoned_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all abandoned plugins on a child site._
@@ -1873,7 +1873,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_abandoned_plugins_count(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_abandoned_plugins_count(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns the number of abaindoned plugins on a child site._
@@ -1907,7 +1907,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_abandoned_themes(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_abandoned_themes(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all abandoned themes on a child site._
@@ -1941,7 +1941,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_abandoned_themes_count(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_abandoned_themes_count(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns the number of abandoned themes on a child site._
@@ -1975,7 +1975,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_http_status(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_http_status(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns child site HTTP status._
@@ -2009,7 +2009,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_health_score(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_health_score(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Returns child site Health score._
@@ -2043,7 +2043,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_security_issues(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_security_issues(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists child site security issues._
@@ -2077,7 +2077,7 @@ _None found_
 
 __
 [code]
-    callback_site_add_site(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_add_site(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Adds child site._
@@ -2111,7 +2111,7 @@ _None found_
 
 __
 [code]
-    callback_site_edit_site(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_edit_site(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Edits child site._
@@ -2145,7 +2145,7 @@ _None found_
 
 __
 [code]
-    callback_site_sync_site(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_sync_site(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Syncs child site._
@@ -2179,7 +2179,7 @@ _None found_
 
 __
 [code]
-    callback_site_reconnect_site(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_reconnect_site(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Reconnects child site._
@@ -2213,7 +2213,7 @@ _None found_
 
 __
 [code]
-    callback_site_disconnect_site(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_disconnect_site(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Disconnects child site._
@@ -2247,7 +2247,7 @@ _None found_
 
 __
 [code]
-    callback_site_remove_site(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_remove_site(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Removes child site from the MainWP Dashboard._
@@ -2281,7 +2281,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_update_wordpress(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_update_wordpress(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Updates WP Core on a child site._
@@ -2315,7 +2315,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_update_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_update_plugins(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Updates all plugins on a child site._
@@ -2349,7 +2349,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_update_themes(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_update_themes(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Updates all themes on a child site._
@@ -2383,7 +2383,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_update_translations(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_update_translations(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Updates translations on a child site._
@@ -2417,7 +2417,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_update_item(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_update_item(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Updates single item on a child site._
@@ -2451,7 +2451,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_manage_plugin(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_manage_plugin(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Manages plgins on a child site._
@@ -2487,7 +2487,7 @@ _None found_
 
 __
 [code]
-    callback_site_site_manage_theme(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_site_manage_theme(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Manages themes on a child site._
@@ -2523,7 +2523,7 @@ _None found_
 
 __
 [code]
-    callback_site_check_site_http_status(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_site_check_site_http_status(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Checks child site for HTTP Status._
@@ -2590,7 +2590,7 @@ _None found_
 
 __
 [code]
-    callback_updates_ignored_plugins_updates(array  $args = array(), array  $assoc_args = array(), object|bool  $website = false) : mixed
+    callback_updates_ignored_plugins_updates(array  $args = array(), array  $assoc_args = array(), object|bool  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all ignored plugins for a child site._
@@ -2624,7 +2624,7 @@ _None found_
 
 __
 [code]
-    callback_updates_site_ignored_plugins_updates(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_updates_site_ignored_plugins_updates(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all per site ignored plugin updates for a child site._
@@ -2658,7 +2658,7 @@ _None found_
 
 __
 [code]
-    callback_updates_ignored_themes_updates(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_updates_ignored_themes_updates(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all ignored theme updates for a child site._
@@ -2692,7 +2692,7 @@ _None found_
 
 __
 [code]
-    callback_updates_site_ignored_themes_updates(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_updates_site_ignored_themes_updates(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Lists all per site ignored theme updates for a child site._
@@ -2726,7 +2726,7 @@ _None found_
 
 __
 [code]
-    callback_updates_ignore_updates(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_updates_ignore_updates(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Ignores an update globally._
@@ -2762,7 +2762,7 @@ _None found_
 
 __
 [code]
-    callback_updates_ignore_update(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_updates_ignore_update(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Ignores an update on a child site._
@@ -2796,7 +2796,7 @@ _None found_
 
 __
 [code]
-    callback_updates_unignore_updates(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_updates_unignore_updates(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Unignores an update._
@@ -2830,7 +2830,7 @@ _None found_
 
 __
 [code]
-    callback_updates_unignore_update(array  $args = array(), array  $assoc_args = array(), object  $website = false) : mixed
+    callback_updates_unignore_update(array  $args = array(), array  $assoc_args = array(), object  $website = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Unitnores an update on a child site._
@@ -2864,7 +2864,7 @@ _None found_
 
 __
 [code]
-    handle_sync_sites(array  $args = array(), array  $assoc_args = false) : mixed
+    handle_sync_sites(array  $args = array(), array  $assoc_args = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Syncs all child sites._
@@ -2922,7 +2922,7 @@ _None found_
 
 __
 [code]
-    print_sites(array  $websites, bool  $is_objs = false) : mixed
+    print_sites(array  $websites, bool  $is_objs = \MainWP\Dashboard\false) : mixed
 [/code]
 
 _Prints child sites list._
@@ -2972,7 +2972,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 16th, 2025 at 00:30. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
