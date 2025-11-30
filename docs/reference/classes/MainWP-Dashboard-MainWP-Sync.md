@@ -854,7 +854,7 @@ _None found_
 
 __
 [code]
-    sync_website(object  $website, bool  $clear_session = \MainWP\Dashboard\true) : bool
+    sync_website(object  $website, bool  $clear_session = true) : bool
 [/code]
 
 _Method sync_website()_
@@ -889,7 +889,7 @@ _None found_
 
 __
 [code]
-    sync_site(mixed  $pWebsite = \MainWP\Dashboard\null, bool  $pForceFetch = \MainWP\Dashboard\false, bool  $pAllowDisconnect = \MainWP\Dashboard\true, bool  $clear_session = \MainWP\Dashboard\true) : bool
+    sync_site(mixed  $pWebsite = null, bool  $pForceFetch = false, bool  $pAllowDisconnect = true, bool  $clear_session = true) : bool
 [/code]
 
 _Method sync_site()_
@@ -933,7 +933,7 @@ used-by  |
 
 __
 [code]
-    sync_information_array(object  $pWebsite, array  $information, string  $sync_errors = '', int  $check_result = \MainWP\Dashboard\false, bool  $error = \MainWP\Dashboard\false, bool  $pAllowDisconnect = \MainWP\Dashboard\true) : bool
+    sync_information_array(object  $pWebsite, array  $information, string  $sync_errors = '', int  $check_result = false, bool  $error = false, bool  $pAllowDisconnect = true) : bool
 [/code]
 
 _Method sync_information_array()_
@@ -1010,7 +1010,7 @@ _None found_
 
 __
 [code]
-    get_wp_icon(mixed  $siteId = \MainWP\Dashboard\null) : array
+    get_wp_icon(mixed  $siteId = null) : array
 [/code]
 
 _Method get_wp_icon()_
@@ -1081,7 +1081,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

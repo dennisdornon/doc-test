@@ -878,7 +878,7 @@ _None found_
 
 __
 [code]
-    get_key_file(int  $site_id, bool  $fullpath = \MainWP\Dashboard\false) : string
+    get_key_file(int  $site_id, bool  $fullpath = false) : string
 [/code]
 
 _Get key filename._
@@ -939,7 +939,7 @@ _None found_
 
 __
 [code]
-    encrypt_privkey(mixed  $value, int  $site_id = \MainWP\Dashboard\false, bool  $create_keys_file = \MainWP\Dashboard\false) : mixed
+    encrypt_privkey(mixed  $value, int  $site_id = false, bool  $create_keys_file = false) : mixed
 [/code]
 
 _Encrypt data._
@@ -969,7 +969,7 @@ _None found_
 
 __
 [code]
-    decrypt_privkey(mixed  $encrypted, int  $site_id = \MainWP\Dashboard\false) : mixed
+    decrypt_privkey(mixed  $encrypted, int  $site_id = false) : mixed
 [/code]
 
 _Decrypt data._
@@ -1105,7 +1105,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

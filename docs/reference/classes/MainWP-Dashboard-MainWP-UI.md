@@ -852,7 +852,7 @@ used-by  |
 
 __
 [code]
-    select_sites_box(string  $type = 'checkbox', bool  $show_group = \MainWP\Dashboard\true, bool  $show_select_all = \MainWP\Dashboard\true, string  $class_style = '', string  $style = '', array  $selected_websites = array(), array  $selected_groups = array(), bool  $enableOfflineSites = \MainWP\Dashboard\false, int  $postId = 0) : mixed
+    select_sites_box(string  $type = 'checkbox', bool  $show_group = true, bool  $show_select_all = true, string  $class_style = '', string  $style = '', array  $selected_websites = array(), array  $selected_groups = array(), bool  $enableOfflineSites = false, int  $postId = 0) : mixed
 [/code]
 
 _Method select_sites_box()_
@@ -898,7 +898,7 @@ _None found_
 
 __
 [code]
-    select_sites_box_body(array  $selected_websites = array(), array  $selected_groups = array(), string  $type = 'checkbox', bool  $show_group = \MainWP\Dashboard\true, bool  $show_select_all = \MainWP\Dashboard\true, bool  $updateQty = \MainWP\Dashboard\false, bool  $enableOfflineSites = \MainWP\Dashboard\false, int  $postId = 0) : mixed
+    select_sites_box_body(array  $selected_websites = array(), array  $selected_groups = array(), string  $type = 'checkbox', bool  $show_group = true, bool  $show_select_all = true, bool  $updateQty = false, bool  $enableOfflineSites = false, int  $postId = 0) : mixed
 [/code]
 
 _Method select_sites_box_body()_
@@ -944,7 +944,7 @@ _None found_
 
 __
 [code]
-    render_select_sites_header(int  $tab_id, bool  $staging_enabled, array  $selectedby, bool  $show_group = \MainWP\Dashboard\true, bool  $show_client = \MainWP\Dashboard\false) : mixed
+    render_select_sites_header(int  $tab_id, bool  $staging_enabled, array  $selectedby, bool  $show_group = true, bool  $show_client = false) : mixed
 [/code]
 
 _Method render_select_sites_header()_
@@ -980,7 +980,7 @@ devtodo  |  Move to view folder.
 
 __
 [code]
-    render_select_sites(object  $websites, string  $type, mixed  $selected_websites, bool  $enableOfflineSites, mixed  $edit_site_id, bool  $show_select_all, mixed  $add_edit_client_id = \MainWP\Dashboard\false, bool  $show_select_all_disc = \MainWP\Dashboard\false) : void
+    render_select_sites(object  $websites, string  $type, mixed  $selected_websites, bool  $enableOfflineSites, mixed  $edit_site_id, bool  $show_select_all, mixed  $add_edit_client_id = false, bool  $show_select_all_disc = false) : void
 [/code]
 
 _Method render_select_sites()_
@@ -1270,7 +1270,7 @@ _None found_
 
 __
 [code]
-    render_page_navigation(array  $subitems = array(), null  $name_caller = \MainWP\Dashboard\null) : mixed
+    render_page_navigation(array  $subitems = array(), null  $name_caller = null) : mixed
 [/code]
 
 _Method render_page_navigation()_
@@ -1366,7 +1366,7 @@ _None found_
 
 __
 [code]
-    add_widget_box(mixed  $id, mixed  $callback, null  $screen = \MainWP\Dashboard\null, array  $layout = array()) : mixed
+    add_widget_box(mixed  $id, mixed  $callback, null  $screen = null, array  $layout = array()) : mixed
 [/code]
 
 _Method add_widget_box()_
@@ -1701,7 +1701,7 @@ _None found_
 
 __
 [code]
-    render_screen_options(bool  $setting_page = \MainWP\Dashboard\true) : void
+    render_screen_options(bool  $setting_page = true) : void
 [/code]
 
 _Method render_screen_options()_
@@ -1960,7 +1960,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -1219,7 +1219,7 @@ used-by  |
 
 __
 [code]
-    new_post(array  $post_data = array(), bool  $replaceadvImg = \MainWP\Dashboard\false, mixed  $website = \MainWP\Dashboard\false) : array
+    new_post(array  $post_data = array(), bool  $replaceadvImg = false, mixed  $website = false) : array
 [/code]
 
 _Method new_post()_
@@ -1255,7 +1255,7 @@ _None found_
 
 __
 [code]
-    create_post(mixed  $new_post, mixed  $post_custom, mixed  $post_category, mixed  $post_featured_image, mixed  $upload_dir, mixed  $post_tags, mixed  $post_gallery_images, bool  $replaceadvImg = \MainWP\Dashboard\false, mixed  $website = \MainWP\Dashboard\false) : array
+    create_post(mixed  $new_post, mixed  $post_custom, mixed  $post_category, mixed  $post_featured_image, mixed  $upload_dir, mixed  $post_tags, mixed  $post_gallery_images, bool  $replaceadvImg = false, mixed  $website = false) : array
 [/code]
 
 _Method create_post()_
@@ -1297,7 +1297,7 @@ _None found_
 
 __
 [code]
-    replace_advanced_image(array  $content, array  $upload_dir, mixed  $website, bool  $withslashes = \MainWP\Dashboard\false) : mixed
+    replace_advanced_image(array  $content, array  $upload_dir, mixed  $website, bool  $withslashes = false) : mixed
 [/code]
 
 _Method replace_advanced_image()_
@@ -1465,7 +1465,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

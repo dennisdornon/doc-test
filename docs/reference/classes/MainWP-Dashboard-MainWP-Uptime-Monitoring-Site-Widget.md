@@ -872,7 +872,7 @@ _None found_
 
 __
 [code]
-    get_valid_days_periods(string|null  $period = \MainWP\Dashboard\null) : mixed
+    get_valid_days_periods(string|null  $period = null) : mixed
 [/code]
 
 _Method get_valid_days_periods_
@@ -1040,7 +1040,7 @@ _None found_
 
 __
 [code]
-    prepare_group_time_option_for_ui_chart_data_only(int  $site_id, array  $params, bool  $ajax_working = \MainWP\Dashboard\false) : string
+    prepare_group_time_option_for_ui_chart_data_only(int  $site_id, array  $params, bool  $ajax_working = false) : string
 [/code]
 
 _Set 'group_time_by' option for chart data query._
@@ -1091,7 +1091,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

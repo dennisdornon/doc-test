@@ -1995,7 +1995,7 @@ _None found_
 
 __
 [code]
-    encode_der(\phpseclib3\File\ASN1\Element|string|array|null  $source, array  $mapping, int  $idx = \phpseclib3\File\null, array  $special = []) : string
+    encode_der(\phpseclib3\File\ASN1\Element|string|array|null  $source, array  $mapping, int  $idx = null, array  $special = []) : string
 [/code]
 
 _ASN.1 Encode (Helper function)_
@@ -2080,7 +2080,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

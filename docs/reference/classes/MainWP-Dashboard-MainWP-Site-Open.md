@@ -975,7 +975,7 @@ _None found_
 
 __
 [code]
-    get_open_site_url(mixed  $website, mixed  $location = '', bool  $echo_out = \MainWP\Dashboard\true) : mixed
+    get_open_site_url(mixed  $website, mixed  $location = '', bool  $echo_out = true) : mixed
 [/code]
 
 _Method get_open_site_url()_
@@ -1064,7 +1064,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

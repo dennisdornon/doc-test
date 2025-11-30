@@ -1682,7 +1682,7 @@ _None found_
 
 __
 [code]
-    validateDate(\DateTimeInterface|string  $date = \phpseclib3\File\null) : bool
+    validateDate(\DateTimeInterface|string  $date = null) : bool
 [/code]
 
 _Validate a date_
@@ -1712,7 +1712,7 @@ _None found_
 
 __
 [code]
-    validateSignature(bool  $caonly = \phpseclib3\File\true) : mixed
+    validateSignature(bool  $caonly = true) : mixed
 [/code]
 
 _Validate a signature_
@@ -1982,7 +1982,7 @@ _None found_
 
 __
 [code]
-    getDNProp(string  $propName, array  $dn = \phpseclib3\File\null, bool  $withType = \phpseclib3\File\false) : mixed
+    getDNProp(string  $propName, array  $dn = null, bool  $withType = false) : mixed
 [/code]
 
 _Get Distinguished Name properties_
@@ -2012,7 +2012,7 @@ _None found_
 
 __
 [code]
-    setDN(mixed  $dn, bool  $merge = \phpseclib3\File\false, string  $type = 'utf8String') : bool
+    setDN(mixed  $dn, bool  $merge = false, string  $type = 'utf8String') : bool
 [/code]
 
 _Set a Distinguished Name_
@@ -2042,7 +2042,7 @@ _None found_
 
 __
 [code]
-    getDN(mixed  $format = \self::DN_ARRAY, array  $dn = \phpseclib3\File\null) : array|bool|string
+    getDN(mixed  $format = \self::DN_ARRAY, array  $dn = null) : array|bool|string
 [/code]
 
 _Get the Distinguished Name for a certificates subject_
@@ -2127,7 +2127,7 @@ _None found_
 
 __
 [code]
-    getIssuerDNProp(string  $propName, bool  $withType = \phpseclib3\File\false) : mixed
+    getIssuerDNProp(string  $propName, bool  $withType = false) : mixed
 [/code]
 
 _Get an individual Distinguished Name property for a certificate/crl issuer_
@@ -2156,7 +2156,7 @@ _None found_
 
 __
 [code]
-    getSubjectDNProp(string  $propName, bool  $withType = \phpseclib3\File\false) : mixed
+    getSubjectDNProp(string  $propName, bool  $withType = false) : mixed
 [/code]
 
 _Get an individual Distinguished Name property for a certificate/csr subject_
@@ -2767,7 +2767,7 @@ _None found_
 
 __
 [code]
-    getExtension(string  $id, array  $cert = \phpseclib3\File\null, string  $path = \phpseclib3\File\null) : mixed
+    getExtension(string  $id, array  $cert = null, string  $path = null) : mixed
 [/code]
 
 _Get a certificate, CSR or CRL Extension_
@@ -2799,7 +2799,7 @@ _None found_
 
 __
 [code]
-    getExtensions(array  $cert = \phpseclib3\File\null, string  $path = \phpseclib3\File\null) : array
+    getExtensions(array  $cert = null, string  $path = null) : array
 [/code]
 
 _Returns a list of all extensions in use in certificate, CSR or CRL_
@@ -2828,7 +2828,7 @@ _None found_
 
 __
 [code]
-    setExtension(string  $id, mixed  $value, bool  $critical = \phpseclib3\File\false, bool  $replace = \phpseclib3\File\true) : bool
+    setExtension(string  $id, mixed  $value, bool  $critical = false, bool  $replace = true) : bool
 [/code]
 
 _Set a certificate, CSR or CRL Extension_
@@ -2888,7 +2888,7 @@ _None found_
 
 __
 [code]
-    getAttribute(string  $id, int  $disposition = \self::ATTR_ALL, array  $csr = \phpseclib3\File\null) : mixed
+    getAttribute(string  $id, int  $disposition = \self::ATTR_ALL, array  $csr = null) : mixed
 [/code]
 
 _Get a CSR attribute_
@@ -2920,7 +2920,7 @@ _None found_
 
 __
 [code]
-    getAttributes(array  $csr = \phpseclib3\File\null) : array
+    getAttributes(array  $csr = null) : array
 [/code]
 
 _Returns a list of all CSR attributes in use_
@@ -3008,7 +3008,7 @@ _None found_
 
 __
 [code]
-    computeKeyIdentifier(mixed  $key = \phpseclib3\File\null, int  $method = 1) : string
+    computeKeyIdentifier(mixed  $key = null, int  $method = 1) : string
 [/code]
 
 _Compute a public key identifier._
@@ -3103,7 +3103,7 @@ _None found_
 
 __
 [code]
-    revoke(string  $serial, string  $date = \phpseclib3\File\null) : bool
+    revoke(string  $serial, string  $date = null) : bool
 [/code]
 
 _Revoke a certificate._
@@ -3188,7 +3188,7 @@ _None found_
 
 __
 [code]
-    listRevoked(array  $crl = \phpseclib3\File\null) : array|bool
+    listRevoked(array  $crl = null) : array|bool
 [/code]
 
 _List revoked certificates_
@@ -3245,7 +3245,7 @@ _None found_
 
 __
 [code]
-    getRevokedCertificateExtension(string  $serial, string  $id, array  $crl = \phpseclib3\File\null) : mixed
+    getRevokedCertificateExtension(string  $serial, string  $id, array  $crl = null) : mixed
 [/code]
 
 _Get a Revoked Certificate Extension_
@@ -3277,7 +3277,7 @@ _None found_
 
 __
 [code]
-    getRevokedCertificateExtensions(string  $serial, array  $crl = \phpseclib3\File\null) : array|bool
+    getRevokedCertificateExtensions(string  $serial, array  $crl = null) : array|bool
 [/code]
 
 _Returns a list of all extensions in use for a given revoked certificate_
@@ -3306,7 +3306,7 @@ _None found_
 
 __
 [code]
-    setRevokedCertificateExtension(string  $serial, string  $id, mixed  $value, bool  $critical = \phpseclib3\File\false, bool  $replace = \phpseclib3\File\true) : bool
+    setRevokedCertificateExtension(string  $serial, string  $id, mixed  $value, bool  $critical = false, bool  $replace = true) : bool
 [/code]
 
 _Set a Revoked Certificate Extension_
@@ -3399,7 +3399,7 @@ _None found_
 
 __
 [code]
-    setExtensionValue(string  $id, mixed  $value, bool  $critical = \phpseclib3\File\false, bool  $replace = \phpseclib3\File\false) : mixed
+    setExtensionValue(string  $id, mixed  $value, bool  $critical = false, bool  $replace = false) : mixed
 [/code]
 
 _Register the mapping for a custom/unsupported extension._
@@ -3889,7 +3889,7 @@ _None found_
 
 __
 [code]
-    & subArrayUnchecked(array  $root, string  $path, bool  $create = \phpseclib3\File\false) : array|false
+    & subArrayUnchecked(array  $root, string  $path, bool  $create = false) : array|false
 [/code]
 
 _Get a reference to a subarray_
@@ -3923,7 +3923,7 @@ _None found_
 
 __
 [code]
-    & subArray(array  $root = \phpseclib3\File\null, string  $path, bool  $create = \phpseclib3\File\false) : array|false
+    & subArray(array  $root = null, string  $path, bool  $create = false) : array|false
 [/code]
 
 _Get a reference to a subarray_
@@ -3953,7 +3953,7 @@ _None found_
 
 __
 [code]
-    & extensions(array  $root = \phpseclib3\File\null, string  $path = \phpseclib3\File\null, bool  $create = \phpseclib3\File\false) : array|false
+    & extensions(array  $root = null, string  $path = null, bool  $create = false) : array|false
 [/code]
 
 _Get a reference to an extension subarray_
@@ -3983,7 +3983,7 @@ _None found_
 
 __
 [code]
-    removeExtensionHelper(string  $id, string  $path = \phpseclib3\File\null) : bool
+    removeExtensionHelper(string  $id, string  $path = null) : bool
 [/code]
 
 _Remove an Extension_
@@ -4012,7 +4012,7 @@ _None found_
 
 __
 [code]
-    getExtensionHelper(string  $id, array  $cert = \phpseclib3\File\null, string  $path = \phpseclib3\File\null) : mixed
+    getExtensionHelper(string  $id, array  $cert = null, string  $path = null) : mixed
 [/code]
 
 _Get an Extension_
@@ -4044,7 +4044,7 @@ _None found_
 
 __
 [code]
-    getExtensionsHelper(array  $cert = \phpseclib3\File\null, string  $path = \phpseclib3\File\null) : array
+    getExtensionsHelper(array  $cert = null, string  $path = null) : array
 [/code]
 
 _Returns a list of all extensions in use_
@@ -4073,7 +4073,7 @@ _None found_
 
 __
 [code]
-    setExtensionHelper(string  $id, mixed  $value, bool  $critical = \phpseclib3\File\false, bool  $replace = \phpseclib3\File\true, string  $path = \phpseclib3\File\null) : bool
+    setExtensionHelper(string  $id, mixed  $value, bool  $critical = false, bool  $replace = true, string  $path = null) : bool
 [/code]
 
 _Set an Extension_
@@ -4188,7 +4188,7 @@ _None found_
 
 __
 [code]
-    revokedCertificate(array  $rclist, string  $serial, bool  $create = \phpseclib3\File\false) : int|false
+    revokedCertificate(array  $rclist, string  $serial, bool  $create = false) : int|false
 [/code]
 
 _Get the index of a revoked certificate._
@@ -4237,7 +4237,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

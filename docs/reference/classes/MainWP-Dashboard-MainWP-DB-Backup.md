@@ -1251,7 +1251,7 @@ used-by  |
 
 __
 [code]
-    get_backup_tasks(null  $userid = \MainWP\Dashboard\null, string  $orderBy = \MainWP\Dashboard\null) : object|null
+    get_backup_tasks(null  $userid = null, string  $orderBy = null) : object|null
 [/code]
 
 _Method get_backup_tasks()_
@@ -1827,7 +1827,7 @@ _None found_
 
 __
 [code]
-    get_row_result(mixed  $sql, int  $obj = \MainWP\Dashboard\OBJECT) : mixed
+    get_row_result(mixed  $sql, int  $obj = object) : mixed
 [/code]
 
 _Method get_row_result()_
@@ -2214,7 +2214,7 @@ _None found_
 
 __
 [code]
-    fetch_array(mixed  $result, null  $result_type = \MainWP\Dashboard\null) : bool|mixed
+    fetch_array(mixed  $result, null  $result_type = null) : bool|mixed
 [/code]
 
 _Method fetch_array()_
@@ -2434,7 +2434,7 @@ _None found_
 
 __
 [code]
-    get_connected_websites(array  $sites_ids = \MainWP\Dashboard\false) : array
+    get_connected_websites(array  $sites_ids = false) : array
 [/code]
 
 _Get connected child sites._
@@ -2464,7 +2464,7 @@ _None found_
 
 __
 [code]
-    get_disconnected_websites(array  $sites_ids = \MainWP\Dashboard\false) : array
+    get_disconnected_websites(array  $sites_ids = false) : array
 [/code]
 
 _Get disconnected child sites._
@@ -2494,7 +2494,7 @@ used-by  |
 
 __
 [code]
-    get_websites_count(null  $userId = \MainWP\Dashboard\null, bool  $all_access = \MainWP\Dashboard\false) : int
+    get_websites_count(null  $userId = null, bool  $all_access = false) : int
 [/code]
 
 _Get child site count._
@@ -2555,7 +2555,7 @@ _None found_
 
 __
 [code]
-    get_website_option(array  $website, mixed  $option, mixed  $default_value = \MainWP\Dashboard\null, mixed  $json_format = \MainWP\Dashboard\false) : string|null
+    get_website_option(array  $website, mixed  $option, mixed  $default_value = null, mixed  $json_format = false) : string|null
 [/code]
 
 _Get Child site wp_options database table._
@@ -2588,7 +2588,7 @@ used-by  |
 
 __
 [code]
-    get_json_website_option(array  $website, mixed  $option, mixed  $default_value = \MainWP\Dashboard\null) : string|null
+    get_json_website_option(array  $website, mixed  $option, mixed  $default_value = null) : string|null
 [/code]
 
 _Get Child site wp_options json value._
@@ -2801,7 +2801,7 @@ _None found_
 
 __
 [code]
-    get_websites_by_user_id(int  $userid, bool  $selectgroups = \MainWP\Dashboard\false, null  $search_site = \MainWP\Dashboard\null, string  $orderBy = 'wp.url') : array|object|null
+    get_websites_by_user_id(int  $userid, bool  $selectgroups = false, null  $search_site = null, string  $orderBy = 'wp.url') : array|object|null
 [/code]
 
 _Get child sites by user ID._
@@ -2859,7 +2859,7 @@ used-by  |
 
 __
 [code]
-    get_sql_websites_by_user_id(int  $userid, bool  $selectgroups = \MainWP\Dashboard\false, null  $search_site = \MainWP\Dashboard\null, string  $orderBy = 'wp.url', bool  $offset = \MainWP\Dashboard\false, bool  $rowcount = \MainWP\Dashboard\false) : object|null
+    get_sql_websites_by_user_id(int  $userid, bool  $selectgroups = false, null  $search_site = null, string  $orderBy = 'wp.url', bool  $offset = false, bool  $rowcount = false) : object|null
 [/code]
 
 _Get child sites by user id via SQL._
@@ -2896,7 +2896,7 @@ _None found_
 
 __
 [code]
-    get_sql_websites_for_current_user(bool  $selectgroups = \MainWP\Dashboard\false, null  $search_site = \MainWP\Dashboard\null, string  $orderBy = 'wp.url', bool  $offset = \MainWP\Dashboard\false, bool  $rowcount = \MainWP\Dashboard\false, null  $extraWhere = \MainWP\Dashboard\null, bool  $for_manager = \MainWP\Dashboard\false, mixed  $extra_view = array('favi_icon'), string  $is_staging = 'no', array  $params = array()) : object|null
+    get_sql_websites_for_current_user(bool  $selectgroups = false, null  $search_site = null, string  $orderBy = 'wp.url', bool  $offset = false, bool  $rowcount = false, null  $extraWhere = null, bool  $for_manager = false, mixed  $extra_view = array('favi_icon'), string  $is_staging = 'no', array  $params = array()) : object|null
 [/code]
 
 _Get SQL to get child sites for current user._
@@ -3123,7 +3123,7 @@ _None found_
 
 __
 [code]
-    get_website_by_id_params(int  $id, array  $params = array(), string  $obj = \MainWP\Dashboard\OBJECT) : object|null
+    get_website_by_id_params(int  $id, array  $params = array(), string  $obj = object) : object|null
 [/code]
 
 _Get child site by id and params._
@@ -3186,7 +3186,7 @@ _None found_
 
 __
 [code]
-    get_website_by_id(int  $id, array  $selectGroups = \MainWP\Dashboard\false, array  $extra_view = array(), int  $obj = \MainWP\Dashboard\OBJECT) : object|null
+    get_website_by_id(int  $id, array  $selectGroups = false, array  $extra_view = array(), int  $obj = object) : object|null
 [/code]
 
 _Get child site by id._
@@ -3219,7 +3219,7 @@ used-by  |
 
 __
 [code]
-    get_sql_website_by_id(int  $id, bool  $selectGroups = \MainWP\Dashboard\false, mixed  $extra_view = array()) : object|null
+    get_sql_website_by_id(int  $id, bool  $selectGroups = false, mixed  $extra_view = array()) : object|null
 [/code]
 
 _Get child site by id via SQL._
@@ -3253,7 +3253,7 @@ used-by  |
 
 __
 [code]
-    get_websites_by_ids(array  $ids, int  $userId = \MainWP\Dashboard\null) : object|null
+    get_websites_by_ids(array  $ids, int  $userId = null) : object|null
 [/code]
 
 _Method get_websites_by_ids()_
@@ -3288,7 +3288,7 @@ used-by  |
 
 __
 [code]
-    get_websites_by_group_ids(array  $ids, int  $userId = \MainWP\Dashboard\null, array  $fields = array()) : object|null
+    get_websites_by_group_ids(array  $ids, int  $userId = null, array  $fields = array()) : object|null
 [/code]
 
 _Get child sites by groups IDs._
@@ -3352,7 +3352,7 @@ used-by  |
 
 __
 [code]
-    get_sql_websites_by_group_id(int  $id, bool  $selectgroups = \MainWP\Dashboard\false, string  $orderBy = 'wp.url', bool  $offset = \MainWP\Dashboard\false, bool  $rowcount = \MainWP\Dashboard\false, null  $where = \MainWP\Dashboard\null, null  $search_site = \MainWP\Dashboard\null, array  $others = array()) : object|null
+    get_sql_websites_by_group_id(int  $id, bool  $selectgroups = false, string  $orderBy = 'wp.url', bool  $offset = false, bool  $rowcount = false, null  $where = null, null  $search_site = null, array  $others = array()) : object|null
 [/code]
 
 _Get child sites by group id via SQL._
@@ -3422,7 +3422,7 @@ _None found_
 
 __
 [code]
-    get_sql_websites_by_group_name(string  $groupname, int  $userid = \MainWP\Dashboard\null) : object|null
+    get_sql_websites_by_group_name(string  $groupname, int  $userid = null) : object|null
 [/code]
 
 _Get child sites by group name._
@@ -3617,7 +3617,7 @@ used-by  |
 
 __
 [code]
-    update_website(int  $websiteid, string  $url, int  $userid, string  $name, string  $siteadmin, array  $groupids, array  $groupnames, string  $pluginDir, mixed  $maximumFileDescriptorsOverride, mixed  $maximumFileDescriptorsAuto, mixed  $maximumFileDescriptors, int  $verifyCertificate = 1, mixed  $archiveFormat = 'global', string  $uniqueId = '', string  $http_user = \MainWP\Dashboard\null, string  $http_pass = \MainWP\Dashboard\null, int  $sslVersion = 0, bool  $disableHealthChecking = 1, int  $healthThreshold = 80, string  $backup_method = 'global') : bool
+    update_website(int  $websiteid, string  $url, int  $userid, string  $name, string  $siteadmin, array  $groupids, array  $groupnames, string  $pluginDir, mixed  $maximumFileDescriptorsOverride, mixed  $maximumFileDescriptorsAuto, mixed  $maximumFileDescriptors, int  $verifyCertificate = 1, mixed  $archiveFormat = 'global', string  $uniqueId = '', string  $http_user = null, string  $http_pass = null, int  $sslVersion = 0, bool  $disableHealthChecking = 1, int  $healthThreshold = 80, string  $backup_method = 'global') : bool
 [/code]
 
 _Update child site._
@@ -3842,7 +3842,7 @@ since  |  4.6
 
 __
 [code]
-    get_sites(int  $websiteid = \MainWP\Dashboard\null, bool  $for_manager = \MainWP\Dashboard\false, array  $others = array()) : array
+    get_sites(int  $websiteid = null, bool  $for_manager = false, array  $others = array()) : array
 [/code]
 
 _Get Sites._
@@ -4263,7 +4263,7 @@ _None found_
 
 __
 [code]
-    table_name(mixed  $suffix, null  $tablePrefix = \MainWP\Dashboard\null) : string
+    table_name(mixed  $suffix, null  $tablePrefix = null) : string
 [/code]
 
 _Method table_name()_
@@ -4315,7 +4315,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

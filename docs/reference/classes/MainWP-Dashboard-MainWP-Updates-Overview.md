@@ -1374,7 +1374,7 @@ _None found_
 
 __
 [code]
-    dismiss_sync_errors(bool  $dismiss = \MainWP\Dashboard\true) : bool
+    dismiss_sync_errors(bool  $dismiss = true) : bool
 [/code]
 
 _Method dismiss_sync_errors()_
@@ -1460,7 +1460,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

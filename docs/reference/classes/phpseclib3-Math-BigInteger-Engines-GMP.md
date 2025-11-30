@@ -1237,7 +1237,7 @@ _None found_
 
 __
 [code]
-    toBits(bool  $twos_compliment = \phpseclib3\Math\BigInteger\Engines\false) : string
+    toBits(bool  $twos_compliment = false) : string
 [/code]
 
 _Converts a BigInteger to a bit string (eg. base-2)._
@@ -1267,7 +1267,7 @@ _None found_
 
 __
 [code]
-    toBytes(bool  $twos_compliment = \phpseclib3\Math\BigInteger\Engines\false) : string
+    toBytes(bool  $twos_compliment = false) : string
 [/code]
 
 _Converts a BigInteger to a byte string (eg. base-256)._
@@ -1379,7 +1379,7 @@ _None found_
 
 __
 [code]
-    divide(\phpseclib3\Math\BigInteger\Engines\GMP  $y) : array{: \phpseclib3\Math\BigInteger\Engines\GMP, : \phpseclib3\Math\BigInteger\Engines\GMP}
+    divide(\phpseclib3\Math\BigInteger\Engines\GMP  $y) : array{\phpseclib3\Math\BigInteger\Engines\GMP, \phpseclib3\Math\BigInteger\Engines\GMP}
 [/code]
 
 _Divides two BigIntegers._
@@ -1393,7 +1393,7 @@ Returns an array whose first element contains the quotient and whose second elem
   
 #### Returns
 
-array{: \phpseclib3\Math\BigInteger\Engines\GMP, : \phpseclib3\Math\BigInteger\Engines\GMP} —
+array{\phpseclib3\Math\BigInteger\Engines\GMP, \phpseclib3\Math\BigInteger\Engines\GMP} —
 
 # __
 
@@ -2167,7 +2167,7 @@ _None found_
 
 __
 [code]
-    toHex(bool  $twos_compliment = \phpseclib3\Math\BigInteger\Engines\false) : string
+    toHex(bool  $twos_compliment = false) : string
 [/code]
 
 _Converts a BigInteger to a hex string (eg. base-16)._
@@ -2596,7 +2596,7 @@ _None found_
 
 __
 [code]
-    isPrime(int|bool  $t = \phpseclib3\Math\BigInteger\Engines\false) : bool
+    isPrime(int|bool  $t = false) : bool
 [/code]
 
 _Checks a numer to see if it 's prime_
@@ -3384,7 +3384,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

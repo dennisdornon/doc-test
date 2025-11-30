@@ -913,7 +913,7 @@ _None found_
 
 __
 [code]
-    get_keys_value(string  $name, mixed  $default_value = \MainWP\Dashboard\false) : string
+    get_keys_value(string  $name, mixed  $default_value = false) : string
 [/code]
 
 _Method get_keys_value()_
@@ -946,7 +946,7 @@ _None found_
 
 __
 [code]
-    update_key_value(mixed  $option_name, mixed  $value = \MainWP\Dashboard\false, mixed  $prefix = 'dash_') : string
+    update_key_value(mixed  $option_name, mixed  $value = false, mixed  $prefix = 'dash_') : string
 [/code]
 
 _Method update_key_value()_
@@ -1138,7 +1138,7 @@ _None found_
 
 __
 [code]
-    encrypt_keys_data(mixed  $data, string  $prefix, string  $key_file = \MainWP\Dashboard\false) : string
+    encrypt_keys_data(mixed  $data, string  $prefix, string  $key_file = false) : string
 [/code]
 
 _Method encrypt_keys_data()_
@@ -1172,7 +1172,7 @@ _None found_
 
 __
 [code]
-    decrypt_keys_data(string  $encrypted, mixed  $default_value = \MainWP\Dashboard\false) : string
+    decrypt_keys_data(string  $encrypted, mixed  $default_value = false) : string
 [/code]
 
 _Method decrypt_keys_data()_
@@ -1391,7 +1391,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

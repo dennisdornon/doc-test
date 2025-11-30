@@ -797,7 +797,7 @@ property-write  |
 
 __
 [code]
-    load(string|array  $key, string  $password = \phpseclib3\Crypt\false) : \phpseclib3\Crypt\Common\AsymmetricKey
+    load(string|array  $key, string  $password = false) : \phpseclib3\Crypt\Common\AsymmetricKey
 [/code]
 
 _Loads a public or private key_
@@ -828,7 +828,7 @@ _None found_
 
 __
 [code]
-    loadPrivateKey(string|array  $key, string  $password = \phpseclib3\Crypt\false) : \phpseclib3\Crypt\Common\PrivateKey
+    loadPrivateKey(string|array  $key, string  $password = false) : \phpseclib3\Crypt\Common\PrivateKey
 [/code]
 
 _Loads a private key_
@@ -938,7 +938,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

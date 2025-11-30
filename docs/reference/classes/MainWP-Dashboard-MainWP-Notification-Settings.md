@@ -1225,7 +1225,7 @@ used-by  |
 
 __
 [code]
-    get_default_emails_fields(string  $type, string  $field = '', bool  $general = \MainWP\Dashboard\false) : array|string
+    get_default_emails_fields(string  $type, string  $field = '', bool  $general = false) : array|string
 [/code]
 
 _Get default email notifications values._
@@ -1352,7 +1352,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

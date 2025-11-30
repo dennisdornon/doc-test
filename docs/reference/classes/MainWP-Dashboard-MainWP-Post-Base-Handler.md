@@ -873,7 +873,7 @@ _None found_
 
 __
 [code]
-    check_security(string  $action = -1, string  $query_arg = 'security', bool  $out_die = \MainWP\Dashboard\true) : bool
+    check_security(string  $action = -1, string  $query_arg = 'security', bool  $out_die = true) : bool
 [/code]
 
 _Method check_security()_
@@ -1041,7 +1041,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

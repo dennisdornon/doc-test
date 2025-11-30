@@ -958,7 +958,7 @@ _None found_
 
 __
 [code]
-    filesize_compare(mixed  $value1, mixed  $value2, null  $operator = \MainWP\Dashboard\null) : mixed
+    filesize_compare(mixed  $value1, mixed  $value2, null  $operator = null) : mixed
 [/code]
 
 _Compares filesize._
@@ -1604,7 +1604,7 @@ _None found_
 
 __
 [code]
-    get_os(bool  $return_value = \MainWP\Dashboard\false) : mixed
+    get_os(bool  $return_value = false) : mixed
 [/code]
 
 _Method get_os()_
@@ -1937,7 +1937,7 @@ used-by  |
 
 __
 [code]
-    get_server_name(bool  $return_value = \MainWP\Dashboard\false) : string
+    get_server_name(bool  $return_value = false) : string
 [/code]
 
 _Method get_server_name()_
@@ -1971,7 +1971,7 @@ used-by  |
 
 __
 [code]
-    get_server_software(bool  $return_value = \MainWP\Dashboard\false) : string
+    get_server_software(bool  $return_value = false) : string
 [/code]
 
 _Method get_server_software()_
@@ -2556,7 +2556,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

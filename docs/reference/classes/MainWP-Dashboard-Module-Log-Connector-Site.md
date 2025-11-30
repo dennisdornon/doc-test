@@ -1023,7 +1023,7 @@ action  |  transition_post_status.
 
 __
 [code]
-    callback_mainwp_site_reconnected(object  $website, bool  $success = \MainWP\Dashboard\Module\Log\true, string  $error = '') : bool
+    callback_mainwp_site_reconnected(object  $website, bool  $success = true, string  $error = '') : bool
 [/code]
 
 _Log site sync process._
@@ -1217,7 +1217,7 @@ _None found_
 
 __
 [code]
-    log(string  $message, array  $args, int  $site_id, string  $context, string  $action, int|null  $state = \MainWP\Dashboard\Module\Log\null, int  $user_id = \MainWP\Dashboard\Module\Log\null) : bool
+    log(string  $message, array  $args, int  $site_id, string  $context, string  $action, int|null  $state = null, int  $user_id = null) : bool
 [/code]
 
 _Log handler_
@@ -1281,7 +1281,7 @@ _None found_
 
 __
 [code]
-    get_changed_keys(mixed  $old_value, mixed  $new_value, bool|int  $deep = \MainWP\Dashboard\Module\Log\false) : array
+    get_changed_keys(mixed  $old_value, mixed  $new_value, bool|int  $deep = false) : array
 [/code]
 
 _Compare two values and return changed keys if they are arrays_
@@ -1358,7 +1358,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

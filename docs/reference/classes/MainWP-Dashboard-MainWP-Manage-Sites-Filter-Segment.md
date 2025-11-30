@@ -916,7 +916,7 @@ _None found_
 
 __
 [code]
-    set_get_manage_sites_filter_segments(bool  $set_val = \MainWP\Dashboard\false, array  $saved_segments = array(), string  $save_field = 'manage_sites') : array
+    set_get_manage_sites_filter_segments(bool  $set_val = false, array  $saved_segments = array(), string  $save_field = 'manage_sites') : array
 [/code]
 
 _Method set_get_manage_sites_filter_segments()_
@@ -1044,7 +1044,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

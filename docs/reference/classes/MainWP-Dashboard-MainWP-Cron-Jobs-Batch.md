@@ -943,7 +943,7 @@ _None found_
 
 __
 [code]
-    finished_batch_updates(bool  $individual_batch = \MainWP\Dashboard\false) : mixed
+    finished_batch_updates(bool  $individual_batch = false) : mixed
 [/code]
 
 _Method finished_batch_updates()_
@@ -971,7 +971,7 @@ _None found_
 
 __
 [code]
-    finished_site_batch_updates(object  $website, bool  $individual_batch = \MainWP\Dashboard\false) : mixed
+    finished_site_batch_updates(object  $website, bool  $individual_batch = false) : mixed
 [/code]
 
 _Method finished_site_batch_updates()_
@@ -1047,7 +1047,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

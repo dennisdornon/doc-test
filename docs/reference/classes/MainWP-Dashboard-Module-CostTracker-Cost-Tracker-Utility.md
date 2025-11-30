@@ -916,7 +916,7 @@ _None found_
 
 __
 [code]
-    get_option(string  $key = \MainWP\Dashboard\Module\CostTracker\null, mixed  $defval = '', bool  $json_encoded = \MainWP\Dashboard\Module\CostTracker\false) : mixed
+    get_option(string  $key = null, mixed  $defval = '', bool  $json_encoded = false) : mixed
 [/code]
 
 _Get Option_
@@ -1040,7 +1040,7 @@ _None found_
 
 __
 [code]
-    render_product_icon(string  $file_name, bool  $ret = \MainWP\Dashboard\Module\CostTracker\false) : string
+    render_product_icon(string  $file_name, bool  $ret = false) : string
 [/code]
 
 _Method render_product_icon()._
@@ -1071,7 +1071,7 @@ _None found_
 
 __
 [code]
-    cost_tracker_format_price(float  $price, bool  $ret = \MainWP\Dashboard\Module\CostTracker\false, array  $params = array()) : string
+    cost_tracker_format_price(float  $price, bool  $ret = false, array  $params = array()) : string
 [/code]
 
 _Format the price with a currency symbol._
@@ -1279,7 +1279,7 @@ _None found_
 
 __
 [code]
-    get_product_default_icons(bool  $get_all = \MainWP\Dashboard\Module\CostTracker\true, string  $def_type_icon = '') : string
+    get_product_default_icons(bool  $get_all = true, string  $def_type_icon = '') : string
 [/code]
 
 _Method get_product_default_icons()._
@@ -1331,7 +1331,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

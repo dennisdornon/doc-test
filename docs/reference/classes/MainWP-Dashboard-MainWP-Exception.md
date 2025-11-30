@@ -857,7 +857,7 @@ _None found_
 
 __
 [code]
-    __construct(mixed  $message, null  $extra = \MainWP\Dashboard\null, string  $errCode = '') : mixed
+    __construct(mixed  $message, null  $extra = null, string  $errCode = '') : mixed
 [/code]
 
 _MainWP_Exception constructor._
@@ -889,7 +889,7 @@ _None found_
 
 __
 [code]
-    get_message_extra(bool  $escape_msg = \MainWP\Dashboard\true) : mixed
+    get_message_extra(bool  $escape_msg = true) : mixed
 [/code]
 
 _Method get_message_extra()_
@@ -1012,7 +1012,7 @@ Inherited from
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

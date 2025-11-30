@@ -948,7 +948,7 @@ used-by  |
 
 __
 [code]
-    polish_ext_name(string  $extension, bool  $forced = \MainWP\Dashboard\false) : string
+    polish_ext_name(string  $extension, bool  $forced = false) : string
 [/code]
 
 _Clean up MainWP Extention names._
@@ -1013,7 +1013,7 @@ _None found_
 
 __
 [code]
-    get_extensions(bool  $forced = \MainWP\Dashboard\false) : array
+    get_extensions(bool  $forced = false) : array
 [/code]
 
 _Load MainWP Extensions._
@@ -1045,7 +1045,7 @@ used-by  |
 
 __
 [code]
-    get_extensions_disabled(bool  $compatible_api_response = \MainWP\Dashboard\false) : array
+    get_extensions_disabled(bool  $compatible_api_response = false) : array
 [/code]
 
 _Get disabled MainWP Extensions._
@@ -1104,7 +1104,7 @@ _None found_
 
 __
 [code]
-    get_indexed_extensions_infor(array  $args = array(), bool  $deactivated_license = \MainWP\Dashboard\null) : array
+    get_indexed_extensions_infor(array  $args = array(), bool  $deactivated_license = null) : array
 [/code]
 
 _Get MainWP Extensions infor array._
@@ -1137,7 +1137,7 @@ used-by  |
 
 __
 [code]
-    gen_api_password(int  $length = 12, bool  $special_chars = \MainWP\Dashboard\true, bool  $extra_special_chars = \MainWP\Dashboard\false) : mixed
+    gen_api_password(int  $length = 12, bool  $special_chars = true, bool  $extra_special_chars = false) : mixed
 [/code]
 
 _Generate API Password._
@@ -1300,7 +1300,7 @@ _None found_
 
 __
 [code]
-    install_plugin(mixed  $url, bool  $activatePlugin = \MainWP\Dashboard\false) : mixed
+    install_plugin(mixed  $url, bool  $activatePlugin = false) : mixed
 [/code]
 
 _Install MainWP Extension._
@@ -1571,7 +1571,7 @@ used-by  |
 
 __
 [code]
-    hook_fetch_url_authed(mixed  $pluginFile, mixed  $key, mixed  $websiteId, mixed  $what, mixed  $params, null  $rawResponse = \MainWP\Dashboard\null) : mixed
+    hook_fetch_url_authed(mixed  $pluginFile, mixed  $key, mixed  $websiteId, mixed  $what, mixed  $params, null  $rawResponse = null) : mixed
 [/code]
 
 _Fetch Authorized URL._
@@ -1617,7 +1617,7 @@ used-by  |
 
 __
 [code]
-    fetch_url_authed(mixed  $websiteId, mixed  $what, mixed  $params, null  $rawResponse = \MainWP\Dashboard\null) : mixed
+    fetch_url_authed(mixed  $websiteId, mixed  $what, mixed  $params, null  $rawResponse = null) : mixed
 [/code]
 
 _Fetch Authorized URL._
@@ -1661,7 +1661,7 @@ _None found_
 
 __
 [code]
-    hook_get_db_sites(mixed  $pluginFile, mixed  $key, mixed  $sites, string  $groups = '', bool  $options = \MainWP\Dashboard\false) : array
+    hook_get_db_sites(mixed  $pluginFile, mixed  $key, mixed  $sites, string  $groups = '', bool  $options = false) : array
 [/code]
 
 _Get DB Sites._
@@ -1734,7 +1734,7 @@ since  |  4.4.2
 
 __
 [code]
-    hook_get_sites(string  $pluginFile, string  $key, int  $websiteid = \MainWP\Dashboard\null, bool  $for_manager = \MainWP\Dashboard\false, array  $others = array()) : array
+    hook_get_sites(string  $pluginFile, string  $key, int  $websiteid = null, bool  $for_manager = false, array  $others = array()) : array
 [/code]
 
 _Get Sites._
@@ -1773,7 +1773,7 @@ _None found_
 
 __
 [code]
-    hook_get_groups(string  $pluginFile, string  $key, int  $groupid, bool  $for_manager = \MainWP\Dashboard\false) : array|bool
+    hook_get_groups(string  $pluginFile, string  $key, int  $groupid, bool  $for_manager = false) : array|bool
 [/code]
 
 _Method hook_get_groups()_
@@ -1837,7 +1837,7 @@ _None found_
 
 __
 [code]
-    hook_clone_site(mixed  $pluginFile, mixed  $key, mixed  $websiteid, mixed  $cloneID, mixed  $clone_url, bool  $force_update = \MainWP\Dashboard\false) : mixed
+    hook_clone_site(mixed  $pluginFile, mixed  $key, mixed  $websiteid, mixed  $cloneID, mixed  $clone_url, bool  $force_update = false) : mixed
 [/code]
 
 _Clone Site._
@@ -1878,7 +1878,7 @@ used-by  |
 
 __
 [code]
-    hook_delete_clone_site(mixed  $pluginFile, mixed  $key, mixed  $clone_url = '', bool  $clone_site_id = \MainWP\Dashboard\false) : mixed
+    hook_delete_clone_site(mixed  $pluginFile, mixed  $key, mixed  $clone_url = '', bool  $clone_site_id = false) : mixed
 [/code]
 
 _Delete Clones Site._
@@ -1971,7 +1971,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

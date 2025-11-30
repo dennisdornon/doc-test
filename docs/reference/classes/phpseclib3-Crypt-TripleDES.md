@@ -2677,7 +2677,7 @@ _None found_
 
 __
 [code]
-    setPoly1305Key(string  $key = \phpseclib3\Crypt\Common\null) : mixed
+    setPoly1305Key(string  $key = null) : mixed
 [/code]
 
 _Enables Poly1305 mode._
@@ -3785,7 +3785,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

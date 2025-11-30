@@ -888,7 +888,7 @@ _None found_
 
 __
 [code]
-    handle_upload(mixed  $uploadDirectory, bool  $replaceOldFile = \MainWP\Dashboard\false) : array
+    handle_upload(mixed  $uploadDirectory, bool  $replaceOldFile = false) : array
 [/code]
 
 _Handle the file upload._
@@ -919,7 +919,7 @@ _None found_
 
 __
 [code]
-    handleUpload(mixed  $uploadDirectory, bool  $replaceOldFile = \MainWP\Dashboard\false) : array
+    handleUpload(mixed  $uploadDirectory, bool  $replaceOldFile = false) : array
 [/code]
 
 _Wrap of the method handle_upload() for compatible._
@@ -999,7 +999,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

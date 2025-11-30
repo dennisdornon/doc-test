@@ -821,7 +821,7 @@ _None found_
 
 __
 [code]
-    generate_password(int  $length = 12, bool  $special_chars = \MainWP\Dashboard\true, bool  $extra_special_chars = \MainWP\Dashboard\false) : string
+    generate_password(int  $length = 12, bool  $special_chars = true, bool  $extra_special_chars = false) : string
 [/code]
 
 _Generate password. Creates a unique instance ID._
@@ -1004,7 +1004,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

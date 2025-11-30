@@ -960,7 +960,7 @@ _None found_
 
 __
 [code]
-    notice_sites_uptime_monitoring(array  $websites, string  $admin_email, string  $email_settings, bool  $plain_text, bool  $to_admin = \MainWP\Dashboard\false) : mixed
+    notice_sites_uptime_monitoring(array  $websites, string  $admin_email, string  $email_settings, bool  $plain_text, bool  $to_admin = false) : mixed
 [/code]
 
 _Basic site uptime monitoring._
@@ -998,7 +998,7 @@ used-by  |
 
 __
 [code]
-    notice_site_health_threshold(string  $email_settings, array  $websites, string  $email, bool  $plain_text, bool  $general = \MainWP\Dashboard\true, bool  $to_admin = \MainWP\Dashboard\false) : mixed
+    notice_site_health_threshold(string  $email_settings, array  $websites, string  $email, bool  $plain_text, bool  $general = true, bool  $to_admin = false) : mixed
 [/code]
 
 _Site health monitoring._
@@ -1057,7 +1057,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

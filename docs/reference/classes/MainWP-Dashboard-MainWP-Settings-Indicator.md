@@ -864,7 +864,7 @@ _None found_
 
 __
 [code]
-    render_indicator(string  $indi_type = 'field', string  $wrapper_cls = '', bool  $visible = \MainWP\Dashboard\true) : mixed
+    render_indicator(string  $indi_type = 'field', string  $wrapper_cls = '', bool  $visible = true) : mixed
 [/code]
 
 _Method render_indicator()._
@@ -896,7 +896,7 @@ _None found_
 
 __
 [code]
-    get_indicator(bool  $indi_type = 'field', bool  $wrapper_cls = '', bool  $visible = \MainWP\Dashboard\true) : mixed
+    get_indicator(bool  $indi_type = 'field', bool  $wrapper_cls = '', bool  $visible = true) : mixed
 [/code]
 
 _Method get_indicator()._
@@ -928,7 +928,7 @@ _None found_
 
 __
 [code]
-    render_not_default_indicator(string  $field, mixed  $current_value, bool  $render_indi = \MainWP\Dashboard\true, mixed  $default_val = \MainWP\Dashboard\null) : mixed
+    render_not_default_indicator(string  $field, mixed  $current_value, bool  $render_indi = true, mixed  $default_val = null) : mixed
 [/code]
 
 _Method render_not_default_indicator()._
@@ -961,7 +961,7 @@ _None found_
 
 __
 [code]
-    render_not_default_email_settings_indicator(string  $type, string  $field, mixed  $current_value, bool  $general = \MainWP\Dashboard\true, bool  $render_indi = \MainWP\Dashboard\true) : mixed
+    render_not_default_email_settings_indicator(string  $type, string  $field, mixed  $current_value, bool  $general = true, bool  $render_indi = true) : mixed
 [/code]
 
 _Method render_not_default_email_settings_indicator()._
@@ -1025,7 +1025,7 @@ _None found_
 
 __
 [code]
-    get_defaults_email_settings_value(string  $type, string  $field, bool  $general = \MainWP\Dashboard\true) : mixed
+    get_defaults_email_settings_value(string  $type, string  $field, bool  $general = true) : mixed
 [/code]
 
 _Method get_defaults_email_settings_value()._
@@ -1076,7 +1076,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

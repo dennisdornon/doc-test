@@ -1221,7 +1221,7 @@ used-by  |
 
 __
 [code]
-    render_edit_template(string  $type, bool  $siteid = \MainWP\Dashboard\false) : mixed
+    render_edit_template(string  $type, bool  $siteid = false) : mixed
 [/code]
 
 _Render the email notification edit form._
@@ -1296,7 +1296,7 @@ _None found_
 
 __
 [code]
-    m_reconnect_site(object  $website, bool  $sync_first = \MainWP\Dashboard\true, array  $params = array()) : bool
+    m_reconnect_site(object  $website, bool  $sync_first = true, array  $params = array()) : bool
 [/code]
 
 _Method m_reconnect_site()_
@@ -1348,7 +1348,7 @@ used-by  |
 
 __
 [code]
-    add_site(mixed  $website = \MainWP\Dashboard\false, array  $output = array()) : self
+    add_site(mixed  $website = false, array  $output = array()) : self
 [/code]
 
 _Method add_site()_
@@ -1530,7 +1530,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

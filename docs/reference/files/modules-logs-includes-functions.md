@@ -772,7 +772,7 @@ _None found_
 
 __
 [code]
-    mainwp_module_log_filter_var(string  $var_value, int  $filter = \null, mixed  $options = array()) : \Returns
+    mainwp_module_log_filter_var(string  $var_value, int  $filter = null, mixed  $options = array()) : \Returns
 [/code]
 
 _Filters a variable with a specified filter._
@@ -806,7 +806,7 @@ package  |  MainWP\Dashboard
 
 __
 [code]
-    mainwp_module_log_get_iso_8601_extended_date(int|bool  $time = \false, int  $offset = 0) : string
+    mainwp_module_log_get_iso_8601_extended_date(int|bool  $time = false, int  $offset = 0) : string
 [/code]
 
 _Converts a time into an ISO 8601 extended formatted string._
@@ -856,7 +856,7 @@ package  |  MainWP\Dashboard
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:37. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:37. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

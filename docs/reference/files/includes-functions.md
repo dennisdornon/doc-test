@@ -816,7 +816,7 @@ package  |  MainWP/Dashboard
 
 __
 [code]
-    mainwp_do_not_have_permissions(string  $where = '', bool  $echo_out = \true) : string|bool
+    mainwp_do_not_have_permissions(string  $where = '', bool  $echo_out = true) : string|bool
 [/code]
 
 _Detect permission level & display message to end user._
@@ -991,7 +991,7 @@ package  |  MainWP/Dashboard
 
 __
 [code]
-    mainwp_get_current_utc_datetime_db(bool  $get_db_datetime = \true) : int
+    mainwp_get_current_utc_datetime_db(bool  $get_db_datetime = true) : int
 [/code]
 
 _Function mainwp_get_current_utc_datetime_db._
@@ -1066,7 +1066,7 @@ package  |  MainWP/Dashboard
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:35. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:35. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -815,7 +815,7 @@ _None found_
 
 __
 [code]
-    super(int  $type, string  $variable_name, int  $filter = \MainWP\Dashboard\Module\Log\null, array  $options = array()) : mixed
+    super(int  $type, string  $variable_name, int  $filter = null, array  $options = array()) : mixed
 [/code]
 
 _Returns input variable_
@@ -855,7 +855,7 @@ _None found_
 
 __
 [code]
-    filter(mixed  $var_value, int  $filter = \MainWP\Dashboard\Module\Log\null, array  $options = array()) : mixed
+    filter(mixed  $var_value, int  $filter = null, array  $options = array()) : mixed
 [/code]
 
 _Sanitize or validate input._
@@ -973,7 +973,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

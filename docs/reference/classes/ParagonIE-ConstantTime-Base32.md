@@ -808,7 +808,7 @@ property-write  |
 
 __
 [code]
-    decode(string  $encodedString, bool  $strictPadding = \ParagonIE\ConstantTime\false) : string
+    decode(string  $encodedString, bool  $strictPadding = false) : string
 [/code]
 
 _Decode a Base32-encoded string into raw binary_
@@ -839,7 +839,7 @@ _None found_
 
 __
 [code]
-    decodeUpper(string  $src, bool  $strictPadding = \ParagonIE\ConstantTime\false) : string
+    decodeUpper(string  $src, bool  $strictPadding = false) : string
 [/code]
 
 _Decode an uppercase Base32-encoded string into raw binary_
@@ -1010,7 +1010,7 @@ _None found_
 
 __
 [code]
-    decodeNoPadding(string  $encodedString, bool  $upper = \ParagonIE\ConstantTime\false) : string
+    decodeNoPadding(string  $encodedString, bool  $upper = false) : string
 [/code]
 
 __
@@ -1165,7 +1165,7 @@ _None found_
 
 __
 [code]
-    doDecode(string  $src, bool  $upper = \ParagonIE\ConstantTime\false, bool  $strictPadding = \ParagonIE\ConstantTime\false) : string
+    doDecode(string  $src, bool  $upper = false, bool  $strictPadding = false) : string
 [/code]
 
 _Base32 decoding_
@@ -1202,7 +1202,7 @@ _None found_
 
 __
 [code]
-    doEncode(string  $src, bool  $upper = \ParagonIE\ConstantTime\false, bool  $pad = \ParagonIE\ConstantTime\true) : string
+    doEncode(string  $src, bool  $upper = false, bool  $pad = true) : string
 [/code]
 
 _Base32 Encoding_
@@ -1258,7 +1258,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -794,7 +794,7 @@ property-write  |
 
 __
 [code]
-    get_error_message(object  $pException, bool  $escape_msg = \MainWP\Dashboard\false) : string
+    get_error_message(object  $pException, bool  $escape_msg = false) : string
 [/code]
 
 _Method get_error_message()_
@@ -909,7 +909,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

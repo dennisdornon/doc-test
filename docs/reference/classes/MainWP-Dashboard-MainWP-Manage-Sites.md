@@ -1728,7 +1728,7 @@ _None found_
 
 __
 [code]
-    render_email_settings(mixed  $website, bool  $updated = \MainWP\Dashboard\false, bool  $updated_templ = \MainWP\Dashboard\false, bool  $editing_temp = \MainWP\Dashboard\false) : mixed
+    render_email_settings(mixed  $website, bool  $updated = false, bool  $updated_templ = false, bool  $editing_temp = false) : mixed
 [/code]
 
 _Method render_email_settings()_
@@ -2095,7 +2095,7 @@ _None found_
 
 __
 [code]
-    mainwp_managesites_information_import_sites(bool  $is_qsw = \MainWP\Dashboard\false) : mixed
+    mainwp_managesites_information_import_sites(bool  $is_qsw = false) : mixed
 [/code]
 
 _Method mainwp_managesites_information_import_sites()_
@@ -2290,7 +2290,7 @@ _None found_
 
 __
 [code]
-    render_import_sites_modal(string  $url, string|null  $title_page = \MainWP\Dashboard\null) : mixed
+    render_import_sites_modal(string  $url, string|null  $title_page = null) : mixed
 [/code]
 
 _Method render_import_sites_modal()_
@@ -2422,7 +2422,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

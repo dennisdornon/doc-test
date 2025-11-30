@@ -988,7 +988,7 @@ _None found_
 
 __
 [code]
-    print_column_headers(bool  $top = \MainWP\Dashboard\true) : mixed
+    print_column_headers(bool  $top = true) : mixed
 [/code]
 
 _Echo the column headers._
@@ -1176,7 +1176,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -986,7 +986,7 @@ _None found_
 
 __
 [code]
-    get_columns(bool  $filtered = \MainWP\Dashboard\Module\CostTracker\false) : array
+    get_columns(bool  $filtered = false) : array
 [/code]
 
 _Get columns._
@@ -1225,7 +1225,7 @@ _None found_
 
 __
 [code]
-    set_get_cost_filter_segments(bool  $set_val = \MainWP\Dashboard\Module\CostTracker\false, array  $saved_segments = array()) : mixed
+    set_get_cost_filter_segments(bool  $set_val = false, array  $saved_segments = array()) : mixed
 [/code]
 
 _Method set_get_cost_filter_segments()_
@@ -1381,7 +1381,7 @@ _None found_
 
 __
 [code]
-    render_manage_tasks_table_top(bool  $sel_one_time_ids = \MainWP\Dashboard\Module\CostTracker\false) : void
+    render_manage_tasks_table_top(bool  $sel_one_time_ids = false) : void
 [/code]
 
 _Render Manage Tasks Table Top._
@@ -1514,7 +1514,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

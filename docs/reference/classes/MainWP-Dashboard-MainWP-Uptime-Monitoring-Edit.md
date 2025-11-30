@@ -875,7 +875,7 @@ _None found_
 
 __
 [code]
-    render_update_messages(mixed  $individual = \MainWP\Dashboard\false) : void
+    render_update_messages(mixed  $individual = false) : void
 [/code]
 
 _Method render_update_messages_
@@ -953,7 +953,7 @@ _None found_
 
 __
 [code]
-    render_monitor_settings(mixed  $site_id = \MainWP\Dashboard\false, bool  $individual = \MainWP\Dashboard\false) : void
+    render_monitor_settings(mixed  $site_id = false, bool  $individual = false) : void
 [/code]
 
 _Method render_monitor_settings_
@@ -1011,7 +1011,7 @@ _None found_
 
 __
 [code]
-    get_allowed_methods(mixed  $individual = \MainWP\Dashboard\true) : array
+    get_allowed_methods(mixed  $individual = true) : array
 [/code]
 
 _Method get_allowed_methods_
@@ -1041,7 +1041,7 @@ _None found_
 
 __
 [code]
-    get_interval_values(mixed  $individual = \MainWP\Dashboard\true, mixed  $flip_values = \MainWP\Dashboard\false) : array
+    get_interval_values(mixed  $individual = true, mixed  $flip_values = false) : array
 [/code]
 
 _Method get_interval_values_
@@ -1072,7 +1072,7 @@ _None found_
 
 __
 [code]
-    get_timeout_values(mixed  $individual = \MainWP\Dashboard\true, mixed  $flip_values = \MainWP\Dashboard\false) : array
+    get_timeout_values(mixed  $individual = true, mixed  $flip_values = false) : array
 [/code]
 
 _Method get_timeout_values_
@@ -1133,7 +1133,7 @@ _None found_
 
 __
 [code]
-    render_add_edit_sub_page_monitor_end_form_in_modal(int  $site_id, bool  $is_editing = \MainWP\Dashboard\true) : void
+    render_add_edit_sub_page_monitor_end_form_in_modal(int  $site_id, bool  $is_editing = true) : void
 [/code]
 
 _Method render_add_edit_sub_page_monitor_end_form_in_modal()._
@@ -1183,7 +1183,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

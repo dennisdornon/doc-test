@@ -2726,7 +2726,7 @@ _None found_
 
 __
 [code]
-    nlist(string  $dir = '.', bool  $recursive = \phpseclib3\Net\false) : array|false
+    nlist(string  $dir = '.', bool  $recursive = false) : array|false
 [/code]
 
 _Returns a list of files in the given directory_
@@ -2755,7 +2755,7 @@ _None found_
 
 __
 [code]
-    rawlist(string  $dir = '.', bool  $recursive = \phpseclib3\Net\false) : array|false
+    rawlist(string  $dir = '.', bool  $recursive = false) : array|false
 [/code]
 
 _Returns a detailed list of files in the given directory_
@@ -2909,7 +2909,7 @@ _None found_
 
 __
 [code]
-    touch(string  $filename, int  $time = \phpseclib3\Net\null, int  $atime = \phpseclib3\Net\null) : bool
+    touch(string  $filename, int  $time = null, int  $atime = null) : bool
 [/code]
 
 _Sets access and modification time of file._
@@ -2948,7 +2948,7 @@ _None found_
 
 __
 [code]
-    chown(string  $filename, int|string  $uid, bool  $recursive = \phpseclib3\Net\false) : bool
+    chown(string  $filename, int|string  $uid, bool  $recursive = false) : bool
 [/code]
 
 _Changes file or directory owner_
@@ -2982,7 +2982,7 @@ _None found_
 
 __
 [code]
-    chgrp(string  $filename, int|string  $gid, bool  $recursive = \phpseclib3\Net\false) : bool
+    chgrp(string  $filename, int|string  $gid, bool  $recursive = false) : bool
 [/code]
 
 _Changes file or directory group_
@@ -3016,7 +3016,7 @@ _None found_
 
 __
 [code]
-    chmod(int  $mode, string  $filename, bool  $recursive = \phpseclib3\Net\false) : mixed
+    chmod(int  $mode, string  $filename, bool  $recursive = false) : mixed
 [/code]
 
 _Set permissions on a file._
@@ -3128,7 +3128,7 @@ _None found_
 
 __
 [code]
-    mkdir(string  $dir, int  $mode = -1, bool  $recursive = \phpseclib3\Net\false) : bool
+    mkdir(string  $dir, int  $mode = -1, bool  $recursive = false) : bool
 [/code]
 
 _Creates a directory._
@@ -3193,7 +3193,7 @@ _None found_
 
 __
 [code]
-    put(string  $remote_file, string|resource  $data, int  $mode = \self::SOURCE_STRING, int  $start = -1, int  $local_start = -1, callable|null  $progressCallback = \phpseclib3\Net\null) : bool
+    put(string  $remote_file, string|resource  $data, int  $mode = \self::SOURCE_STRING, int  $start = -1, int  $local_start = -1, callable|null  $progressCallback = null) : bool
 [/code]
 
 _Uploads a file to the SFTP server._
@@ -3265,7 +3265,7 @@ _None found_
 
 __
 [code]
-    get(string  $remote_file, string|bool|resource|callable  $local_file = \phpseclib3\Net\false, int  $offset = 0, int  $length = -1, callable|null  $progressCallback = \phpseclib3\Net\null) : string|bool
+    get(string  $remote_file, string|bool|resource|callable  $local_file = false, int  $offset = 0, int  $length = -1, callable|null  $progressCallback = null) : string|bool
 [/code]
 
 _Downloads a file from the SFTP server._
@@ -3308,7 +3308,7 @@ _None found_
 
 __
 [code]
-    delete(string  $path, bool  $recursive = \phpseclib3\Net\true) : bool
+    delete(string  $path, bool  $recursive = true) : bool
 [/code]
 
 _Deletes a file on the SFTP server._
@@ -3682,7 +3682,7 @@ _None found_
 
 __
 [code]
-    filesize(string  $path, bool  $recursive = \phpseclib3\Net\false) : mixed
+    filesize(string  $path, bool  $recursive = false) : mixed
 [/code]
 
 _Gets file size_
@@ -4241,7 +4241,7 @@ _None found_
 
 __
 [code]
-    exec(string  $command, callable  $callback = \phpseclib3\Net\null) : string|bool
+    exec(string  $command, callable  $callback = null) : string|bool
 [/code]
 
 _Execute Command_
@@ -4371,7 +4371,7 @@ _None found_
 
 __
 [code]
-    read(string  $expect = '', int  $mode = \self::READ_SIMPLE, int|null  $channel = \phpseclib3\Net\null) : string|bool|null
+    read(string  $expect = '', int  $mode = \self::READ_SIMPLE, int|null  $channel = null) : string|bool|null
 [/code]
 
 _Returns the output of an interactive shell_
@@ -4419,7 +4419,7 @@ _None found_
 
 __
 [code]
-    write(string  $cmd, int|null  $channel = \phpseclib3\Net\null) : void
+    write(string  $cmd, int|null  $channel = null) : void
 [/code]
 
 _Inputs a command into an interactive shell._
@@ -4521,7 +4521,7 @@ _None found_
 
 __
 [code]
-    reset(int|null  $channel = \phpseclib3\Net\null) : void
+    reset(int|null  $channel = null) : void
 [/code]
 
 _Closes a channel_
@@ -5812,7 +5812,7 @@ _None found_
 
 __
 [code]
-    open_channel(string  $channel, bool  $skip_extended = \phpseclib3\Net\false) : bool
+    open_channel(string  $channel, bool  $skip_extended = false) : bool
 [/code]
 
 _Opens a channel_
@@ -5841,7 +5841,7 @@ _None found_
 
 __
 [code]
-    get_channel_packet(int  $client_channel, bool  $skip_extended = \phpseclib3\Net\false) : mixed
+    get_channel_packet(int  $client_channel, bool  $skip_extended = false) : mixed
 [/code]
 
 _Gets channel data_
@@ -5889,7 +5889,7 @@ _None found_
 
 __
 [code]
-    send_binary_packet(string  $data, string  $logged = \phpseclib3\Net\null) : void
+    send_binary_packet(string  $data, string  $logged = null) : void
 [/code]
 
 _Sends Binary Packets_
@@ -6185,7 +6185,7 @@ _None found_
 
 __
 [code]
-    readlist(string  $dir, bool  $raw = \phpseclib3\Net\true) : array|false
+    readlist(string  $dir, bool  $raw = true) : array|false
 [/code]
 
 _Reads a list, be it detailed or not, of files in the given directory_
@@ -6831,7 +6831,7 @@ _None found_
 
 __
 [code]
-    get_sftp_packet(mixed  $request_id = \phpseclib3\Net\null) : string
+    get_sftp_packet(mixed  $request_id = null) : string
 [/code]
 
 _Receives SFTP Packets_
@@ -6915,7 +6915,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

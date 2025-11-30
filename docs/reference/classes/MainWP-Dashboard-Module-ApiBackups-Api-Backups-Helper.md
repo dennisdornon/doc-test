@@ -904,7 +904,7 @@ _None found_
 
 __
 [code]
-    get_website_by_id(int  $website_id, bool  $selectGroups = \MainWP\Dashboard\Module\ApiBackups\false, array  $extra_view = array()) : object|null
+    get_website_by_id(int  $website_id, bool  $selectGroups = false, array  $extra_view = array()) : object|null
 [/code]
 
 _Get sites by website ID._
@@ -1124,7 +1124,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

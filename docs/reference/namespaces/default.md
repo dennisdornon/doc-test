@@ -1217,7 +1217,7 @@ package  |  MainWP/Dashboard
 
 __
 [code]
-    mainwp_do_not_have_permissions(string  $where = '', bool  $echo_out = \true) : string|bool
+    mainwp_do_not_have_permissions(string  $where = '', bool  $echo_out = true) : string|bool
 [/code]
 
 _Detect permission level & display message to end user._
@@ -1273,7 +1273,7 @@ package  |  MainWP/Dashboard
 
 __
 [code]
-    mainwp_get_current_utc_datetime_db(bool  $get_db_datetime = \true) : int
+    mainwp_get_current_utc_datetime_db(bool  $get_db_datetime = true) : int
 [/code]
 
 _Function mainwp_get_current_utc_datetime_db._
@@ -1329,7 +1329,7 @@ package  |  MainWP/Dashboard
 
 __
 [code]
-    mainwp_module_log_filter_var(string  $var_value, int  $filter = \null, mixed  $options = array()) : \Returns
+    mainwp_module_log_filter_var(string  $var_value, int  $filter = null, mixed  $options = array()) : \Returns
 [/code]
 
 _Filters a variable with a specified filter._
@@ -1363,7 +1363,7 @@ package  |  MainWP\Dashboard
 
 __
 [code]
-    mainwp_module_log_get_iso_8601_extended_date(int|bool  $time = \false, int  $offset = 0) : string
+    mainwp_module_log_get_iso_8601_extended_date(int|bool  $time = false, int  $offset = 0) : string
 [/code]
 
 _Converts a time into an ISO 8601 extended formatted string._
@@ -1424,7 +1424,7 @@ package  |  MainWP/Dashboard
 
 __
 [code]
-    mainwp_rest_prepare_date_response(string|null|\DateTime  $date, bool  $utc = \true) : string|null
+    mainwp_rest_prepare_date_response(string|null|\DateTime  $date, bool  $utc = true) : string|null
 [/code]
 
 _Parses and formats a date for ISO8601/RFC3339._
@@ -1645,7 +1645,7 @@ package  |  MainWP/Dashboard
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:31. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

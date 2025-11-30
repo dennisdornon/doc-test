@@ -1343,7 +1343,7 @@ _None found_
 
 __
 [code]
-    prepare_items(bool  $optimize = \MainWP\Dashboard\true) : mixed
+    prepare_items(bool  $optimize = true) : mixed
 [/code]
 
 _Prepare the items to be listed._
@@ -1380,7 +1380,7 @@ _None found_
 
 __
 [code]
-    display(bool  $optimize = \MainWP\Dashboard\true) : mixed
+    display(bool  $optimize = true) : mixed
 [/code]
 
 _Display the table._
@@ -1456,7 +1456,7 @@ _None found_
 
 __
 [code]
-    print_column_headers(bool  $optimize, bool  $top = \MainWP\Dashboard\true) : mixed
+    print_column_headers(bool  $optimize, bool  $top = true) : mixed
 [/code]
 
 _Echo the column headers._
@@ -1683,7 +1683,7 @@ _None found_
 
 __
 [code]
-    single_row_columns(mixed  $website, bool  $good_health = \MainWP\Dashboard\false) : mixed
+    single_row_columns(mixed  $website, bool  $good_health = false) : mixed
 [/code]
 
 _Columns for a single row._
@@ -1739,7 +1739,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

@@ -1051,7 +1051,7 @@ _None found_
 
 __
 [code]
-    get_timestamp_from_hh_mm(mixed  $hh_mm, int  $time = \MainWP\Dashboard\false) : \MainWP\Dashboard\time
+    get_timestamp_from_hh_mm(mixed  $hh_mm, int  $time = false) : \MainWP\Dashboard\time
 [/code]
 
 _Method get_timestamp_from_hh_mm()_
@@ -1115,7 +1115,7 @@ _None found_
 
 __
 [code]
-    check_conds_to_run_auto_update(int  $next_time, int  $run_timestamp = \MainWP\Dashboard\false, int  $frequence_in_seconds = \MainWP\Dashboard\false) : bool
+    check_conds_to_run_auto_update(int  $next_time, int  $run_timestamp = false, int  $frequence_in_seconds = false) : bool
 [/code]
 
 _Method check_conds_to_run_auto_update()_
@@ -1273,7 +1273,7 @@ used-by  |
 
 __
 [code]
-    start_notification_daily_digest(array  $email_settings, bool  $plain_text, array  $sites_ids = \MainWP\Dashboard\false, object  $email_site = \MainWP\Dashboard\false) : bool
+    start_notification_daily_digest(array  $email_settings, bool  $plain_text, array  $sites_ids = false, object  $email_site = false) : bool
 [/code]
 
 _Method start_notification_daily_digest()._
@@ -1699,7 +1699,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

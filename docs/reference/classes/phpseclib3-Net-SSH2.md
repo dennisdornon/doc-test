@@ -3989,7 +3989,7 @@ _None found_
 
 __
 [code]
-    exec(string  $command, callable  $callback = \phpseclib3\Net\null) : string|bool
+    exec(string  $command, callable  $callback = null) : string|bool
 [/code]
 
 _Execute Command_
@@ -4119,7 +4119,7 @@ _None found_
 
 __
 [code]
-    read(string  $expect = '', int  $mode = \self::READ_SIMPLE, int|null  $channel = \phpseclib3\Net\null) : string|bool|null
+    read(string  $expect = '', int  $mode = \self::READ_SIMPLE, int|null  $channel = null) : string|bool|null
 [/code]
 
 _Returns the output of an interactive shell_
@@ -4167,7 +4167,7 @@ _None found_
 
 __
 [code]
-    write(string  $cmd, int|null  $channel = \phpseclib3\Net\null) : void
+    write(string  $cmd, int|null  $channel = null) : void
 [/code]
 
 _Inputs a command into an interactive shell._
@@ -4269,7 +4269,7 @@ _None found_
 
 __
 [code]
-    reset(int|null  $channel = \phpseclib3\Net\null) : void
+    reset(int|null  $channel = null) : void
 [/code]
 
 _Closes a channel_
@@ -5474,7 +5474,7 @@ _None found_
 
 __
 [code]
-    open_channel(string  $channel, bool  $skip_extended = \phpseclib3\Net\false) : bool
+    open_channel(string  $channel, bool  $skip_extended = false) : bool
 [/code]
 
 _Opens a channel_
@@ -5531,7 +5531,7 @@ _None found_
 
 __
 [code]
-    get_channel_packet(int  $client_channel, bool  $skip_extended = \phpseclib3\Net\false) : mixed
+    get_channel_packet(int  $client_channel, bool  $skip_extended = false) : mixed
 [/code]
 
 _Gets channel data_
@@ -5579,7 +5579,7 @@ _None found_
 
 __
 [code]
-    send_binary_packet(string  $data, string  $logged = \phpseclib3\Net\null) : void
+    send_binary_packet(string  $data, string  $logged = null) : void
 [/code]
 
 _Sends Binary Packets_
@@ -5768,7 +5768,7 @@ _None found_
 
 __
 [code]
-    stream_select(mixed  $read, mixed  $write, mixed  $except, mixed  $seconds, mixed  $microseconds = \phpseclib3\Net\null) : mixed
+    stream_select(mixed  $read, mixed  $write, mixed  $except, mixed  $seconds, mixed  $microseconds = null) : mixed
 [/code]
 
 _stream_select wrapper_
@@ -5866,7 +5866,7 @@ _None found_
 
 __
 [code]
-    key_exchange(string|bool  $kexinit_payload_server = \phpseclib3\Net\false) : bool
+    key_exchange(string|bool  $kexinit_payload_server = false) : bool
 [/code]
 
 _Key Exchange_
@@ -5971,7 +5971,7 @@ _None found_
 
 __
 [code]
-    mac_algorithm_to_hash_instance(string  $algorithm) : array{: \phpseclib3\Crypt\Hash, : int}|null
+    mac_algorithm_to_hash_instance(string  $algorithm) : array{\phpseclib3\Crypt\Hash, int}|null
 [/code]
 
 _Maps an encryption algorithm name to an instance of a subclass of \phpseclib3\Crypt\Hash._
@@ -5983,7 +5983,7 @@ string | $algorithm  | Name of the encryption algorithm
   
 #### Returns
 
-array{: \phpseclib3\Crypt\Hash, : int}|null —
+array{\phpseclib3\Crypt\Hash, int}|null —
 
 # __
 
@@ -6031,7 +6031,7 @@ _None found_
 
 __
 [code]
-    login_helper(string  $username, mixed  $password = \phpseclib3\Net\null, string|\phpseclib3\Crypt\Common\AsymmetricKey|array[]|\phpseclib3\System\SSH\Agent|null  ...$args) : bool
+    login_helper(string  $username, mixed  $password = null, string|\phpseclib3\Crypt\Common\AsymmetricKey|array[]|\phpseclib3\System\SSH\Agent|null  ...$args) : bool
 [/code]
 
 _Login Helper_
@@ -6308,7 +6308,7 @@ _None found_
 
 __
 [code]
-    get_binary_packet(bool  $skip_channel_filter = \phpseclib3\Net\false) : bool|string
+    get_binary_packet(bool  $skip_channel_filter = false) : bool|string
 [/code]
 
 _Gets Binary Packets_
@@ -6434,7 +6434,7 @@ _None found_
 
 __
 [code]
-    close_channel(int  $client_channel, bool  $want_reply = \phpseclib3\Net\false) : void
+    close_channel(int  $client_channel, bool  $want_reply = false) : void
 [/code]
 
 _Closes and flushes a channel_
@@ -6599,7 +6599,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

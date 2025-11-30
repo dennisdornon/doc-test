@@ -946,7 +946,7 @@ used-by  |
 
 __
 [code]
-    current_user_has_role(array|string  $roles, object|null  $user = \MainWP\Dashboard\null) : bool
+    current_user_has_role(array|string  $roles, object|null  $user = null) : bool
 [/code]
 
 _Method current_user_has_role()_
@@ -1161,7 +1161,7 @@ _None found_
 
 __
 [code]
-    get_mainwp_dir(string|null  $subdir = \MainWP\Dashboard\null, bool  $direct_access = \MainWP\Dashboard\false) : array
+    get_mainwp_dir(string|null  $subdir = null, bool  $direct_access = false) : array
 [/code]
 
 _Method get_mainwp_dir()_
@@ -1196,7 +1196,7 @@ used-by  |
 
 __
 [code]
-    get_mainwp_sub_dir(string|null  $subdir = \MainWP\Dashboard\null, bool  $direct_access = \MainWP\Dashboard\false) : string
+    get_mainwp_sub_dir(string|null  $subdir = null, bool  $direct_access = false) : string
 [/code]
 
 _Method get_mainwp_sub_dir()_
@@ -1329,7 +1329,7 @@ _None found_
 
 __
 [code]
-    get_mainwp_specific_dir(null  $dir = \MainWP\Dashboard\null) : string
+    get_mainwp_specific_dir(null  $dir = null) : string
 [/code]
 
 _Method get_mainwp_specific_dir()_
@@ -1500,7 +1500,7 @@ used-by  |
 
 __
 [code]
-    get_site_tags(array  $item, bool  $client_tag = \MainWP\Dashboard\false) : mixed
+    get_site_tags(array  $item, bool  $client_tag = false) : mixed
 [/code]
 
 _Gets site tags_
@@ -1597,7 +1597,7 @@ _None found_
 
 __
 [code]
-    is_suspended_site(mixed  $website = \MainWP\Dashboard\false) : mixed
+    is_suspended_site(mixed  $website = false) : mixed
 [/code]
 
 _Method is_suspended_site()_
@@ -1690,7 +1690,7 @@ used-by  |
 
 __
 [code]
-    get_page_id(null  $screen = \MainWP\Dashboard\null) : string
+    get_page_id(null  $screen = null) : string
 [/code]
 
 _Method get_page_id()_
@@ -1979,7 +1979,7 @@ _None found_
 
 __
 [code]
-    update_cached_icons(string  $icon, string  $slug, string  $type, bool  $custom_icon = \MainWP\Dashboard\false) : mixed
+    update_cached_icons(string  $icon, string  $slug, string  $type, bool  $custom_icon = false) : mixed
 [/code]
 
 _Method update_cached_icons()._
@@ -2045,7 +2045,7 @@ _None found_
 
 __
 [code]
-    get_plugin_icon(string  $slug, bool  $forced_get = \MainWP\Dashboard\false) : mixed
+    get_plugin_icon(string  $slug, bool  $forced_get = false) : mixed
 [/code]
 
 _Gets a plugin icon via API from WordPress.org_
@@ -2076,7 +2076,7 @@ _None found_
 
 __
 [code]
-    get_theme_icon(string  $slug, bool  $forced_get = \MainWP\Dashboard\false) : mixed
+    get_theme_icon(string  $slug, bool  $forced_get = false) : mixed
 [/code]
 
 _Gets a theme icon via API from WordPress.org_
@@ -2107,7 +2107,7 @@ _None found_
 
 __
 [code]
-    handle_upload_image(string  $sub_folder, mixed  $file_uploader, mixed  $file_index = 0, bool  $file_subindex = \MainWP\Dashboard\false, int  $max_width = 300, int  $max_height = 300) : mixed
+    handle_upload_image(string  $sub_folder, mixed  $file_uploader, mixed  $file_index = 0, bool  $file_subindex = false, int  $max_width = 300, int  $max_height = 300) : mixed
 [/code]
 
 _Method handle_upload_image()._
@@ -2501,7 +2501,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

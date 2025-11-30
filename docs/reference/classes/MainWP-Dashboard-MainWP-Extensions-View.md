@@ -980,7 +980,7 @@ _None found_
 
 __
 [code]
-    render_extension_card(mixed  $extension, mixed  $extension_update, mixed  $img_url, mixed  $disabled = \MainWP\Dashboard\false, bool  $simple = \MainWP\Dashboard\false) : mixed
+    render_extension_card(mixed  $extension, mixed  $extension_update, mixed  $img_url, mixed  $disabled = false, bool  $simple = false) : mixed
 [/code]
 
 _Method render_extension_card()_
@@ -1019,7 +1019,7 @@ _None found_
 
 __
 [code]
-    render_inactive_extension_card(mixed  $extension, mixed  $img_url, bool  $installed = \MainWP\Dashboard\false) : mixed
+    render_inactive_extension_card(mixed  $extension, mixed  $img_url, bool  $installed = false) : mixed
 [/code]
 
 _Method render_inactive_extension_card()_
@@ -1192,7 +1192,7 @@ used-by  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

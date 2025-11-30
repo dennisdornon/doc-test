@@ -1537,7 +1537,7 @@ _None found_
 
 __
 [code]
-    render_row(string  $config, string  $compare, mixed  $version, mixed  $getter, string  $extraText = '', null  $extraCompare = \MainWP\Dashboard\null, null  $extraVersion = \MainWP\Dashboard\null, null  $whatType = \MainWP\Dashboard\null, int  $errorType = \self::WARNING) : mixed
+    render_row(string  $config, string  $compare, mixed  $version, mixed  $getter, string  $extraText = '', null  $extraCompare = null, null  $extraVersion = null, null  $whatType = null, int  $errorType = \self::WARNING) : mixed
 [/code]
 
 _Renders server information table row._
@@ -1579,7 +1579,7 @@ _None found_
 
 __
 [code]
-    render_row_with_description(string  $config, string  $compare, mixed  $version, mixed  $getter, string  $extraText = '', null  $extraCompare = \MainWP\Dashboard\null, null  $extraVersion = \MainWP\Dashboard\null, null  $whatType = \MainWP\Dashboard\null, int  $errorType = \self::WARNING) : mixed
+    render_row_with_description(string  $config, string  $compare, mixed  $version, mixed  $getter, string  $extraText = '', null  $extraCompare = null, null  $extraVersion = null, null  $whatType = null, int  $errorType = \self::WARNING) : mixed
 [/code]
 
 _Renders server information table row with description._
@@ -1863,7 +1863,7 @@ _None found_
 
 __
 [code]
-    get_warning_html(int  $errorType = \self::WARNING, bool  $ech = \MainWP\Dashboard\false) : string
+    get_warning_html(int  $errorType = \self::WARNING, bool  $ech = false) : string
 [/code]
 
 _Renders PHP Warning HTML._
@@ -1896,7 +1896,7 @@ _None found_
 
 __
 [code]
-    get_pass_html(bool  $ech = \MainWP\Dashboard\false) : string
+    get_pass_html(bool  $ech = false) : string
 [/code]
 
 _Renders PHP Pass HTML._
@@ -1947,7 +1947,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

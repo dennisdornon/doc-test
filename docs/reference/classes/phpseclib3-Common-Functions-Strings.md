@@ -977,7 +977,7 @@ _None found_
 
 __
 [code]
-    bin2bits(string  $x, mixed  $trim = \phpseclib3\Common\Functions\true) : string
+    bin2bits(string  $x, mixed  $trim = true) : string
 [/code]
 
 _Convert bits to binary data_
@@ -1331,7 +1331,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

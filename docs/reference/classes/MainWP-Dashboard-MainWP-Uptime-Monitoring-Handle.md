@@ -1064,7 +1064,7 @@ _None found_
 
 __
 [code]
-    hook_get_reports_data(mixed  $site_id, mixed  $start_date = \MainWP\Dashboard\false, mixed  $end_date = \MainWP\Dashboard\false, array  $params = array()) : mixed
+    hook_get_reports_data(mixed  $site_id, mixed  $start_date = false, mixed  $end_date = false, array  $params = array()) : mixed
 [/code]
 
 _Method hook_get_reports_data_
@@ -1296,7 +1296,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

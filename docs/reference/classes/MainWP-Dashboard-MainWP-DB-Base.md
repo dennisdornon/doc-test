@@ -980,7 +980,7 @@ _None found_
 
 __
 [code]
-    get_row_result(mixed  $sql, int  $obj = \MainWP\Dashboard\OBJECT) : mixed
+    get_row_result(mixed  $sql, int  $obj = object) : mixed
 [/code]
 
 _Method get_row_result()_
@@ -1367,7 +1367,7 @@ _None found_
 
 __
 [code]
-    fetch_array(mixed  $result, null  $result_type = \MainWP\Dashboard\null) : bool|mixed
+    fetch_array(mixed  $result, null  $result_type = null) : bool|mixed
 [/code]
 
 _Method fetch_array()_
@@ -1497,7 +1497,7 @@ _None found_
 
 __
 [code]
-    table_name(mixed  $suffix, null  $tablePrefix = \MainWP\Dashboard\null) : string
+    table_name(mixed  $suffix, null  $tablePrefix = null) : string
 [/code]
 
 _Method table_name()_
@@ -1549,7 +1549,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:31. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

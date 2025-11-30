@@ -1043,7 +1043,7 @@ _None found_
 
 __
 [code]
-    mainwp_log_action(string  $text, int  $priority = 0, int  $log_color = 0, bool  $forced = \MainWP\Dashboard\false) : mixed
+    mainwp_log_action(string  $text, int  $priority = 0, int  $log_color = 0, bool  $forced = false) : mixed
 [/code]
 
 _Method mainwp_log_action()_
@@ -1180,7 +1180,7 @@ since  |  3.2.2
 
 __
 [code]
-    is_pro_member(mixed  $input = \MainWP\Dashboard\false) : bool
+    is_pro_member(mixed  $input = false) : bool
 [/code]
 
 _Method is_pro_member()_
@@ -1214,7 +1214,7 @@ _None found_
 
 __
 [code]
-    hook_delete_site(bool  $site_id = \MainWP\Dashboard\false) : bool|array
+    hook_delete_site(bool  $site_id = false) : bool|array
 [/code]
 
 _Method hook_delete_site()_
@@ -1249,7 +1249,7 @@ _None found_
 
 __
 [code]
-    filter_clone_site(mixed  $pluginFile, mixed  $key, mixed  $websiteid, mixed  $cloneid, mixed  $clone_url, bool  $force_update = \MainWP\Dashboard\false) : array
+    filter_clone_site(mixed  $pluginFile, mixed  $key, mixed  $websiteid, mixed  $cloneid, mixed  $clone_url, bool  $force_update = false) : array
 [/code]
 
 _Method filter_clone_site()_
@@ -1288,7 +1288,7 @@ since  |  3.4.4
 
 __
 [code]
-    filter_delete_clone_site(mixed  $pluginFile, mixed  $key, string  $clone_url = '', bool  $clone_site_id = \MainWP\Dashboard\false) : array
+    filter_delete_clone_site(mixed  $pluginFile, mixed  $key, string  $clone_url = '', bool  $clone_site_id = false) : array
 [/code]
 
 _Method filter_delete_clone_site()_
@@ -1624,7 +1624,7 @@ _None found_
 
 __
 [code]
-    hook_select_sites_box(string  $title = '', string  $type = 'checkbox', bool  $show_group = \MainWP\Dashboard\true, bool  $show_select_all = \MainWP\Dashboard\true, string  $class_style = '', string  $style = '', array  $selected_websites = array(), array  $selected_groups = array(), bool  $show_client = \MainWP\Dashboard\false, array  $selected_clients = array(), mixed  $post_id = \MainWP\Dashboard\false, bool  $show_create_tag = \MainWP\Dashboard\true) : mixed
+    hook_select_sites_box(string  $title = '', string  $type = 'checkbox', bool  $show_group = true, bool  $show_select_all = true, string  $class_style = '', string  $style = '', array  $selected_websites = array(), array  $selected_groups = array(), bool  $show_client = false, array  $selected_clients = array(), mixed  $post_id = false, bool  $show_create_tag = true) : mixed
 [/code]
 
 _Method hook_select_sites_box()_
@@ -1665,7 +1665,7 @@ _None found_
 
 __
 [code]
-    hook_add_categories_box(int  $post_id = \MainWP\Dashboard\false) : mixed
+    hook_add_categories_box(int  $post_id = false) : mixed
 [/code]
 
 _Method hook_add_categories_box()_
@@ -1927,7 +1927,7 @@ since  |  5.4
 
 __
 [code]
-    hook_get_websites_by_user_id(mixed  $boolean, int  $userid, bool  $selectgroups = \MainWP\Dashboard\false, null  $search_site = \MainWP\Dashboard\null, string  $orderBy = 'wp.url') : object|null
+    hook_get_websites_by_user_id(mixed  $boolean, int  $userid, bool  $selectgroups = false, null  $search_site = null, string  $orderBy = 'wp.url') : object|null
 [/code]
 
 _Get sites by user ID._
@@ -1961,7 +1961,7 @@ _None found_
 
 __
 [code]
-    hook_get_website_by_id(mixed  $boolean, int  $website_id, bool  $selectGroups = \MainWP\Dashboard\false, array  $extra_view = array()) : object|null
+    hook_get_website_by_id(mixed  $boolean, int  $website_id, bool  $selectGroups = false, array  $extra_view = array()) : object|null
 [/code]
 
 _Get sites by website ID._
@@ -2095,7 +2095,7 @@ _None found_
 
 __
 [code]
-    hook_escape_response(mixed  $response, bool  $fields = \MainWP\Dashboard\false, array  $more_allowed = array()) : mixed
+    hook_escape_response(mixed  $response, bool  $fields = false, array  $more_allowed = array()) : mixed
 [/code]
 
 _Method hook_escape_response()_
@@ -2248,7 +2248,7 @@ _None found_
 
 __
 [code]
-    db_get_websites_for_current_user(mixed  $input_value = \MainWP\Dashboard\false, array  $params = array()) : mixed
+    db_get_websites_for_current_user(mixed  $input_value = false, array  $params = array()) : mixed
 [/code]
 
 _Method db_get_websites_for_current_user()_
@@ -2279,7 +2279,7 @@ _None found_
 
 __
 [code]
-    hook_get_sql_websites_by_params(mixed  $in_val = \MainWP\Dashboard\false, array  $params = array()) : mixed
+    hook_get_sql_websites_by_params(mixed  $in_val = false, array  $params = array()) : mixed
 [/code]
 
 _Method hook_get_sql_websites_by_params()_
@@ -2310,7 +2310,7 @@ _None found_
 
 __
 [code]
-    hook_sync_website(mixed  $input_value, int  $website_id, bool  $fire_end_session = \MainWP\Dashboard\true) : mixed
+    hook_sync_website(mixed  $input_value, int  $website_id, bool  $fire_end_session = true) : mixed
 [/code]
 
 _Method hook_sync_website()_
@@ -2634,7 +2634,7 @@ _None found_
 
 __
 [code]
-    hook_get_mainwp_dir(bool  $input_value = \MainWP\Dashboard\false, null  $dir = \MainWP\Dashboard\null, bool  $direct_access = \MainWP\Dashboard\false) : array
+    hook_get_mainwp_dir(bool  $input_value = false, null  $dir = null, bool  $direct_access = false) : array
 [/code]
 
 _Method hook_get_mainwp_dir()_
@@ -2988,7 +2988,7 @@ _None found_
 
 __
 [code]
-    hook_get_websites_by_group_ids(mixed  $ids, null  $userId = \MainWP\Dashboard\null) : object|null
+    hook_get_websites_by_group_ids(mixed  $ids, null  $userId = null) : object|null
 [/code]
 
 _Method hook_get_websites_by_group_ids()_
@@ -3131,7 +3131,7 @@ _None found_
 
 __
 [code]
-    hook_get_website_client_tokens(mixed  $input_value, int  $websiteid = \MainWP\Dashboard\false) : mixed
+    hook_get_website_client_tokens(mixed  $input_value, int  $websiteid = false) : mixed
 [/code]
 
 _Method hook_get_website_client_tokens()_
@@ -3353,7 +3353,7 @@ _None found_
 
 __
 [code]
-    hook_do_widget_boxes(mixed  $screen_id, string|null  $context = \MainWP\Dashboard\null, string  $input_obj = '') : void
+    hook_do_widget_boxes(mixed  $screen_id, string|null  $context = null, string  $input_obj = '') : void
 [/code]
 
 _Method hook_do_widget_boxes()_
@@ -3387,7 +3387,7 @@ _None found_
 
 __
 [code]
-    hook_add_widget_box(mixed  $id, mixed  $callback, null  $screen = \MainWP\Dashboard\null, string|null  $layout = \MainWP\Dashboard\null) : void
+    hook_add_widget_box(mixed  $id, mixed  $callback, null  $screen = null, string|null  $layout = null) : void
 [/code]
 
 _Method hook_add_widget_box()_
@@ -3497,7 +3497,7 @@ _None found_
 
 __
 [code]
-    hook_get_wp_client_by(string  $by = 'client_id', mixed  $value = \MainWP\Dashboard\null, mixed  $obj = \MainWP\Dashboard\OBJECT, bool  $params = array()) : mixed
+    hook_get_wp_client_by(string  $by = 'client_id', mixed  $value = null, mixed  $obj = object, bool  $params = array()) : mixed
 [/code]
 
 _Method hook_get_wp_client_by()_
@@ -3588,7 +3588,7 @@ _None found_
 
 __
 [code]
-    hook_run_dashboard_action(bool  $boolean, string  $action, bool  $out_die = \MainWP\Dashboard\false) : mixed
+    hook_run_dashboard_action(bool  $boolean, string  $action, bool  $out_die = false) : mixed
 [/code]
 
 _Method hook_run_dashboard_action()._
@@ -3649,7 +3649,7 @@ _None found_
 
 __
 [code]
-    hook_get_key_value(bool  $input_value, string  $name, mixed  $default_value = \MainWP\Dashboard\false) : array
+    hook_get_key_value(bool  $input_value, string  $name, mixed  $default_value = false) : array
 [/code]
 
 _Method hook_get_key_value()._
@@ -3683,7 +3683,7 @@ _None found_
 
 __
 [code]
-    hook_update_key_value(bool  $input_value, string  $name, mixed  $value = \MainWP\Dashboard\false, string  $prefix = 'ext_') : array
+    hook_update_key_value(bool  $input_value, string  $name, mixed  $value = false, string  $prefix = 'ext_') : array
 [/code]
 
 _Method hook_update_key_value()._
@@ -3750,7 +3750,7 @@ _None found_
 
 __
 [code]
-    hook_encrypt_key_value(bool  $input_value, array  $data, mixed  $prefix = 'ext_', mixed  $key_file = \MainWP\Dashboard\false) : array
+    hook_encrypt_key_value(bool  $input_value, array  $data, mixed  $prefix = 'ext_', mixed  $key_file = false) : array
 [/code]
 
 _Method hook_encrypt_key_value()._
@@ -3785,7 +3785,7 @@ _None found_
 
 __
 [code]
-    hook_decrypt_key_value(bool  $input_value, array  $encrypted_data, mixed  $default_value = \MainWP\Dashboard\false) : array
+    hook_decrypt_key_value(bool  $input_value, array  $encrypted_data, mixed  $default_value = false) : array
 [/code]
 
 _Method hook_decrypt_key_value()._
@@ -3950,7 +3950,7 @@ _None found_
 
 __
 [code]
-    hook_get_indicator(bool  $def_value, bool  $indi_type = 'field', bool  $wrapper_cls = '', bool  $visible = \MainWP\Dashboard\true) : mixed
+    hook_get_indicator(bool  $def_value, bool  $indi_type = 'field', bool  $wrapper_cls = '', bool  $visible = true) : mixed
 [/code]
 
 _Method hook_get_indicator()._
@@ -4034,7 +4034,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

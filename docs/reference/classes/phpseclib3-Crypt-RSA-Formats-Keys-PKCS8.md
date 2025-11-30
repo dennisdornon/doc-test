@@ -1266,7 +1266,7 @@ _None found_
 
 __
 [code]
-    wrapPrivateKey(string  $key, string  $attr, mixed  $params, string  $password, string  $oid = \phpseclib3\Crypt\Common\Formats\Keys\null, string  $publicKey = '', array  $options = []) : string
+    wrapPrivateKey(string  $key, string  $attr, mixed  $params, string  $password, string  $oid = null, string  $publicKey = '', array  $options = []) : string
 [/code]
 
 _Wrap a private key appropriately_
@@ -1302,7 +1302,7 @@ _None found_
 
 __
 [code]
-    wrapPublicKey(string  $key, mixed  $params, string  $oid = \phpseclib3\Crypt\Common\Formats\Keys\null) : string
+    wrapPublicKey(string  $key, mixed  $params, string  $oid = null) : string
 [/code]
 
 _Wrap a public key appropriately_
@@ -1353,7 +1353,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:33. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

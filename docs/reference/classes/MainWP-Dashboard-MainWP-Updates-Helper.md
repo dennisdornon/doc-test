@@ -899,7 +899,7 @@ _None found_
 
 __
 [code]
-    get_roll_msg(array  $item = array(), bool  $with_icon = \MainWP\Dashboard\false, string  $msg_type = 'default') : string
+    get_roll_msg(array  $item = array(), bool  $with_icon = false, string  $msg_type = 'default') : string
 [/code]
 
 _Method get_roll_msg()._
@@ -933,7 +933,7 @@ _None found_
 
 __
 [code]
-    get_roll_icon(string  $ttip = '', bool  $icon_only = \MainWP\Dashboard\false) : string
+    get_roll_icon(string  $ttip = '', bool  $icon_only = false) : string
 [/code]
 
 _Method get_roll_icon()._
@@ -1018,7 +1018,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:32. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:32. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE

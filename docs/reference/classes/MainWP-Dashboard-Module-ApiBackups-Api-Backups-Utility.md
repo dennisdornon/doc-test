@@ -905,7 +905,7 @@ _None found_
 
 __
 [code]
-    get_timestamp(int  $timestamp = \MainWP\Dashboard\Module\ApiBackups\false) : float|int
+    get_timestamp(int  $timestamp = false) : float|int
 [/code]
 
 _Get timestamp._
@@ -937,7 +937,7 @@ _None found_
 
 __
 [code]
-    format_timestamp(int  $timestamp, bool  $gmt = \MainWP\Dashboard\Module\ApiBackups\false) : string
+    format_timestamp(int  $timestamp, bool  $gmt = false) : string
 [/code]
 
 _Format timestamp._
@@ -970,7 +970,7 @@ _None found_
 
 __
 [code]
-    format_datestamp(int  $timestamp, bool  $gmt = \MainWP\Dashboard\Module\ApiBackups\false) : string
+    format_datestamp(int  $timestamp, bool  $gmt = false) : string
 [/code]
 
 _Format datestamp._
@@ -1003,7 +1003,7 @@ _None found_
 
 __
 [code]
-    map_fields(mixed  $website, mixed  $keys, bool  $object_output = \MainWP\Dashboard\Module\ApiBackups\false) : object
+    map_fields(mixed  $website, mixed  $keys, bool  $object_output = false) : object
 [/code]
 
 _Method map_fields()_
@@ -1308,7 +1308,7 @@ _None found_
 
 __
 [code]
-    encrypt_api_keys(string  $data, int  $siteid = \MainWP\Dashboard\Module\ApiBackups\false, string  $file_key = \MainWP\Dashboard\Module\ApiBackups\false, string  $service_name = '') : mixed
+    encrypt_api_keys(string  $data, int  $siteid = false, string  $file_key = false, string  $service_name = '') : mixed
 [/code]
 
 _Method encrypt_api_keys_
@@ -1513,7 +1513,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 23rd, 2025 at 00:34. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 30th, 2025 at 00:34. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
