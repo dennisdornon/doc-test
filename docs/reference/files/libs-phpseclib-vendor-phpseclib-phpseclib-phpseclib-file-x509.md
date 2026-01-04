@@ -808,7 +808,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on December 28th, 2025 at 00:38. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on January 4th, 2026 at 00:39. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
