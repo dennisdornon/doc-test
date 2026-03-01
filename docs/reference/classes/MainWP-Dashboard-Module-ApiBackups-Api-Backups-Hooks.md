@@ -974,7 +974,7 @@ action  |  init
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on February 22nd, 2026 at 00:39. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on March 1st, 2026 at 00:43. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
