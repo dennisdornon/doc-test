@@ -1082,7 +1082,7 @@ todo  |  Maybe at some point this could be moved to __toString() for each of the
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on May 3rd, 2026 at 00:57. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on May 10th, 2026 at 00:59. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
