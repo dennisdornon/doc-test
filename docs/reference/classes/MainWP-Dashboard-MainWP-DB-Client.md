@@ -4513,7 +4513,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 21st, 2026 at 01:09. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 28th, 2026 at 01:03. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
