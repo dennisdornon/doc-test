@@ -795,7 +795,7 @@ since  |  5.1.1
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on June 28th, 2026 at 01:06. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 5th, 2026 at 00:54. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
