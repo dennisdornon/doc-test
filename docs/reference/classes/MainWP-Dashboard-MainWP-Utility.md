@@ -3321,7 +3321,7 @@ Inherited from
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 19th, 2026 at 02:56. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 26th, 2026 at 03:15. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
