@@ -1004,7 +1004,7 @@ _None found_
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on July 26th, 2026 at 03:15. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 2nd, 2026 at 03:13. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
