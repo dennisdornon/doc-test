@@ -989,7 +989,7 @@ package  |  MainWP/Dashboard
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 2nd, 2026 at 03:12. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 9th, 2026 at 01:53. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
