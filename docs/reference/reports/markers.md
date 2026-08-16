@@ -42,7 +42,7 @@ TODO | 343 | Maybe at some point this could be moved to __toString() for each of
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 9th, 2026 at 02:00. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 16th, 2026 at 00:23. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
