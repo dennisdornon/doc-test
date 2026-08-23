@@ -1645,7 +1645,7 @@ todo  |  Maybe at some point this could be moved to __toString() for each of the
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 16th, 2026 at 00:19. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on August 23rd, 2026 at 00:19. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
