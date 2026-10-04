@@ -821,7 +821,7 @@ package  |  Application
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on September 27th, 2026 at 00:49. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 4th, 2026 at 01:21. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
