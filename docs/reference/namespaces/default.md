@@ -1645,7 +1645,7 @@ package  |  MainWP/Dashboard
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 4th, 2026 at 01:17. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 11th, 2026 at 00:48. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
