@@ -807,7 +807,7 @@ property-write  |
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 11th, 2026 at 00:51. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on October 18th, 2026 at 00:43. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
