@@ -812,7 +812,7 @@ package  |  MainWP/Bootstrap
 
 * * *
 
-Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 1st, 2026 at 00:33. 
+Documentation is powered by [phpDocumentor ](https://www.phpdoc.org/) and authored on November 8th, 2026 at 00:30. 
   *[Composer]: \Composer
   *[MainWP]: \MainWP
   *[ParagonIE]: \ParagonIE
